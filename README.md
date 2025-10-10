@@ -50,13 +50,15 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ 8 - Unified schema definition, validation, and JSON generation for Elixir
 - **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ 8 - A powerful, flexible schema definition and validation library for Elix…
 - **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 8 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
+- **[arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug)** ⭐ 2 - Phoenix/Plug adapter for Apex Arsenal framework
 
 ### AI SDKs & Integration
 
-- **[claude_code_sdk_elixir](https://github.com/nshkrdotcom/claude_code_sdk_elixir)** ⭐ 7 - An Elixir SDK for Claude Code - provides programmatic access to Claude…
+- **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 0 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ 6 - Elixir WSL-to-Windows browser integration
 - **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ 6 - Claude Code + Gemini AI collaboration orchestration tools
 - **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ 6 - Elixir Typing Mechanism
+- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 0 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
 
 ### Multi-Agent & OTP Systems
 
@@ -79,16 +81,12 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[apex](https://github.com/nshkrdotcom/apex)** ⭐ 3 - Core Apex framework for OTP supervision and monitoring
 - **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ 3 - AI-Powered Execution Cinema Debugger for Elixir/BEAM
 - **[AutoElixir](https://github.com/nshkrdotcom/AutoElixir)** ⭐ 3 - AI Multi Agent Swarms in Elixir
-- **[arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug)** ⭐ 2 - Phoenix/Plug adapter for Apex Arsenal framework
 
 ### Utilities & Tools
 
 - **[youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl)** ⭐ 0 - Download high-quality audio from YouTube as MP3 files using Elixir. Fe…
 - **[tools](https://github.com/nshkrdotcom/tools)** ⭐ 0 - Elixir repository
-- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 0 - Elixir client SKK for the Jules API - orchestrate AI coding sessions
-- **[jido_bug_demo](https://github.com/nshkrdotcom/jido_bug_demo)** ⭐ 0 - Elixir repository
 - **[ex_cloudflare_phoenix](https://github.com/nshkrdotcom/ex_cloudflare_phoenix)** ⭐ 0 - Cloudflare Durable Objects and Calls for Phoenix Framework
-- **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 0 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[Citadel](https://github.com/nshkrdotcom/Citadel)** ⭐ 0 - The command and control layer for the AI-powered enterprise
 - **[Assessor](https://github.com/nshkrdotcom/Assessor)** ⭐ 0 - The definitive CI/CD platform for AI Quality.
 - **[AITrace](https://github.com/nshkrdotcom/AITrace)** ⭐ 0 - The unified observability layer for the AI Control Plane
