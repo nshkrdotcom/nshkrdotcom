@@ -43,7 +43,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects (45 Total)
+## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects (50 Total)
 
 ### AI & LLM Infrastructure (20+ stars)
 
@@ -111,6 +111,11 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** ⭐ 0 - Multi-model ensemble voting strategies for LLM reliability
 - **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** ⭐ 0 - Dataset management and caching for AI research benchmarks
 - **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** ⭐ 0 - Statistical testing and analysis framework for AI research
+- **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** ⭐ 0 - Adversarial testing & robustness evaluation framework
+- **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** ⭐ 0 - Explainable AI tools (LIME, SHAP, feature attribution)
+- **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** ⭐ 0 - Data validation & quality library for ML pipelines
+- **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** ⭐ 0 - Fairness & bias detection library for AI/ML systems
+- **[LLMGuard](https://github.com/North-Shore-AI/ExGuard)** ⭐ 0 - AI firewall & guardrails for LLM-based applications
 
 ---
 
