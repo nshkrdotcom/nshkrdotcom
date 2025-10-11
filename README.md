@@ -8,7 +8,7 @@ I'm a software engineer and researcher focused on **AI reliability, distributed 
 
 ## <img src="./assets/microscope.svg" alt="microscope" width="20" height="20" /> Crucible Framework - LLM Reliability Research
 
-I'm the creator of the **[Crucible Framework](https://github.com/North-Shore-AI/crucible)**, a platform for conducting reproducible experiments on large language model reliability, built on Elixir/OTP.
+I'm the creator of the **[Crucible Framework](https://github.com/North-Shore-AI/crucible_framework)**, a platform for conducting reproducible experiments on large language model reliability, built on Elixir/OTP.
 
 **Key Goal**: Building towards 99%+ LLM reliability through ensemble voting and request hedging, with comprehensive statistical testing and transparent causal reasoning chains.
 
@@ -18,7 +18,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 | Library | Description | Stars |
 |---------|-------------|-------|
-| **[crucible](https://github.com/North-Shore-AI/crucible)** | Documentation hub & research framework | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible?style=social) |
+| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_framework?style=social) |
 | **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_bench?style=social) |
 | **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_ensemble?style=social) |
 | **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_hedging?style=social) |
@@ -26,6 +26,16 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 | **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_datasets?style=social) |
 | **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_telemetry?style=social) |
 | **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_harness?style=social) |
+
+### In-Progress Extensions
+
+| Library | Description | Stars |
+|---------|-------------|-------|
+| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_adversary?style=social) |
+| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_xai?style=social) |
+| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExDataCheck?style=social) |
+| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExFairness?style=social) |
+| **[LLMGuard](https://github.com/North-Shore-AI/ExGuard)** | AI firewall & guardrails for LLM-based applications | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExGuard?style=social) |
 
 **Tech Stack**: Elixir, OTP, BEAM VM, Telemetry
 **Research Areas**: LLM reliability, ensemble methods, tail latency optimization, statistical testing
