@@ -45,62 +45,74 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects
 
-### AI & LLM Infrastructure
+### AI Agent Orchestration & Multi-Agent Systems
 
-- **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ {{STARS:json_remedy}} - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ {{STARS:synapse}} - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
-- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ {{STARS:gemini_ex}} - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ {{STARS:ds_ex}} - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
-
-### Developer Tools & Infrastructure
-
-- **[foundation](https://github.com/nshkrdotcom/foundation)** ⭐ {{STARS:foundation}} - Elixir infrastructure and Observability Library
-- **[ex_dbg](https://github.com/nshkrdotcom/ex_dbg)** ⭐ {{STARS:ex_dbg}} - State-of-the-Art Introspection and Debugging System for Elixir/Phoenix…
-- **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ {{STARS:snakepit}} - High-performance, generalized process pooler and session manager for e…
-- **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ {{STARS:sinter}} - Unified schema definition, validation, and JSON generation for Elixir
-- **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ {{STARS:exdantic}} - A powerful, flexible schema definition and validation library for Elix…
 - **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ {{STARS:DSPex}} - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
-- **[arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug)** ⭐ {{STARS:arsenal_plug}} - Phoenix/Plug adapter for Apex Arsenal framework
-
-### AI SDKs & Integration
-
-- **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ {{STARS:claude_agent_sdk}} - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
-- **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ {{STARS:codex_sdk}} - OpenAI Codex SDK written in Elixir
-- **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ {{STARS:playwriter}} - Elixir WSL-to-Windows browser integration
-- **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ {{STARS:pipeline_ex}} - Claude Code + Gemini AI collaboration orchestration tools
-- **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ {{STARS:perimeter}} - Elixir Typing Mechanism
-- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ {{STARS:jules_ex}} - Elixir client SDK for the Jules API - orchestrate AI coding sessions
-
-### Multi-Agent & OTP Systems
-
-- **[superlearner](https://github.com/nshkrdotcom/superlearner)** ⭐ {{STARS:superlearner}} - OTP Supervisor Educational Platform
 - **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ {{STARS:mabeam}} - Multi Agent BEAM
-- **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ {{STARS:elixir_scope}} - Revolutionary AST-based debugging and code intelligence platform for E…
+- **[AutoElixir](https://github.com/nshkrdotcom/AutoElixir)** ⭐ {{STARS:AutoElixir}} - AI Multi Agent Swarms in Elixir
 - **[ALTAR](https://github.com/nshkrdotcom/ALTAR)** ⭐ {{STARS:ALTAR}} - The Agent & Tool Arbitration Protocol
 
-### Testing & Quality
+### AI SDKs & API Clients
+
+- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ {{STARS:gemini_ex}} - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
+- **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ {{STARS:claude_agent_sdk}} - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
+- **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ {{STARS:codex_sdk}} - OpenAI Codex SDK written in Elixir
+- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ {{STARS:jules_ex}} - Elixir client SDK for the Jules API - orchestrate AI coding sessions
+- **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ {{STARS:pipeline_ex}} - Claude Code + Gemini AI collaboration orchestration tools
+
+### AI Infrastructure & Utilities
+
+- **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ {{STARS:json_remedy}} - A practical, multi-layered JSON repair library for Elixir that intelli…
+- **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ {{STARS:snakepit}} - High-performance, generalized process pooler and session manager for e…
+
+### Schema & Data Validation
+
+- **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ {{STARS:sinter}} - Unified schema definition, validation, and JSON generation for Elixir
+- **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ {{STARS:exdantic}} - A powerful, flexible schema definition and validation library for Elix…
+- **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ {{STARS:perimeter}} - Elixir Typing Mechanism
+
+### Developer Tools & Debugging
+
+- **[ex_dbg](https://github.com/nshkrdotcom/ex_dbg)** ⭐ {{STARS:ex_dbg}} - State-of-the-Art Introspection and Debugging System for Elixir/Phoenix…
+- **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ {{STARS:elixir_scope}} - Revolutionary AST-based debugging and code intelligence platform for E…
+- **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ {{STARS:ElixirScope}} - AI-Powered Execution Cinema Debugger for Elixir/BEAM
+
+### OTP & Distributed Systems
+
+- **[superlearner](https://github.com/nshkrdotcom/superlearner)** ⭐ {{STARS:superlearner}} - OTP Supervisor Educational Platform
+- **[apex](https://github.com/nshkrdotcom/apex)** ⭐ {{STARS:apex}} - Core Apex framework for OTP supervision and monitoring
+- **[apex_ui](https://github.com/nshkrdotcom/apex_ui)** ⭐ {{STARS:apex_ui}} - Web UI for Apex OTP supervision and monitoring tools
+- **[arsenal](https://github.com/nshkrdotcom/arsenal)** ⭐ {{STARS:arsenal}} - Metaprogramming framework for automatic REST API generation from OTP o…
+- **[arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug)** ⭐ {{STARS:arsenal_plug}} - Phoenix/Plug adapter for Apex Arsenal framework
+
+### Testing & Quality Assurance
 
 - **[supertester](https://github.com/nshkrdotcom/supertester)** ⭐ {{STARS:supertester}} - A battle-hardened testing toolkit for building robust and resilient El…
 - **[sandbox](https://github.com/nshkrdotcom/sandbox)** ⭐ {{STARS:sandbox}} - Isolated OTP application management system for Elixir/Erlang
 - **[cluster_test](https://github.com/nshkrdotcom/cluster_test)** ⭐ {{STARS:cluster_test}} - Distributed Erlang/Elixir test cluster management via Mix tasks
 
+### Infrastructure & Observability
+
+- **[foundation](https://github.com/nshkrdotcom/foundation)** ⭐ {{STARS:foundation}} - Elixir infrastructure and Observability Library
+- **[AITrace](https://github.com/nshkrdotcom/AITrace)** ⭐ {{STARS:AITrace}} - The unified observability layer for the AI Control Plane
+- **[Assessor](https://github.com/nshkrdotcom/Assessor)** ⭐ {{STARS:Assessor}} - The definitive CI/CD platform for AI Quality.
+- **[Citadel](https://github.com/nshkrdotcom/Citadel)** ⭐ {{STARS:Citadel}} - The command and control layer for the AI-powered enterprise
+
 ### Cloud & Edge Computing
 
 - **[cf_ex](https://github.com/nshkrdotcom/cf_ex)** ⭐ {{STARS:cf_ex}} - Elixir libraries for Cloudflare edge computing services. Battle-tested…
-- **[arsenal](https://github.com/nshkrdotcom/arsenal)** ⭐ {{STARS:arsenal}} - Metaprogramming framework for automatic REST API generation from OTP o…
-- **[apex_ui](https://github.com/nshkrdotcom/apex_ui)** ⭐ {{STARS:apex_ui}} - Web UI for Apex OTP supervision and monitoring tools
-- **[apex](https://github.com/nshkrdotcom/apex)** ⭐ {{STARS:apex}} - Core Apex framework for OTP supervision and monitoring
-- **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ {{STARS:ElixirScope}} - AI-Powered Execution Cinema Debugger for Elixir/BEAM
-- **[AutoElixir](https://github.com/nshkrdotcom/AutoElixir)** ⭐ {{STARS:AutoElixir}} - AI Multi Agent Swarms in Elixir
+- **[ex_cloudflare_phoenix](https://github.com/nshkrdotcom/ex_cloudflare_phoenix)** ⭐ {{STARS:ex_cloudflare_phoenix}} - Cloudflare Durable Objects and Calls for Phoenix Framework
 
-### Utilities & Tools
+### Browser & Platform Integration
+
+- **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ {{STARS:playwriter}} - Elixir WSL-to-Windows browser integration
+
+### Utilities
 
 - **[youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl)** ⭐ {{STARS:youtube_audio_dl}} - Download high-quality audio from YouTube as MP3 files using Elixir. Fe…
 - **[tools](https://github.com/nshkrdotcom/tools)** ⭐ {{STARS:tools}} - Elixir repository
-- **[ex_cloudflare_phoenix](https://github.com/nshkrdotcom/ex_cloudflare_phoenix)** ⭐ {{STARS:ex_cloudflare_phoenix}} - Cloudflare Durable Objects and Calls for Phoenix Framework
-- **[Citadel](https://github.com/nshkrdotcom/Citadel)** ⭐ {{STARS:Citadel}} - The command and control layer for the AI-powered enterprise
-- **[Assessor](https://github.com/nshkrdotcom/Assessor)** ⭐ {{STARS:Assessor}} - The definitive CI/CD platform for AI Quality.
-- **[AITrace](https://github.com/nshkrdotcom/AITrace)** ⭐ {{STARS:AITrace}} - The unified observability layer for the AI Control Plane
 
 ---
 
