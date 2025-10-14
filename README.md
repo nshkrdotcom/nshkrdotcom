@@ -16,26 +16,26 @@ I'm the creator of the **[Crucible Framework](https://github.com/North-Shore-AI/
 
 All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)** organization:
 
-| Library | Description | Stars |
-|---------|-------------|-------|
-| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework | ⭐ 0 |
-| **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) | ⭐ 0 |
-| **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability | ⭐ 0 |
-| **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction | ⭐ 0 |
-| **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** | Causal reasoning chain logging for LLM transparency | ⭐ 0 |
-| **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) | ⭐ 0 |
-| **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection | ⭐ 0 |
-| **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting | ⭐ 0 |
+| Library | Description |
+|---------|-------------|
+| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework |
+| **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) |
+| **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability |
+| **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction |
+| **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** | Causal reasoning chain logging for LLM transparency |
+| **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) |
+| **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection |
+| **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting |
 
 ### In-Progress Extensions
 
-| Library | Description | Stars |
-|---------|-------------|-------|
-| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework | ⭐ 0 |
-| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) | ⭐ 0 |
-| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines | ⭐ 0 |
-| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems | ⭐ 0 |
-| **[LLMGuard](https://github.com/North-Shore-AI/LlmGuard)** | AI firewall & guardrails for LLM-based applications | ⭐ 0 |
+| Library | Description |
+|---------|-------------|
+| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework |
+| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) |
+| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines |
+| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems |
+| **[LLMGuard](https://github.com/North-Shore-AI/LlmGuard)** | AI firewall & guardrails for LLM-based applications |
 
 **Tech Stack**: Elixir, OTP, BEAM VM, Telemetry
 **Research Areas**: LLM reliability, ensemble methods, tail latency optimization, statistical testing
@@ -43,9 +43,9 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects (51 Total)
+## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects
 
-### AI & LLM Infrastructure (20+ stars)
+### AI & LLM Infrastructure
 
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 20 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
@@ -159,10 +159,6 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - <img src="./assets/microphone.svg" alt="speaking" width="16" height="16" /> **Speaking** about LLM reliability, Elixir/OTP, or functional programming
 - <img src="./assets/book.svg" alt="research" width="16" height="16" /> **Research partnerships** in AI reliability & distributed systems
 - <img src="./assets/star.svg" alt="open source" width="16" height="16" /> **Open source contributions** - PRs welcome on any project!
-
----
-
-**<img src="./assets/lightning.svg" alt="lightning" width="16" height="16" /> Fun fact**: All Crucible framework commits are co-authored with Claude AI!
 
 ---
 
