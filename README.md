@@ -131,7 +131,9 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 ## <img src="./assets/tools.svg" alt="tools" width="20" height="20" /> Tech Stack
 
 **Languages**: Elixir, Erlang, Python, JavaScript/TypeScript, Rust
+
 **Frameworks**: Phoenix, OTP, FastAPI, React
+
 **Specialties**:
 - Distributed systems & fault tolerance
 - AI/LLM infrastructure & reliability
