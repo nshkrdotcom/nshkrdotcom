@@ -43,12 +43,12 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects (50 Total)
+## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects (51 Total)
 
 ### AI & LLM Infrastructure (20+ stars)
 
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
-- **[axon](https://github.com/nshkrdotcom/axon)** ⭐ 19 - Axon: Elixir-powered AI agent orchestration, built on the battle-teste…
+- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 19 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
 - **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 15 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 14 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
 
@@ -65,6 +65,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 ### AI SDKs & Integration
 
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 0 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
+- **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 0 - OpenAI Codex SDK written in Elixir
 - **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ 6 - Elixir WSL-to-Windows browser integration
 - **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ 6 - Claude Code + Gemini AI collaboration orchestration tools
 - **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ 6 - Elixir Typing Mechanism
