@@ -64,7 +64,6 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI SDKs & Integration
 
-- **[claude_code_sdk_elixir](https://github.com/nshkrdotcom/claude_code_sdk_elixir)** ⭐ 7 - An Elixir SDK for Claude Code - provides programmatic access to Claude Code CLI with streaming message processing
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 0 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 0 - OpenAI Codex SDK written in Elixir
 - **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ 6 - Elixir WSL-to-Windows browser integration
