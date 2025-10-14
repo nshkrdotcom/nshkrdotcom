@@ -18,24 +18,24 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 | Library | Description | Stars |
 |---------|-------------|-------|
-| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_framework?style=social) |
-| **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_bench?style=social) |
-| **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_ensemble?style=social) |
-| **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_hedging?style=social) |
-| **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** | Causal reasoning chain logging for LLM transparency | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_trace?style=social) |
-| **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_datasets?style=social) |
-| **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_telemetry?style=social) |
-| **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_harness?style=social) |
+| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework | ⭐ 0 |
+| **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) | ⭐ 0 |
+| **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability | ⭐ 0 |
+| **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction | ⭐ 0 |
+| **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** | Causal reasoning chain logging for LLM transparency | ⭐ 0 |
+| **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) | ⭐ 0 |
+| **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection | ⭐ 0 |
+| **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting | ⭐ 0 |
 
 ### In-Progress Extensions
 
 | Library | Description | Stars |
 |---------|-------------|-------|
-| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_adversary?style=social) |
-| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/crucible_xai?style=social) |
-| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExDataCheck?style=social) |
-| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExFairness?style=social) |
-| **[LLMGuard](https://github.com/North-Shore-AI/ExGuard)** | AI firewall & guardrails for LLM-based applications | ![GitHub stars](https://img.shields.io/github/stars/North-Shore-AI/ExGuard?style=social) |
+| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework | ⭐ 0 |
+| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) | ⭐ 0 |
+| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines | ⭐ 0 |
+| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems | ⭐ 0 |
+| **[LLMGuard](https://github.com/North-Shore-AI/LlmGuard)** | AI firewall & guardrails for LLM-based applications | ⭐ 0 |
 
 **Tech Stack**: Elixir, OTP, BEAM VM, Telemetry
 **Research Areas**: LLM reliability, ensemble methods, tail latency optimization, statistical testing
@@ -48,7 +48,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 ### AI & LLM Infrastructure (20+ stars)
 
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
-- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 19 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
+- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 20 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
 - **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 15 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 14 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
 
@@ -64,6 +64,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI SDKs & Integration
 
+- **[claude_code_sdk_elixir](https://github.com/nshkrdotcom/claude_code_sdk_elixir)** ⭐ 7 - An Elixir SDK for Claude Code - provides programmatic access to Claude Code CLI with streaming message processing
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 0 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 0 - OpenAI Codex SDK written in Elixir
 - **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ 6 - Elixir WSL-to-Windows browser integration
@@ -73,7 +74,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### Multi-Agent & OTP Systems
 
-- **[superlearner](https://github.com/nshkrdotcom/superlearner)** ⭐ 5 - OTP Supervisor Educational Platform
+- **[superlearner](https://github.com/nshkrdotcom/superlearner)** ⭐ 6 - OTP Supervisor Educational Platform
 - **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ 4 - Multi Agent BEAM
 - **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ 4 - Revolutionary AST-based debugging and code intelligence platform for E…
 - **[ALTAR](https://github.com/nshkrdotcom/ALTAR)** ⭐ 4 - The Agent & Tool Arbitration Protocol
@@ -101,22 +102,6 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[Citadel](https://github.com/nshkrdotcom/Citadel)** ⭐ 0 - The command and control layer for the AI-powered enterprise
 - **[Assessor](https://github.com/nshkrdotcom/Assessor)** ⭐ 0 - The definitive CI/CD platform for AI Quality.
 - **[AITrace](https://github.com/nshkrdotcom/AITrace)** ⭐ 0 - The unified observability layer for the AI Control Plane
-
-### Crucible Framework (North-Shore-AI)
-
-- **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** ⭐ 0 - Structured causal reasoning chain logging for LLM transparency
-- **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** ⭐ 0 - Advanced telemetry collection and analysis for AI research
-- **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** ⭐ 0 - Request hedging for tail latency reduction in distributed systems
-- **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** ⭐ 0 - Experimental research framework for running AI benchmarks at scale
-- **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** ⭐ 0 - CrucibleFramework: A scientific platform for LLM reliability research …
-- **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** ⭐ 0 - Multi-model ensemble voting strategies for LLM reliability
-- **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** ⭐ 0 - Dataset management and caching for AI research benchmarks
-- **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** ⭐ 0 - Statistical testing and analysis framework for AI research
-- **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** ⭐ 0 - Adversarial testing & robustness evaluation framework
-- **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** ⭐ 0 - Explainable AI tools (LIME, SHAP, feature attribution)
-- **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** ⭐ 0 - Data validation & quality library for ML pipelines
-- **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** ⭐ 0 - Fairness & bias detection library for AI/ML systems
-- **[LLMGuard](https://github.com/North-Shore-AI/ExGuard)** ⭐ 0 - AI firewall & guardrails for LLM-based applications
 
 ---
 
@@ -181,4 +166,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-10-10*
+*Last updated: 2025-10-14*

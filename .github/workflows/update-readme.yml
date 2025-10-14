@@ -1,0 +1,78 @@
+name: Update README Star Counts
+
+on:
+  # Runs daily at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Allows manual triggering from Actions tab
+  workflow_dispatch:
+
+  # OPTIONAL TRIGGERS (uncomment to enable):
+
+  # # Runs on pushes to master branch
+  # push:
+  #   branches: [ master ]
+
+  # # Triggers when a repository is starred/unstarred
+  # watch:
+  #   types: [started]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup GitHub CLI
+      run: |
+        # GitHub CLI is pre-installed on GitHub-hosted runners
+        gh --version
+
+    - name: Install jq
+      run: |
+        # jq is usually pre-installed, but verify
+        sudo apt-get update
+        sudo apt-get install -y jq
+        jq --version
+
+    - name: Make scripts executable
+      run: |
+        chmod +x ./scripts/refresh_readme.sh
+        chmod +x ./scripts/get_elixir_projects.sh
+        chmod +x ./scripts/update_readme_stars.sh
+
+    - name: Fetch and update README
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "Fetching latest repository star counts and updating README..."
+        ./scripts/refresh_readme.sh
+
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [[ -n $(git status --porcelain) ]]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push if changed
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md scripts/elixir_projects.json
+        git commit -m "🤖 Auto-update README with latest star counts
+
+        Co-Authored-By: GitHub Actions <action@github.com>"
+        git push
