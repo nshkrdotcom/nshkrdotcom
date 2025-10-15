@@ -99,6 +99,13 @@ update_topics "ALTAR" \
 # AI SDKs & API CLIENTS
 # =============================================================================
 
+update_topics "weaviate_ex" \
+    $COMMON_TOPICS \
+    ai vector-database vector-search \
+    semantic-search hybrid-search data-storage \
+    machine-learning ai-native-database \
+    database sdk api-client generative-ai
+
 update_topics "gemini_ex" \
     $COMMON_TOPICS \
     ai llm google-gemini gemini \
