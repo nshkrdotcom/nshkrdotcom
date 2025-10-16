@@ -64,6 +64,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI Infrastructure & Utilities
 
+- **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ 0 - Modern Elixir client for Weaviate vector database with health checks…
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ 8 - High-performance, generalized process pooler and session manager for e…
 
@@ -173,4 +174,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-10-15*
+*Last updated: 2025-10-16*
