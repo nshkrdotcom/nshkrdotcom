@@ -67,6 +67,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ {{STARS:weaviate_ex}} - Modern Elixir client for Weaviate vector database with health checks…
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ {{STARS:json_remedy}} - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ {{STARS:snakepit}} - High-performance, generalized process pooler and session manager for e…
+- **[duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex)** ⭐ {{STARS:duckdb_ex}} - DuckDB driver client in Elixir
 
 ### Schema & Data Validation
 
@@ -79,6 +80,8 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[ex_dbg](https://github.com/nshkrdotcom/ex_dbg)** ⭐ {{STARS:ex_dbg}} - State-of-the-Art Introspection and Debugging System for Elixir/Phoenix…
 - **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ {{STARS:elixir_scope}} - Revolutionary AST-based debugging and code intelligence platform for E…
 - **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ {{STARS:ElixirScope}} - AI-Powered Execution Cinema Debugger for Elixir/BEAM
+- **[elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard)** ⭐ {{STARS:elixir_dashboard}} - A Phoenix LiveView performance monitoring dashboard for tracking slow endpoints and database queries
+- **[elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer)** ⭐ {{STARS:elixir_tracer}} - Local-first observability for Elixir with New Relic API parity
 
 ### OTP & Distributed Systems
 

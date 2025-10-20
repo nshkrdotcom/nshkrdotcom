@@ -56,7 +56,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI SDKs & API Clients
 
-- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 15 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
+- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 16 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 7 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 0 - OpenAI Codex SDK written in Elixir
 - **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 0 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
@@ -64,8 +64,10 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI Infrastructure & Utilities
 
+- **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ 0 - Modern Elixir client for Weaviate vector database with health checks…
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ 8 - High-performance, generalized process pooler and session manager for e…
+- **[duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex)** ⭐ 0 - DuckDB driver client in Elixir
 
 ### Schema & Data Validation
 
@@ -78,6 +80,8 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[ex_dbg](https://github.com/nshkrdotcom/ex_dbg)** ⭐ 9 - State-of-the-Art Introspection and Debugging System for Elixir/Phoenix…
 - **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ 4 - Revolutionary AST-based debugging and code intelligence platform for E…
 - **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ 3 - AI-Powered Execution Cinema Debugger for Elixir/BEAM
+- **[elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard)** ⭐ 0 - A Phoenix LiveView performance monitoring dashboard for tracking slow endpoints and database queries
+- **[elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer)** ⭐ 0 - Local-first observability for Elixir with New Relic API parity
 
 ### OTP & Distributed Systems
 
@@ -173,4 +177,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-10-15*
+*Last updated: 2025-10-20*
