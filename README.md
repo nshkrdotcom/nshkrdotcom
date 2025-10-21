@@ -26,6 +26,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 | **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) |
 | **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection |
 | **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting |
+| **[crucible_examples](https://github.com/North-Shore-AI/crucible_examples)** | Interactive Phoenix LiveView demos showcasing all framework components |
 
 ### In-Progress Extensions
 
@@ -177,4 +178,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-10-21*
+*Last updated: 2025-10-20*
