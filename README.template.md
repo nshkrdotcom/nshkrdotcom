@@ -27,11 +27,6 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 | **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection |
 | **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting |
 | **[crucible_examples](https://github.com/North-Shore-AI/crucible_examples)** | Interactive Phoenix LiveView demos showcasing all framework components |
-
-### In-Progress Extensions
-
-| Library | Description |
-|---------|-------------|
 | **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework |
 | **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) |
 | **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines |
