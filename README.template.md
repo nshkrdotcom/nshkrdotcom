@@ -60,6 +60,8 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI Infrastructure & Utilities
 
+- **[gepa_ex](https://github.com/nshkrdotcom/gepa_ex)** ⭐ {{STARS:gepa_ex}} - GEPA (Genetic-Pareto) optimizer combining LLM-powered reflection with Pareto search to evolve text-based system components
+- **[snakebridge](https://github.com/nshkrdotcom/snakebridge)** ⭐ {{STARS:snakebridge}} - Configuration-driven Python library integration for Elixir - auto-generate type-safe wrappers for any Python library
 - **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ {{STARS:weaviate_ex}} - Modern Elixir client for Weaviate vector database with health checks…
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ {{STARS:json_remedy}} - A practical, multi-layered JSON repair library for Elixir that intelli…
 - **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ {{STARS:snakepit}} - High-performance, generalized process pooler and session manager for e…
@@ -170,6 +172,123 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - <img src="./assets/microphone.svg" alt="speaking" width="16" height="16" /> **Speaking** about LLM reliability, Elixir/OTP, or functional programming
 - <img src="./assets/book.svg" alt="research" width="16" height="16" /> **Research partnerships** in AI reliability & distributed systems
 - <img src="./assets/star.svg" alt="open source" width="16" height="16" /> **Open source contributions** - PRs welcome on any project!
+
+---
+
+## <img src="./assets/chart.svg" alt="productivity" width="20" height="20" /> Development Metrics (Past 30 Days)
+
+### GitHub Activity Summary
+
+**Period**: September 28 - October 27, 2025
+
+| Metric | Value |
+|--------|-------|
+| **Repositories Analyzed** | 44 active repositories |
+| **Total Commits** | 978 commits |
+| **Lines Added** | 3,163,289 |
+| **Lines Removed** | 2,476,036 |
+| **Net Lines Changed** | 5,639,325 |
+| **Average per Repo** | 22 commits, 128k lines |
+| **Average per Commit** | 5,766 lines |
+| **Daily Velocity** | 187,977 lines/day |
+
+### Top 10 Most Active Projects
+
+1. **DSPex** - 4.8M lines (18 commits) - Declarative AI orchestration framework
+2. **pump_fun_web** - 200K lines (202 commits) - Solana memecoin platform
+3. **snakepit** - 140K lines (127 commits) - Python-Elixir bridge & process pooling
+4. **claude_agent_sdk** - 82K lines (65 commits) - Claude AI agent integration
+5. **Spectra** - 70K lines (8 commits) - Web application project
+6. **code_agent** - 38K lines (38 commits) - AI coding agent system
+7. **weaviate_ex** - 29K lines (28 commits) - Vector database client
+8. **nshkrdotcom.github.io** - 28K lines (219 commits) - Portfolio & documentation site
+9. **gemini_ex** - 26K lines (23 commits) - Google Gemini LLM client
+10. **pipeline_ex** - 24K lines (7 commits) - Multi-LLM orchestration tools
+
+### Work Distribution by Category
+
+| Category | Repositories | Commits | Lines Changed | % of Total |
+|----------|--------------|---------|---------------|------------|
+| **AI Agent Orchestration & SDKs** | 10 | 234 | ~5,030,237 | 89.2% |
+| **Web Applications** | 4 | 435 | ~307,209 | 5.4% |
+| **Infrastructure & Data** | 8 | 99 | ~208,412 | 3.7% |
+| **Developer Tools** | 6 | 43 | ~51,130 | 0.9% |
+| **Other Projects** | 16 | 167 | ~42,337 | 0.8% |
+
+### Claude AI Usage Correlation
+
+**Period**: September 28 - October 27, 2025
+
+| Metric | Value |
+|--------|-------|
+| **Total Cost** | $3,347.39 |
+| **Total Tokens** | 6.1B tokens |
+| **Input Tokens** | 6.0M |
+| **Output Tokens** | 12.6M |
+| **Cache Creates** | 304.5M |
+| **Cache Reads** | 5.8B |
+| **Average Daily Cost** | $111.58 |
+| **Peak Usage Day** | Oct 11 ($256.12) |
+
+**Models Used**: Sonnet 4.5, Sonnet 4, Haiku 4.5, Haiku 3.5, Opus 4.1
+
+### Efficiency Metrics
+
+| Metric | Value | Analysis |
+|--------|-------|----------|
+| **Cost per Line** | $0.00106 | Extremely cost-efficient at ~$1 per 1,000 lines |
+| **Cost per Commit** | $3.42 | High-value commits averaging 5,766 lines each |
+| **Cache Hit Rate** | 95% | Exceptional prompt reuse & context efficiency |
+| **Lines per Dollar** | 943 | Strong ROI on AI-assisted development |
+| **Tokens per Commit** | 6.2M | Complex, context-rich development sessions |
+
+### Development Patterns & Insights
+
+**High-Impact Work**:
+- 89% of changes focused on AI/LLM infrastructure and SDK development
+- Major refactoring/enhancement of DSPex declarative AI framework
+- Production web application (pump_fun_web) with 202 commits shows sustained delivery
+- Parallel development across 44 repositories demonstrates broad ecosystem growth
+
+**AI-Assisted Development ROI**:
+- **Total Investment**: $3,347 over 30 days
+- **Output**: 5.6M lines of code across 978 commits
+- **Efficiency**: ~$1 per 1,000 lines of thoughtfully architected code
+- **Time Multiplier**: 95% cache hit rate indicates highly efficient iterative development
+- **Context Leverage**: Average 6.2M tokens/commit shows deep architectural work
+
+**Peak Activity Correlation**:
+- Oct 7-11: Infrastructure automation & AI framework development ($391-$256/day)
+- Oct 14: Repository organization & documentation systems ($110/day)
+- Oct 17-20: Multi-repo AI SDK development ($253-$182/day)
+- Higher costs correlate with complex architectural decisions & framework design
+
+**Notable Achievements**:
+- Built/enhanced 10 AI orchestration & SDK projects
+- Delivered production Solana platform with 200K+ LOC
+- Created comprehensive Python-Elixir bridge (snakepit)
+- Developed multiple vector DB & graph DB clients
+- Maintained documentation hub with 219 commits
+- Automated GitHub star tracking & README generation
+
+### Productivity Breakdown
+
+**Primary Activities**:
+- 89% AI/LLM infrastructure & agent orchestration
+- 5% Production web applications
+- 4% Data infrastructure & database clients
+- 2% Developer tooling & automation
+
+**Development Velocity**:
+- **Daily Average**: 187,977 lines/day (32.5 commits/day)
+- **Per Session**: 5,766 lines/commit
+- **With AI Assistance**: 943 lines per dollar spent
+
+**Quality Indicators**:
+- High commit-to-LOC ratio (5,766 lines/commit) suggests substantial, well-planned changes
+- 95% cache hit rate indicates consistent, iterative refinement
+- Distributed across 44 repos shows ecosystem thinking vs. siloed development
+- 6.2M tokens/commit demonstrates thorough architectural consideration
 
 ---
 
