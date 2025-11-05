@@ -43,7 +43,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI Agent Orchestration & Multi-Agent Systems
 
-- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 22 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
+- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 23 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 14 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
 - **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 8 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
 - **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ 4 - Multi Agent BEAM
@@ -292,4 +292,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-11-04*
+*Last updated: 2025-11-05*
