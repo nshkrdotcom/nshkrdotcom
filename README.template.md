@@ -57,6 +57,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ {{STARS:codex_sdk}} - OpenAI Codex SDK written in Elixir
 - **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ {{STARS:jules_ex}} - Elixir client SDK for the Jules API - orchestrate AI coding sessions
 - **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ {{STARS:pipeline_ex}} - Claude Code + Gemini AI collaboration orchestration tools
+- **[mcp_client](https://github.com/nshkrdotcom/mcp_client)** ⭐ {{STARS:mcp_client}} - Full-featured Model Context Protocol client for Elixir with transports, resources, prompts, and tool calling
 
 ### AI Infrastructure & Utilities
 

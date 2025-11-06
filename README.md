@@ -43,7 +43,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI Agent Orchestration & Multi-Agent Systems
 
-- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 22 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
+- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 23 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 14 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
 - **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 8 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
 - **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ 4 - Multi Agent BEAM
@@ -52,11 +52,12 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI SDKs & API Clients
 
-- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 17 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
+- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 18 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 7 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 1 - OpenAI Codex SDK written in Elixir
-- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 0 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
+- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 1 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
 - **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ 6 - Claude Code + Gemini AI collaboration orchestration tools
+- **[mcp_client](https://github.com/nshkrdotcom/mcp_client)** ⭐ 0 - Full-featured Model Context Protocol client for Elixir with transports, resources, prompts, and tool calling
 
 ### AI Infrastructure & Utilities
 
@@ -69,7 +70,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### Schema & Data Validation
 
-- **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ 8 - Unified schema definition, validation, and JSON generation for Elixir
+- **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ 9 - Unified schema definition, validation, and JSON generation for Elixir
 - **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ 8 - A powerful, flexible schema definition and validation library for Elix…
 - **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ 6 - Elixir Typing Mechanism
 
@@ -292,4 +293,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-10-31*
+*Last updated: 2025-11-06*
