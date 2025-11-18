@@ -45,7 +45,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 - **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 26 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
 - **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 14 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
-- **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 8 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
+- **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 9 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
 - **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ 4 - Multi Agent BEAM
 - **[AutoElixir](https://github.com/nshkrdotcom/AutoElixir)** ⭐ 3 - AI Multi Agent Swarms in Elixir
 - **[ALTAR](https://github.com/nshkrdotcom/ALTAR)** ⭐ 4 - The Agent & Tool Arbitration Protocol
@@ -65,7 +65,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 - **[snakebridge](https://github.com/nshkrdotcom/snakebridge)** ⭐ 0 - Configuration-driven Python library integration for Elixir - auto-generate type-safe wrappers for any Python library
 - **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ 0 - Modern Elixir client for Weaviate vector database with health checks…
 - **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 20 - A practical, multi-layered JSON repair library for Elixir that intelli…
-- **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ 8 - High-performance, generalized process pooler and session manager for e…
+- **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ 9 - High-performance, generalized process pooler and session manager for e…
 - **[duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex)** ⭐ 0 - DuckDB driver client in Elixir
 
 ### Schema & Data Validation
@@ -293,4 +293,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-11-17*
+*Last updated: 2025-11-18*
