@@ -71,7 +71,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 ### Schema & Data Validation
 
 - **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ 9 - Unified schema definition, validation, and JSON generation for Elixir
-- **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ 8 - A powerful, flexible schema definition and validation library for Elix…
+- **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ 9 - A powerful, flexible schema definition and validation library for Elix…
 - **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ 6 - Elixir Typing Mechanism
 
 ### Developer Tools & Debugging
@@ -293,4 +293,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-11-22*
+*Last updated: 2025-11-23*
