@@ -52,7 +52,7 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ### AI SDKs & API Clients
 
-- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 18 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
+- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 19 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
 - **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 8 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
 - **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 1 - OpenAI Codex SDK written in Elixir
 - **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 1 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
@@ -293,4 +293,4 @@ All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)**
 
 ---
 
-*Last updated: 2025-11-27*
+*Last updated: 2025-11-28*
