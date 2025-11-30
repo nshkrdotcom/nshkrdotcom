@@ -4,7 +4,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/nshkrdotcom?style=flat)](https://github.com/nshkrdotcom)
 
-**71 repositories** | **272 stars**
+**72 repositories** | **272 stars**
 
 ---
 
@@ -110,6 +110,7 @@ Research platform for LLM reliability on Elixir/OTP. Building towards 99%+ relia
 | [brainstorms](https://github.com/North-Shore-AI/brainstorms) | 0 |  |
 | [coalas-lab](https://github.com/North-Shore-AI/coalas-lab) | 0 |  |
 | [nsai_sites](https://github.com/North-Shore-AI/nsai_sites) | 0 | Cloudflare Workers static sites for nsai.online, nsai.store, nsai.space |
+| [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | 0 | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
 
 ---
 
