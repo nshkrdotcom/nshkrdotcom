@@ -1,296 +1,116 @@
-# Hey there! <img src="./assets/wave.svg" alt="wave" width="20" height="20" />
+# nshkrdotcom
 
-I'm a software engineer and researcher focused on **AI reliability, distributed systems, and functional programming**. I build infrastructure for LLM research on the Elixir/BEAM platform.
+**AI reliability research & distributed systems on Elixir/BEAM**
 
-[![GitHub followers](https://img.shields.io/github/followers/nshkrdotcom?label=Follow&style=social)](https://github.com/nshkrdotcom)
+[![GitHub followers](https://img.shields.io/github/followers/nshkrdotcom?style=flat)](https://github.com/nshkrdotcom)
 
----
-
-## <img src="./assets/microscope.svg" alt="microscope" width="20" height="20" /> Crucible Framework - LLM Reliability Research
-
-I'm the creator of the **[Crucible Framework](https://github.com/North-Shore-AI/crucible_framework)**, a platform for conducting reproducible experiments on large language model reliability, built on Elixir/OTP.
-
-**Key Goal**: Building towards 99%+ LLM reliability through ensemble voting and request hedging, with comprehensive statistical testing and transparent causal reasoning chains.
-
-### Core Libraries
-
-All published under the **[@North-Shore-AI](https://github.com/North-Shore-AI)** organization:
-
-| Library | Description |
-|---------|-------------|
-| **[crucible_framework](https://github.com/North-Shore-AI/crucible_framework)** | Documentation hub & research framework |
-| **[crucible_bench](https://github.com/North-Shore-AI/crucible_bench)** | Statistical testing & analysis (15+ tests, effect sizes, power analysis) |
-| **[crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble)** | Multi-model voting strategies for improved reliability |
-| **[crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)** | Request hedging for latency reduction |
-| **[crucible_trace](https://github.com/North-Shore-AI/crucible_trace)** | Causal reasoning chain logging for LLM transparency |
-| **[crucible_datasets](https://github.com/North-Shore-AI/crucible_datasets)** | Unified interface to benchmark datasets (MMLU, HumanEval, GSM8K) |
-| **[crucible_telemetry](https://github.com/North-Shore-AI/crucible_telemetry)** | Research-grade instrumentation & metrics collection |
-| **[crucible_harness](https://github.com/North-Shore-AI/crucible_harness)** | Automated experiment orchestration & reporting |
-| **[crucible_examples](https://github.com/North-Shore-AI/crucible_examples)** | Interactive Phoenix LiveView demos showcasing all framework components |
-| **[crucible_adversary](https://github.com/North-Shore-AI/crucible_adversary)** | Adversarial testing & robustness evaluation framework |
-| **[crucible_xai](https://github.com/North-Shore-AI/crucible_xai)** | Explainable AI tools (LIME, SHAP, feature attribution) |
-| **[ExDataCheck](https://github.com/North-Shore-AI/ExDataCheck)** | Data validation & quality library for ML pipelines |
-| **[ExFairness](https://github.com/North-Shore-AI/ExFairness)** | Fairness & bias detection library for AI/ML systems |
-| **[LLMGuard](https://github.com/North-Shore-AI/LlmGuard)** | AI firewall & guardrails for LLM-based applications |
-
-**Tech Stack**: Elixir, OTP, BEAM VM, Telemetry
-**Research Areas**: LLM reliability, ensemble methods, tail latency optimization, statistical testing
-**Status**: Active development, v0.1.0 released
+**71 repositories** | **272 stars**
 
 ---
 
-## <img src="./assets/rocket.svg" alt="rocket" width="20" height="20" /> Elixir Projects
+## Crucible Framework
 
-### AI Agent Orchestration & Multi-Agent Systems
+Research platform for LLM reliability on Elixir/OTP. Building towards 99%+ reliability through ensemble voting, request hedging, and statistical testing.
 
-- **[synapse](https://github.com/nshkrdotcom/synapse)** ⭐ 28 - Synapse: Elixir-powered AI agent orchestration, built on the battle-teste…
-- **[ds_ex](https://github.com/nshkrdotcom/ds_ex)** ⭐ 15 - DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program O…
-- **[DSPex](https://github.com/nshkrdotcom/DSPex)** ⭐ 10 - Declarative Self Improving Elixir - DSPy Orchestration in Elixir
-- **[mabeam](https://github.com/nshkrdotcom/mabeam)** ⭐ 5 - Multi Agent BEAM
-- **[AutoElixir](https://github.com/nshkrdotcom/AutoElixir)** ⭐ 3 - AI Multi Agent Swarms in Elixir
-- **[ALTAR](https://github.com/nshkrdotcom/ALTAR)** ⭐ 5 - The Agent & Tool Arbitration Protocol
+**[@North-Shore-AI](https://github.com/North-Shore-AI)** — [crucible_framework](https://github.com/North-Shore-AI/crucible_framework) | [crucible_bench](https://github.com/North-Shore-AI/crucible_bench) | [crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble) | [crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging)
 
-### AI SDKs & API Clients
+---
 
-- **[gemini_ex](https://github.com/nshkrdotcom/gemini_ex)** ⭐ 20 - Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio a…
-- **[claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk)** ⭐ 9 - Elixir SDK for Claude AI Agent API - Renamed from claude_code_sdk_elix…
-- **[codex_sdk](https://github.com/nshkrdotcom/codex_sdk)** ⭐ 2 - OpenAI Codex SDK written in Elixir
-- **[jules_ex](https://github.com/nshkrdotcom/jules_ex)** ⭐ 2 - Elixir client SDK for the Jules API - orchestrate AI coding sessions
-- **[pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex)** ⭐ 7 - Claude Code + Gemini AI collaboration orchestration tools
-- **[mcp_client](https://github.com/nshkrdotcom/mcp_client)** ⭐ 0 - Full-featured Model Context Protocol client for Elixir with transports, resources, prompts, and tool calling
+## Projects
 
-### AI Infrastructure & Utilities
+### AI Agents
 
-- **[gepa_ex](https://github.com/nshkrdotcom/gepa_ex)** ⭐ 0 - GEPA (Genetic-Pareto) optimizer combining LLM-powered reflection with Pareto search to evolve text-based system components
-- **[snakebridge](https://github.com/nshkrdotcom/snakebridge)** ⭐ 0 - Configuration-driven Python library integration for Elixir - auto-generate type-safe wrappers for any Python library
-- **[weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex)** ⭐ 1 - Modern Elixir client for Weaviate vector database with health checks…
-- **[json_remedy](https://github.com/nshkrdotcom/json_remedy)** ⭐ 21 - A practical, multi-layered JSON repair library for Elixir that intelli…
-- **[snakepit](https://github.com/nshkrdotcom/snakepit)** ⭐ 10 - High-performance, generalized process pooler and session manager for e…
-- **[duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex)** ⭐ 1 - DuckDB driver client in Elixir
+| [synapse](https://github.com/nshkrdotcom/synapse) | 29 | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
+| [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 15 | DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program Optimiza... |
+| [DSPex](https://github.com/nshkrdotcom/DSPex) | 10 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
+| [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 7 | Claude Code + Gemini AI collaboration orchestration tools |
+| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 5 | The Agent & Tool Arbitration Protocol |
+| [mabeam](https://github.com/nshkrdotcom/mabeam) | 5 | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 
-### Schema & Data Validation
+### AI SDKs
 
-- **[sinter](https://github.com/nshkrdotcom/sinter)** ⭐ 10 - Unified schema definition, validation, and JSON generation for Elixir
-- **[exdantic](https://github.com/nshkrdotcom/exdantic)** ⭐ 10 - A powerful, flexible schema definition and validation library for Elix…
-- **[perimeter](https://github.com/nshkrdotcom/perimeter)** ⭐ 7 - Elixir Typing Mechanism
+| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 20 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
+| [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 9 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code C... |
+| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 2 | OpenAI Codex SDK written in Elixir |
+| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
+| [mcp_client](https://github.com/nshkrdotcom/mcp_client) | 0 | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
 
-### Developer Tools & Debugging
+### AI Infrastructure
 
-- **[ex_dbg](https://github.com/nshkrdotcom/ex_dbg)** ⭐ 10 - State-of-the-Art Introspection and Debugging System for Elixir/Phoenix…
-- **[elixir_scope](https://github.com/nshkrdotcom/elixir_scope)** ⭐ 5 - Revolutionary AST-based debugging and code intelligence platform for E…
-- **[ElixirScope](https://github.com/nshkrdotcom/ElixirScope)** ⭐ 4 - AI-Powered Execution Cinema Debugger for Elixir/BEAM
-- **[elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard)** ⭐ 1 - A Phoenix LiveView performance monitoring dashboard for tracking slow endpoints and database queries
-- **[elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer)** ⭐ 1 - Local-first observability for Elixir with New Relic API parity
+| [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 21 | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
+| [snakepit](https://github.com/nshkrdotcom/snakepit) | 10 | High-performance, generalized process pooler and session manager for external... |
+| [tinkerer](https://github.com/North-Shore-AI/tinkerer) | 1 | Chiral Narrative Synthesis workspace for Thinker/Tinker LoRA pipelines, seman... |
+| [tinkex](https://github.com/North-Shore-AI/tinkex) | 1 | Elixir SDK for the Tinker ML platform—LoRA training, sampling, and service or... |
+| [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 0 | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
+| [skill_ex](https://github.com/nshkrdotcom/skill_ex) | 0 |  |
+| [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 0 | Configuration-driven Python library integration for Elixir. Automatically gen... |
 
-### OTP & Distributed Systems
+### Schema & Validation
 
-- **[superlearner](https://github.com/nshkrdotcom/superlearner)** ⭐ 7 - OTP Supervisor Educational Platform
-- **[apex](https://github.com/nshkrdotcom/apex)** ⭐ 4 - Core Apex framework for OTP supervision and monitoring
-- **[apex_ui](https://github.com/nshkrdotcom/apex_ui)** ⭐ 4 - Web UI for Apex OTP supervision and monitoring tools
-- **[arsenal](https://github.com/nshkrdotcom/arsenal)** ⭐ 4 - Metaprogramming framework for automatic REST API generation from OTP o…
-- **[arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug)** ⭐ 3 - Phoenix/Plug adapter for Apex Arsenal framework
+| [exdantic](https://github.com/nshkrdotcom/exdantic) | 10 | A powerful, flexible schema definition and validation library for Elixir, ins... |
+| [sinter](https://github.com/nshkrdotcom/sinter) | 10 | Unified schema definition, validation, and JSON generation for Elixir |
+| [perimeter](https://github.com/nshkrdotcom/perimeter) | 7 | Advanced typing and type validation mechanism for Elixir - runtime type check... |
 
-### Testing & Quality Assurance
+### Developer Tools
 
-- **[supertester](https://github.com/nshkrdotcom/supertester)** ⭐ 4 - A battle-hardened testing toolkit for building robust and resilient El…
-- **[sandbox](https://github.com/nshkrdotcom/sandbox)** ⭐ 4 - Isolated OTP application management system for Elixir/Erlang
-- **[cluster_test](https://github.com/nshkrdotcom/cluster_test)** ⭐ 4 - Distributed Erlang/Elixir test cluster management via Mix tasks
+| [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 10 | State-of-the-Art Introspection and Debugging System for Elixir/Phoenix Applic... |
+| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | Revolutionary AST-based debugging and code intelligence platform for Elixir a... |
+| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 4 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
+| [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 1 | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
+| [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | 1 | Local-first observability for Elixir with New Relic API parity |
 
-### Infrastructure & Observability
+### OTP & Distributed
 
-- **[foundation](https://github.com/nshkrdotcom/foundation)** ⭐ 11 - Elixir infrastructure and Observability Library
-- **[AITrace](https://github.com/nshkrdotcom/AITrace)** ⭐ 1 - The unified observability layer for the AI Control Plane
-- **[Assessor](https://github.com/nshkrdotcom/Assessor)** ⭐ 1 - The definitive CI/CD platform for AI Quality.
-- **[Citadel](https://github.com/nshkrdotcom/Citadel)** ⭐ 1 - The command and control layer for the AI-powered enterprise
+| [superlearner](https://github.com/nshkrdotcom/superlearner) | 7 | OTP Supervisor Educational Platform |
+| [apex](https://github.com/nshkrdotcom/apex) | 4 | Core Apex framework for OTP supervision and monitoring |
+| [apex_ui](https://github.com/nshkrdotcom/apex_ui) | 4 | Web UI for Apex OTP supervision and monitoring tools |
+| [arsenal](https://github.com/nshkrdotcom/arsenal) | 4 | Metaprogramming framework for automatic REST API generation from OTP operations |
+| [arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug) | 3 | Phoenix/Plug adapter for Apex Arsenal framework |
 
-### Cloud & Edge Computing
+### Testing
 
-- **[cf_ex](https://github.com/nshkrdotcom/cf_ex)** ⭐ 3 - Elixir libraries for Cloudflare edge computing services. Battle-tested…
-- **[ex_cloudflare_phoenix](https://github.com/nshkrdotcom/ex_cloudflare_phoenix)** ⭐ 0 - Cloudflare Durable Objects and Calls for Phoenix Framework
+| [cluster_test](https://github.com/nshkrdotcom/cluster_test) | 4 | Distributed Erlang/Elixir test cluster management via Mix tasks |
+| [sandbox](https://github.com/nshkrdotcom/sandbox) | 4 | Isolated OTP application management system for Elixir/Erlang |
+| [supertester](https://github.com/nshkrdotcom/supertester) | 4 | A battle-hardened testing toolkit for building robust and resilient Elixir & ... |
 
-### Browser & Platform Integration
+### Observability
 
-- **[playwriter](https://github.com/nshkrdotcom/playwriter)** ⭐ 6 - Elixir WSL-to-Windows browser integration
+| [foundation](https://github.com/nshkrdotcom/foundation) | 11 | Elixir infrastructure and Observability Library |
+| [AITrace](https://github.com/nshkrdotcom/AITrace) | 1 | The unified observability layer for the AI Control Plane |
+| [Citadel](https://github.com/nshkrdotcom/Citadel) | 1 | The command and control layer for the AI-powered enterprise |
+
+### Data & Databases
+
+| [duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex) | 1 | DuckDB driver client in Elixir |
+| [weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex) | 1 | Modern Elixir client for Weaviate vector database with health checks and frie... |
+| [ex_topology](https://github.com/North-Shore-AI/ex_topology) | 0 | Pure Elixir library for graph topology, TDA, and computational topology |
+
+### Security
+
+| [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 15 | GUARDRAIL - MCP Security - Gateway for Unified Access, Resource Delegation, a... |
+| [ASKA](https://github.com/nshkrdotcom/ASKA) | 6 | Secure Computing in the AI age |
+| [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 5 | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
+| [Shield](https://github.com/nshkrdotcom/Shield) | 0 | SHIELD: Secure Hierarchical Inter-agent Layer for Distributed Environments |
+
+### Research
+
+| [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | 2 | Hardware-Secured Temporal Blockchain |
+| [EADS](https://github.com/nshkrdotcom/EADS) | 0 | Evolutionary Autonomous Development System |
+| [cns](https://github.com/North-Shore-AI/cns) | 0 | Chiral Narrative Synthesis - Dialectical reasoning framework for automated kn... |
+| [cns_ui](https://github.com/North-Shore-AI/cns_ui) | 0 | Phoenix LiveView interface for CNS dialectical reasoning experiments |
 
 ### Utilities
 
-- **[youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl)** ⭐ 1 - Download high-quality audio from YouTube as MP3 files using Elixir. Fe…
-- **[tools](https://github.com/nshkrdotcom/tools)** ⭐ 1 - Elixir repository
+| [tools](https://github.com/nshkrdotcom/tools) | 1 | Utility library and helper functions for Elixir development - common patterns... |
+| [youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl) | 1 | Download high-quality audio from YouTube as MP3 files using Elixir. Features ... |
+
+### Other
+
+| [playwriter](https://github.com/nshkrdotcom/playwriter) | 6 | Elixir WSL-to-Windows browser integration |
+| [brainstorms](https://github.com/North-Shore-AI/brainstorms) | 0 |  |
+| [coalas-lab](https://github.com/North-Shore-AI/coalas-lab) | 0 |  |
+| [nsai_sites](https://github.com/North-Shore-AI/nsai_sites) | 0 | Cloudflare Workers static sites for nsai.online, nsai.store, nsai.space |
 
 ---
 
-## <img src="./assets/chart.svg" alt="chart" width="20" height="20" /> GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nshkrdotcom&show_icons=true&theme=default)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nshkrdotcom&layout=compact)
-
----
-
-## <img src="./assets/tools.svg" alt="tools" width="20" height="20" /> Tech Stack
-
-**Languages**: Elixir, Erlang, Python, JavaScript/TypeScript, Rust
-
-**Frameworks**: Phoenix, OTP, FastAPI, React
-
-**Specialties**:
-- Distributed systems & fault tolerance
-- AI/LLM infrastructure & reliability
-- Functional programming & metaprogramming
-- Statistical analysis & experimental design
-- Developer tools & productivity
-
-**Platforms**: BEAM VM, AWS, GCP, Cloudflare Workers, Edge Computing
-
----
-
-## <img src="./assets/document.svg" alt="document" width="20" height="20" /> Current Focus
-
-- <img src="./assets/microscope.svg" alt="microscope" width="16" height="16" /> **Research**: LLM reliability through ensemble methods and statistical testing
-- <img src="./assets/tools.svg" alt="building" width="16" height="16" /> **Building**: AI infrastructure on Elixir/OTP
-- <img src="./assets/book.svg" alt="learning" width="16" height="16" /> **Learning**: Advanced OTP patterns, distributed systems optimization
-- <img src="./assets/seedling.svg" alt="growing" width="16" height="16" /> **Growing**: The Crucible framework ecosystem
-
----
-
-## <img src="./assets/globe.svg" alt="globe" width="20" height="20" /> Connect
-
-- **GitHub**: [@nshkrdotcom](https://github.com/nshkrdotcom)
-- **Organization**: [@North-Shore-AI](https://github.com/North-Shore-AI)
-
----
-
-## <img src="./assets/lightbulb.svg" alt="lightbulb" width="20" height="20" /> Philosophy
-
-> "Build infrastructure that researchers and engineers actually want to use. Make reliability measurable. Make experiments reproducible. Make the BEAM shine for AI workloads."
-
----
-
-## <img src="./assets/target.svg" alt="target" width="20" height="20" /> Open to
-
-- <img src="./assets/handshake.svg" alt="collaboration" width="16" height="16" /> **Collaboration** on Elixir AI tooling
-- <img src="./assets/briefcase.svg" alt="consulting" width="16" height="16" /> **Consulting** for distributed systems & AI infrastructure
-- <img src="./assets/microphone.svg" alt="speaking" width="16" height="16" /> **Speaking** about LLM reliability, Elixir/OTP, or functional programming
-- <img src="./assets/book.svg" alt="research" width="16" height="16" /> **Research partnerships** in AI reliability & distributed systems
-- <img src="./assets/star.svg" alt="open source" width="16" height="16" /> **Open source contributions** - PRs welcome on any project!
-
----
-
-## <img src="./assets/chart.svg" alt="productivity" width="20" height="20" /> Development Metrics (Past 30 Days)
-
-### GitHub Activity Summary
-
-**Period**: September 28 - October 27, 2025
-
-| Metric | Value |
-|--------|-------|
-| **Repositories Analyzed** | 44 active repositories |
-| **Total Commits** | 978 commits |
-| **Lines Added** | 3,163,289 |
-| **Lines Removed** | 2,476,036 |
-| **Net Lines Changed** | 5,639,325 |
-| **Average per Repo** | 22 commits, 128k lines |
-| **Average per Commit** | 5,766 lines |
-| **Daily Velocity** | 187,977 lines/day |
-
-### Top 10 Most Active Projects
-
-1. **DSPex** - 4.8M lines (18 commits) - Declarative AI orchestration framework
-2. **pump_fun_web** - 200K lines (202 commits) - Solana memecoin platform
-3. **snakepit** - 140K lines (127 commits) - Python-Elixir bridge & process pooling
-4. **claude_agent_sdk** - 82K lines (65 commits) - Claude AI agent integration
-5. **Spectra** - 70K lines (8 commits) - Web application project
-6. **code_agent** - 38K lines (38 commits) - AI coding agent system
-7. **weaviate_ex** - 29K lines (28 commits) - Vector database client
-8. **nshkrdotcom.github.io** - 28K lines (219 commits) - Portfolio & documentation site
-9. **gemini_ex** - 26K lines (23 commits) - Google Gemini LLM client
-10. **pipeline_ex** - 24K lines (7 commits) - Multi-LLM orchestration tools
-
-### Work Distribution by Category
-
-| Category | Repositories | Commits | Lines Changed | % of Total |
-|----------|--------------|---------|---------------|------------|
-| **AI Agent Orchestration & SDKs** | 10 | 234 | ~5,030,237 | 89.2% |
-| **Web Applications** | 4 | 435 | ~307,209 | 5.4% |
-| **Infrastructure & Data** | 8 | 99 | ~208,412 | 3.7% |
-| **Developer Tools** | 6 | 43 | ~51,130 | 0.9% |
-| **Other Projects** | 16 | 167 | ~42,337 | 0.8% |
-
-### Claude AI Usage Correlation
-
-**Period**: September 28 - October 27, 2025
-
-| Metric | Value |
-|--------|-------|
-| **Total Cost** | $3,347.39 |
-| **Total Tokens** | 6.1B tokens |
-| **Input Tokens** | 6.0M |
-| **Output Tokens** | 12.6M |
-| **Cache Creates** | 304.5M |
-| **Cache Reads** | 5.8B |
-| **Average Daily Cost** | $111.58 |
-| **Peak Usage Day** | Oct 11 ($256.12) |
-
-**Models Used**: Sonnet 4.5, Sonnet 4, Haiku 4.5, Haiku 3.5, Opus 4.1
-
-### Efficiency Metrics
-
-| Metric | Value | Analysis |
-|--------|-------|----------|
-| **Cost per Line** | $0.00106 | Extremely cost-efficient at ~$1 per 1,000 lines |
-| **Cost per Commit** | $3.42 | High-value commits averaging 5,766 lines each |
-| **Cache Hit Rate** | 95% | Exceptional prompt reuse & context efficiency |
-| **Lines per Dollar** | 943 | Strong ROI on AI-assisted development |
-| **Tokens per Commit** | 6.2M | Complex, context-rich development sessions |
-
-### Development Patterns & Insights
-
-**High-Impact Work**:
-- 89% of changes focused on AI/LLM infrastructure and SDK development
-- Major refactoring/enhancement of DSPex declarative AI framework
-- Production web application (pump_fun_web) with 202 commits shows sustained delivery
-- Parallel development across 44 repositories demonstrates broad ecosystem growth
-
-**AI-Assisted Development ROI**:
-- **Total Investment**: $3,347 over 30 days
-- **Output**: 5.6M lines of code across 978 commits
-- **Efficiency**: ~$1 per 1,000 lines of thoughtfully architected code
-- **Time Multiplier**: 95% cache hit rate indicates highly efficient iterative development
-- **Context Leverage**: Average 6.2M tokens/commit shows deep architectural work
-
-**Peak Activity Correlation**:
-- Oct 7-11: Infrastructure automation & AI framework development ($391-$256/day)
-- Oct 14: Repository organization & documentation systems ($110/day)
-- Oct 17-20: Multi-repo AI SDK development ($253-$182/day)
-- Higher costs correlate with complex architectural decisions & framework design
-
-**Notable Achievements**:
-- Built/enhanced 10 AI orchestration & SDK projects
-- Delivered production Solana platform with 200K+ LOC
-- Created comprehensive Python-Elixir bridge (snakepit)
-- Developed multiple vector DB & graph DB clients
-- Maintained documentation hub with 219 commits
-- Automated GitHub star tracking & README generation
-
-### Productivity Breakdown
-
-**Primary Activities**:
-- 89% AI/LLM infrastructure & agent orchestration
-- 5% Production web applications
-- 4% Data infrastructure & database clients
-- 2% Developer tooling & automation
-
-**Development Velocity**:
-- **Daily Average**: 187,977 lines/day (32.5 commits/day)
-- **Per Session**: 5,766 lines/commit
-- **With AI Assistance**: 943 lines per dollar spent
-
-**Quality Indicators**:
-- High commit-to-LOC ratio (5,766 lines/commit) suggests substantial, well-planned changes
-- 95% cache hit rate indicates consistent, iterative refinement
-- Distributed across 44 repos shows ecosystem thinking vs. siloed development
-- 6.2M tokens/commit demonstrates thorough architectural consideration
-
----
-
-*Last updated: 2025-11-30*
+<sub>Auto-updated every 12 hours</sub>
