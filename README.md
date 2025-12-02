@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**69 public repos** · **271 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**72 public repos** · **271 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -15,6 +15,12 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 ---
 
 ## Projects
+
+**Ingot**
+
+- [anvil](https://github.com/North-Shore-AI/anvil) · 0★ · Labeling queue library for managing human labeling workflows
+- [forge](https://github.com/North-Shore-AI/forge) · 0★ · Sample factory library for generating, transforming, and ...
+- [ingot](https://github.com/North-Shore-AI/ingot) · 0★ · Phoenix LiveView interface for sample generation and huma...
 
 **AI Agents**
 

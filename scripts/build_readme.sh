@@ -16,6 +16,7 @@ REPOS=$(jq -s 'add | map(select(.archived == false and .fork == false and .priva
   cat: (
     if (.topics | index("nshkr-archive")) then "SKIP"
     elif (.topics | index("nshkr-crucible")) then "Crucible"
+    elif (.topics | index("nshkr-ingot")) then "Ingot"
     elif (.topics | index("nshkr-ai-agents")) then "AI Agents"
     elif (.topics | index("nshkr-ai-sdk")) then "AI SDKs"
     elif (.topics | index("nshkr-ai-infra")) then "AI Infra"
@@ -59,7 +60,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 EOF
 
-for cat in "AI Agents" "AI SDKs" "AI Infra" "Schema" "DevTools" "OTP" "Testing" "Observability" "Data" "Security" "Research" "Utilities" "Other"; do
+for cat in "Ingot" "AI Agents" "AI SDKs" "AI Infra" "Schema" "DevTools" "OTP" "Testing" "Observability" "Data" "Security" "Research" "Utilities" "Other"; do
   ITEMS=$(echo "$REPOS" | jq -r --arg c "$cat" '[.[] | select(.cat == $c)] | sort_by(-.stars) | .[] | "- [\(.name)](\(.url)) · \(.stars)★ · \(.desc | if length > 60 then .[0:57] + "..." else . end)"')
   if [ -n "$ITEMS" ]; then
     echo "**$cat**" >> README.md
