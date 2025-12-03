@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**73 public repos** · **271 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**74 public repos** · **272 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -21,10 +21,11 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [anvil](https://github.com/North-Shore-AI/anvil) · 0★ · Labeling queue library for managing human labeling workflows
 - [forge](https://github.com/North-Shore-AI/forge) · 0★ · Sample factory library for generating, transforming, and ...
 - [ingot](https://github.com/North-Shore-AI/ingot) · 0★ · Phoenix LiveView interface for sample generation and huma...
+- [labeling_ir](https://github.com/North-Shore-AI/labeling_ir) · 0★ · Shared IR structs for the North Shore labeling stack (For...
 
 **AI Agents**
 
-- [synapse](https://github.com/nshkrdotcom/synapse) · 29★ · Headless, declarative multi-agent orchestration framework...
+- [synapse](https://github.com/nshkrdotcom/synapse) · 30★ · Headless, declarative multi-agent orchestration framework...
 - [ds_ex](https://github.com/nshkrdotcom/ds_ex) · 15★ · DSPEx - Declarative Self-improving Elixir | A BEAM-Native...
 - [DSPex](https://github.com/nshkrdotcom/DSPex) · 10★ · Declarative Self Improving Elixir - DSPy Orchestration in...
 - [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) · 7★ · Claude Code + Gemini AI collaboration orchestration tools
@@ -116,4 +117,4 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 ---
 
-_Updated 2025-12-02_
+_Updated 2025-12-03_
