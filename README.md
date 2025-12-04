@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**74 public repos** · **274 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**75 public repos** · **276 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -25,7 +25,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 **AI Agents**
 
-- [synapse](https://github.com/nshkrdotcom/synapse) · 30★ · Headless, declarative multi-agent orchestration framework...
+- [synapse](https://github.com/nshkrdotcom/synapse) · 31★ · Headless, declarative multi-agent orchestration framework...
 - [ds_ex](https://github.com/nshkrdotcom/ds_ex) · 15★ · DSPEx - Declarative Self-improving Elixir | A BEAM-Native...
 - [DSPex](https://github.com/nshkrdotcom/DSPex) · 10★ · Declarative Self Improving Elixir - DSPy Orchestration in...
 - [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) · 7★ · Claude Code + Gemini AI collaboration orchestration tools
@@ -67,7 +67,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 **OTP**
 
-- [superlearner](https://github.com/nshkrdotcom/superlearner) · 7★ · OTP Supervisor Educational Platform
+- [superlearner](https://github.com/nshkrdotcom/superlearner) · 8★ · OTP Supervisor Educational Platform
 - [apex](https://github.com/nshkrdotcom/apex) · 4★ · Core Apex framework for OTP supervision and monitoring
 - [apex_ui](https://github.com/nshkrdotcom/apex_ui) · 4★ · Web UI for Apex OTP supervision and monitoring tools
 - [arsenal](https://github.com/nshkrdotcom/arsenal) · 4★ · Metaprogramming framework for automatic REST API generati...
@@ -90,6 +90,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex) · 1★ · DuckDB driver client in Elixir
 - [weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex) · 1★ · Modern Elixir client for Weaviate vector database with he...
 - [ex_topology](https://github.com/North-Shore-AI/ex_topology) · 0★ · Pure Elixir library for graph topology, TDA, and computat...
+- [nx_penalties](https://github.com/North-Shore-AI/nx_penalties) · 0★ · Composable regularization penalties for Elixir Nx. L1/L2/...
 
 **Security**
 
