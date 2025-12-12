@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**86 public repos** · **279 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**86 public repos** · **280 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -36,7 +36,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 **AI SDKs**
 
-- [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) · 20★ · Elixir Interface / Adapter for Google Gemini LLM, for bot...
+- [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) · 21★ · Elixir Interface / Adapter for Google Gemini LLM, for bot...
 - [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) · 9★ · An Elixir SDK for Claude Code - provides programmatic acc...
 - [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) · 2★ · OpenAI Codex SDK written in Elixir
 - [jules_ex](https://github.com/nshkrdotcom/jules_ex) · 2★ · Elixir client SDK for the Jules API - orchestrate AI codi...
