@@ -126,4 +126,4 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 ---
 
-_Updated 2025-12-12_
+_Updated 2025-12-13_
