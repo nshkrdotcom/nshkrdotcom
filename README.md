@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**86 public repos** · **280 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**87 public repos** · **280 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -56,6 +56,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [pilot](https://github.com/North-Shore-AI/pilot) · 0★ · Interactive CLI and REPL for the NSAI ecosystem—unified i...
 - [skill_ex](https://github.com/nshkrdotcom/skill_ex) · 0★ · 
 - [snakebridge](https://github.com/nshkrdotcom/snakebridge) · 0★ · Configuration-driven Python library integration for Elixi...
+- [tiktoken_ex](https://github.com/North-Shore-AI/tiktoken_ex) · 0★ · Pure Elixir TikToken-style byte-level BPE tokenizer (Kimi...
 
 **Schema**
 
