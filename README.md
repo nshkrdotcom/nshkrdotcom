@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**87 public repos** · **280 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**87 public repos** · **282 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -31,7 +31,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) · 7★ · Claude Code + Gemini AI collaboration orchestration tools
 - [ALTAR](https://github.com/nshkrdotcom/ALTAR) · 6★ · The Agent & Tool Arbitration Protocol
 - [mabeam](https://github.com/nshkrdotcom/mabeam) · 5★ · Multi-agent systems framework for the BEAM platform - bui...
-- [flowstone](https://github.com/nshkrdotcom/flowstone) · 0★ · Asset-first data orchestration for Elixir/BEAM. Dagster-i...
+- [flowstone](https://github.com/nshkrdotcom/flowstone) · 2★ · Asset-first data orchestration for Elixir/BEAM. Dagster-i...
 - [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) · 0★ · Synapse integration for altar_ai - SDK-backed LLM provide...
 
 **AI SDKs**
@@ -127,4 +127,4 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 ---
 
-_Updated 2025-12-13_
+_Updated 2025-12-14_
