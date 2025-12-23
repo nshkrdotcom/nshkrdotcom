@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**92 public repos** · **313 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**93 public repos** · **313 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
