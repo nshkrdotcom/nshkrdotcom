@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**92 public repos** · **311 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**92 public repos** · **313 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -37,7 +37,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 **AI SDKs**
 
 - [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) · 21★ · Elixir Interface / Adapter for Google Gemini LLM, for bot...
-- [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) · 10★ · An Elixir SDK for Claude Code - provides programmatic acc...
+- [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) · 11★ · An Elixir SDK for Claude Code - provides programmatic acc...
 - [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) · 2★ · OpenAI Codex SDK written in Elixir
 - [jules_ex](https://github.com/nshkrdotcom/jules_ex) · 2★ · Elixir client SDK for the Jules API - orchestrate AI codi...
 - [altar_ai](https://github.com/nshkrdotcom/altar_ai) · 1★ · Protocol-based AI adapter foundation for Elixir - unified...
@@ -105,7 +105,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 **Security**
 
-- [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) · 15★ · GUARDRAIL - MCP Security - Gateway for Unified Access, Re...
+- [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) · 16★ · GUARDRAIL - MCP Security - Gateway for Unified Access, Re...
 - [ASKA](https://github.com/nshkrdotcom/ASKA) · 6★ · Secure Computing in the AI age
 - [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) · 5★ · Post-quantum cryptographic implementation of HQC (Hamming...
 - [Shield](https://github.com/nshkrdotcom/Shield) · 0★ · SHIELD: Secure Hierarchical Inter-agent Layer for Distrib...
@@ -132,4 +132,4 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 ---
 
-_Updated 2025-12-22_
+_Updated 2025-12-23_
