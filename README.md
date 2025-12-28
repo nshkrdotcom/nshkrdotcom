@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**99 public repos** · **317 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**103 public repos** · **317 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -77,6 +77,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) · 4★ · AI-Powered Execution Cinema Debugger for Elixir/BEAM
 - [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) · 1★ · A Phoenix LiveView performance monitoring dashboard for t...
 - [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) · 1★ · Local-first observability for Elixir with New Relic API p...
+- [pristine](https://github.com/nshkrdotcom/pristine) · 0★ · Manifest-driven hexagonal core for generating Elixir SDKs...
 
 **OTP**
 
@@ -97,6 +98,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [foundation](https://github.com/nshkrdotcom/foundation) · 11★ · Elixir infrastructure and Observability Library
 - [AITrace](https://github.com/nshkrdotcom/AITrace) · 1★ · The unified observability layer for the AI Control Plane
 - [Citadel](https://github.com/nshkrdotcom/Citadel) · 1★ · The command and control layer for the AI-powered enterprise
+- [telemetry_reporter](https://github.com/nshkrdotcom/telemetry_reporter) · 0★ · Pachka-powered telemetry reporter for Elixir that batches...
 
 **Data**
 
@@ -130,6 +132,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 - [playwriter](https://github.com/nshkrdotcom/playwriter) · 6★ · Elixir WSL-to-Windows browser integration
 - [work](https://github.com/North-Shore-AI/work) · 1★ · NSAI.Work - Unified job scheduler for North-Shore-AI plat...
+- [multipart_ex](https://github.com/nshkrdotcom/multipart_ex) · 0★ · Client-agnostic multipart/form-data builder for Elixir wi...
 - [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) · 0★ · Personal GitHub profile README with Elixir/AI projects an...
 
 ---
