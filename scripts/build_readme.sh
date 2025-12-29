@@ -36,42 +36,43 @@ REPOS=$(jq -s 'add | map(select(.archived == false and .fork == false and .priva
 
 rm -f "$TMP" "$TMP.1" "$TMP.2"
 
+# Calculate stats
 TOTAL=$(echo "$REPOS" | jq 'length')
 STARS=$(echo "$REPOS" | jq '[.[].stars] | add // 0')
 
-cat > README.md << EOF
-# nshkrdotcom
+# Get individual repo stars for template placeholders
+FLOWSTONE_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "flowstone") | .stars // "-"')
+FLOWSTONE_AI_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "flowstone_ai") | .stars // "-"')
+SYNAPSE_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "synapse") | .stars // "-"')
 
-Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
+# Generate auto-generated content by category
+AUTO_CONTENT=""
 
-**$TOTAL public repos** · **$STARS stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+# Categories to display (order matters)
+CATEGORIES=("AI SDKs" "AI Infra" "AI Agents" "Schema" "DevTools" "OTP" "Testing" "Observability" "Data" "Security" "Research" "Utilities" "Other")
 
----
-
-## Crucible Framework
-
-Open research platform for LLM reliability. Ensemble voting, request hedging, statistical testing.
-
-[crucible_framework](https://github.com/North-Shore-AI/crucible_framework) · [crucible_bench](https://github.com/North-Shore-AI/crucible_bench) · [crucible_ensemble](https://github.com/North-Shore-AI/crucible_ensemble) · [crucible_hedging](https://github.com/North-Shore-AI/crucible_hedging) · [crucible_trace](https://github.com/North-Shore-AI/crucible_trace)
-
----
-
-## Projects
-
-EOF
-
-for cat in "Ingot" "AI Agents" "AI SDKs" "AI Infra" "Schema" "DevTools" "OTP" "Testing" "Observability" "Data" "Security" "Research" "Utilities" "Other"; do
-  ITEMS=$(echo "$REPOS" | jq -r --arg c "$cat" '[.[] | select(.cat == $c)] | sort_by(-.stars) | .[] | "- [\(.name)](\(.url)) · \(.stars)★ · \(.desc | if length > 60 then .[0:57] + "..." else . end)"')
+for cat in "${CATEGORIES[@]}"; do
+  ITEMS=$(echo "$REPOS" | jq -r --arg c "$cat" '[.[] | select(.cat == $c)] | sort_by(-.stars) | .[] | "| [\(.name)](\(.url)) | \(.stars) | \(.desc | if length > 60 then .[0:57] + "..." else . end) |"')
   if [ -n "$ITEMS" ]; then
-    echo "**$cat**" >> README.md
-    echo "" >> README.md
-    echo "$ITEMS" >> README.md
-    echo "" >> README.md
+    AUTO_CONTENT+="## $cat"$'\n\n'
+    AUTO_CONTENT+="| Project | Stars | Description |"$'\n'
+    AUTO_CONTENT+="|---------|-------|-------------|"$'\n'
+    AUTO_CONTENT+="$ITEMS"$'\n\n'
   fi
 done
 
-echo "---" >> README.md
-echo "" >> README.md
-echo "_Updated $(date -u +%Y-%m-%d)_" >> README.md
+# Read template and substitute placeholders
+TEMPLATE=$(cat templates/README.template.md)
+
+# Substitute placeholders
+OUTPUT="${TEMPLATE//\{\{REPO_COUNT\}\}/$TOTAL}"
+OUTPUT="${OUTPUT//\{\{STAR_COUNT\}\}/$STARS}"
+OUTPUT="${OUTPUT//\{\{flowstone_stars\}\}/$FLOWSTONE_STARS}"
+OUTPUT="${OUTPUT//\{\{flowstone_ai_stars\}\}/$FLOWSTONE_AI_STARS}"
+OUTPUT="${OUTPUT//\{\{synapse_stars\}\}/$SYNAPSE_STARS}"
+OUTPUT="${OUTPUT//\{\{UPDATE_DATE\}\}/$(date -u +%Y-%m-%d)}"
+OUTPUT="${OUTPUT//\{\{AUTO_GENERATED_CONTENT\}\}/$AUTO_CONTENT}"
+
+echo "$OUTPUT" > README.md
 
 echo "Done: $TOTAL repos, $STARS stars"

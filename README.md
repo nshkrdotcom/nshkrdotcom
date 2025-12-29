@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**72+ public repos** | **271+ stars** | [@North-Shore-AI](https://github.com/North-Shore-AI)
+**104 public repos** | **317 stars** | [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -56,9 +56,9 @@ portfolio_core     (Ports, Registry, Manifest, Telemetry)
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [flowstone](https://github.com/nshkrdotcom/flowstone) | - | Asset-first data orchestration - lineage tracking, partitions, scatter/gather, approval gates, Oban persistence |
-| [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | - | AI extensions for FlowStone pipelines |
-| [synapse](https://github.com/nshkrdotcom/synapse) | 29 | Headless multi-agent orchestration - signal bus, workflow engine, Postgres persistence, LLM gateway |
+| [flowstone](https://github.com/nshkrdotcom/flowstone) | 12 | Asset-first data orchestration - lineage tracking, partitions, scatter/gather, approval gates, Oban persistence |
+| [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | 1 | AI extensions for FlowStone pipelines |
+| [synapse](https://github.com/nshkrdotcom/synapse) | 31 | Headless multi-agent orchestration - signal bus, workflow engine, Postgres persistence, LLM gateway |
 
 **FlowStone** treats assets (named data artifacts) as the primary abstraction for building reliable, auditable data pipelines. Features include partition-aware execution, scatter fan-out, signal gates for external webhooks, and comprehensive lineage queries.
 
@@ -148,115 +148,148 @@ Domain-agnostic sample factory for human-in-the-loop workflows.
 
 ---
 
-## AI SDKs & Infrastructure
-
-### SDKs
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 20 | Elixir adapter for Google Gemini LLM |
-| [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 9 | Elixir SDK for Claude Code - programmatic access |
-| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 2 | OpenAI Codex SDK in Elixir |
-| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client for Jules API |
-| [mcp_client](https://github.com/nshkrdotcom/mcp_client) | - | Model Context Protocol client |
-
-### Infrastructure
+<!-- AUTO_GENERATED_START -->
+## AI SDKs
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 21 | Multi-layered JSON repair library |
-| [snakepit](https://github.com/nshkrdotcom/snakepit) | 10 | High-performance process pooler and session manager |
-| [snakebridge](https://github.com/nshkrdotcom/snakebridge) | - | Configuration-driven Python library integration |
-| [tinkex](https://github.com/North-Shore-AI/tinkex) | 1 | Elixir SDK for Tinker ML platform - LoRA training, sampling, tokenizer |
+| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 21 | Elixir Interface / Adapter for Google Gemini LLM, for bot... |
+| [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 12 | An Elixir SDK for Claude Code - provides programmatic acc... |
+| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 2 | OpenAI Codex SDK written in Elixir |
+| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI codi... |
+| [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 1 | Protocol-based AI adapter foundation for Elixir - unified... |
+| [mcp_client](https://github.com/nshkrdotcom/mcp_client) | 0 | Full-featured Elixir client for the Model Context Protoco... |
 
----
+## AI Infra
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 23 | A practical, multi-layered JSON repair library for Elixir... |
+| [snakepit](https://github.com/nshkrdotcom/snakepit) | 10 | High-performance, generalized process pooler and session ... |
+| [tinkex](https://github.com/North-Shore-AI/tinkex) | 2 | Elixir SDK for the Tinker ML platform—LoRA training, samp... |
+| [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 1 | Elixir implementation of GEPA: LLM-driven evolutionary op... |
+| [nsai_gateway](https://github.com/North-Shore-AI/nsai_gateway) | 1 | Unified API gateway for the NSAI ecosystem—authentication... |
+| [nsai_registry](https://github.com/North-Shore-AI/nsai_registry) | 1 | Service discovery and registry for the NSAI ecosystem—dis... |
+| [pilot](https://github.com/North-Shore-AI/pilot) | 1 | Interactive CLI and REPL for the NSAI ecosystem—unified i... |
+| [rag_ex](https://github.com/nshkrdotcom/rag_ex) | 1 | Elixir RAG library with multi-LLM routing (Gemini, Claude... |
+| [skill_ex](https://github.com/nshkrdotcom/skill_ex) | 1 | Claude Skill Aggregator |
+| [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 1 | Compile-time Elixir code generator for Python library bin... |
+| [tiktoken_ex](https://github.com/North-Shore-AI/tiktoken_ex) | 1 | Pure Elixir TikToken-style byte-level BPE tokenizer (Kimi... |
+| [tinkerer](https://github.com/North-Shore-AI/tinkerer) | 1 | Chiral Narrative Synthesis workspace for Thinker/Tinker L... |
+| [work](https://github.com/North-Shore-AI/work) | 1 | NSAI.Work - Unified job scheduler for North-Shore-AI plat... |
+| [hf_hub_ex](https://github.com/North-Shore-AI/hf_hub_ex) | 0 | Elixir client for HuggingFace Hub—dataset/model metadata,... |
+| [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | 0 | Hexagonal architecture core for Elixir RAG systems. Port ... |
+| [portfolio_index](https://github.com/nshkrdotcom/portfolio_index) | 0 | Production adapters and pipelines for PortfolioCore. Vect... |
+| [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) | 0 | AI-native personal project intelligence system - manage, ... |
+| [tinkex_cookbook](https://github.com/North-Shore-AI/tinkex_cookbook) | 0 | Elixir port of tinker-cookbook: training and evaluation r... |
 
 ## AI Agents
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 15 | DSPEx - Declarative Self-improving Elixir (BEAM-native DSPy) |
-| [DSPex](https://github.com/nshkrdotcom/DSPex) | 10 | DSPy Orchestration in Elixir |
-| [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 7 | Claude Code + Gemini AI collaboration tools |
-| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 5 | Agent & Tool Arbitration Protocol |
-| [mabeam](https://github.com/nshkrdotcom/mabeam) | 5 | Multi-agent systems framework for BEAM |
+| [synapse](https://github.com/nshkrdotcom/synapse) | 31 | Headless, declarative multi-agent orchestration framework... |
+| [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 15 | DSPEx - Declarative Self-improving Elixir | A BEAM-Native... |
+| [flowstone](https://github.com/nshkrdotcom/flowstone) | 12 | Asset-first data orchestration for Elixir/BEAM. Dagster-i... |
+| [DSPex](https://github.com/nshkrdotcom/DSPex) | 10 | Declarative Self Improving Elixir - DSPy Orchestration in... |
+| [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 7 | Claude Code + Gemini AI collaboration orchestration tools |
+| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 6 | The Agent {{AUTO_GENERATED_CONTENT}} Tool Arbitration Protocol |
+| [mabeam](https://github.com/nshkrdotcom/mabeam) | 5 | Multi-agent systems framework for the BEAM platform - bui... |
+| [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | 1 | FlowStone integration for altar_ai - AI-powered data pipe... |
+| [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | 1 | Synapse integration for altar_ai - SDK-backed LLM provide... |
 
----
-
-## Schema & Validation
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [exdantic](https://github.com/nshkrdotcom/exdantic) | 10 | Powerful schema definition and validation library |
-| [sinter](https://github.com/nshkrdotcom/sinter) | 10 | Unified schema definition, validation, JSON generation |
-| [perimeter](https://github.com/nshkrdotcom/perimeter) | 7 | Advanced typing and type validation for Elixir |
-
----
-
-## DevTools & Observability
+## Schema
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [foundation](https://github.com/nshkrdotcom/foundation) | 11 | Elixir infrastructure and observability library |
-| [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 10 | State-of-the-art introspection and debugging |
-| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | AST-based debugging and code intelligence |
-| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 4 | AI-Powered Execution Cinema Debugger |
-| [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 1 | Phoenix LiveView performance monitoring |
-| [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | 1 | Local-first observability with New Relic API |
+| [exdantic](https://github.com/nshkrdotcom/exdantic) | 10 | A powerful, flexible schema definition and validation lib... |
+| [sinter](https://github.com/nshkrdotcom/sinter) | 10 | Unified schema definition, validation, and JSON generatio... |
+| [perimeter](https://github.com/nshkrdotcom/perimeter) | 7 | Advanced typing and type validation mechanism for Elixir ... |
 
----
-
-## OTP & Testing
-
-### OTP
+## DevTools
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [superlearner](https://github.com/nshkrdotcom/superlearner) | 7 | OTP Supervisor Educational Platform |
-| [apex](https://github.com/nshkrdotcom/apex) | 4 | Core framework for OTP supervision and monitoring |
-| [apex_ui](https://github.com/nshkrdotcom/apex_ui) | 4 | Web UI for Apex OTP tools |
-| [arsenal](https://github.com/nshkrdotcom/arsenal) | 4 | Metaprogramming for automatic REST API generation |
+| [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 10 | State-of-the-Art Introspection and Debugging System for E... |
+| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | Revolutionary AST-based debugging and code intelligence p... |
+| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 4 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
+| [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 1 | A Phoenix LiveView performance monitoring dashboard for t... |
+| [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | 1 | Local-first observability for Elixir with New Relic API p... |
+| [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | 0 | Code Intelligence Platform: Repository analysis, semantic... |
+| [pristine](https://github.com/nshkrdotcom/pristine) | 0 | Manifest-driven hexagonal core for generating Elixir SDKs... |
 
-### Testing
+## OTP
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [cluster_test](https://github.com/nshkrdotcom/cluster_test) | 4 | Distributed Erlang/Elixir test cluster management |
-| [sandbox](https://github.com/nshkrdotcom/sandbox) | 4 | Isolated OTP application management |
-| [supertester](https://github.com/nshkrdotcom/supertester) | 4 | Battle-hardened testing toolkit |
+| [superlearner](https://github.com/nshkrdotcom/superlearner) | 8 | OTP Supervisor Educational Platform |
+| [apex](https://github.com/nshkrdotcom/apex) | 4 | Core Apex framework for OTP supervision and monitoring |
+| [apex_ui](https://github.com/nshkrdotcom/apex_ui) | 4 | Web UI for Apex OTP supervision and monitoring tools |
+| [arsenal](https://github.com/nshkrdotcom/arsenal) | 4 | Metaprogramming framework for automatic REST API generati... |
+| [arsenal_plug](https://github.com/nshkrdotcom/arsenal_plug) | 3 | Phoenix/Plug adapter for Apex Arsenal framework |
 
----
+## Testing
 
-## Data & Security
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [playwriter](https://github.com/nshkrdotcom/playwriter) | 6 | Elixir WSL-to-Windows browser integration |
+| [cluster_test](https://github.com/nshkrdotcom/cluster_test) | 4 | Distributed Erlang/Elixir test cluster management via Mix... |
+| [sandbox](https://github.com/nshkrdotcom/sandbox) | 4 | Isolated OTP application management system for Elixir/Erlang |
+| [supertester](https://github.com/nshkrdotcom/supertester) | 4 | A battle-hardened testing toolkit for building robust and... |
 
-### Data
+## Observability
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [foundation](https://github.com/nshkrdotcom/foundation) | 11 | Elixir infrastructure and Observability Library |
+| [AITrace](https://github.com/nshkrdotcom/AITrace) | 1 | The unified observability layer for the AI Control Plane |
+| [Citadel](https://github.com/nshkrdotcom/Citadel) | 1 | The command and control layer for the AI-powered enterprise |
+| [telemetry_reporter](https://github.com/nshkrdotcom/telemetry_reporter) | 0 | Pachka-powered telemetry reporter for Elixir that batches... |
+
+## Data
 
 | Project | Stars | Description |
 |---------|-------|-------------|
 | [duckdb_ex](https://github.com/nshkrdotcom/duckdb_ex) | 1 | DuckDB driver client in Elixir |
-| [weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex) | 1 | Elixir client for Weaviate vector database |
-| [ex_topology](https://github.com/North-Shore-AI/ex_topology) | - | Graph topology, TDA, and computational geometry |
+| [embed_ex](https://github.com/North-Shore-AI/embed_ex) | 1 | Vector embeddings service for Elixir—multi-provider suppo... |
+| [weaviate_ex](https://github.com/nshkrdotcom/weaviate_ex) | 1 | Modern Elixir client for Weaviate vector database with he... |
+| [ex_topology](https://github.com/North-Shore-AI/ex_topology) | 0 | Pure Elixir library for graph topology, TDA, and computat... |
+| [nx_penalties](https://github.com/North-Shore-AI/nx_penalties) | 0 | Composable regularization penalties for Elixir Nx. L1/L2/... |
 
-### Security
+## Security
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 15 | MCP Security Gateway - Unified Access, Restrictions, Auditing, Identity |
-| [ASKA](https://github.com/nshkrdotcom/ASKA) | 6 | Secure Computing in the AI age |
-| [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 5 | Post-quantum cryptographic implementation (HQC) |
-| [Shield](https://github.com/nshkrdotcom/Shield) | - | Secure Hierarchical Inter-agent Layer for Distributed Environments |
-
----
+| [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 16 | GUARDRAIL - MCP Security - Gateway for Unified Access, Re... |
+| [ASKA](https://github.com/nshkrdotcom/ASKA) | 7 | Secure Computing in the AI age |
+| [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 5 | Post-quantum cryptographic implementation of HQC (Hamming... |
+| [Shield](https://github.com/nshkrdotcom/Shield) | 0 | SHIELD: Secure Hierarchical Inter-agent Layer for Distrib... |
 
 ## Research
 
 | Project | Stars | Description |
 |---------|-------|-------------|
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | 2 | Hardware-Secured Temporal Blockchain |
-| [EADS](https://github.com/nshkrdotcom/EADS) | - | Evolutionary Autonomous Development System |
-| [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | - | GEPA: LLM-driven evolutionary optimization |
-| [AITrace](https://github.com/nshkrdotcom/AITrace) | 1 | Unified observability for AI Control Plane |
-| [Citadel](https://github.com/nshkrdotcom/Citadel) | 1 | Command and control layer for AI enterprise |
+| [cns](https://github.com/North-Shore-AI/cns) | 1 | Chiral Narrative Synthesis - Dialectical reasoning framew... |
+| [EADS](https://github.com/nshkrdotcom/EADS) | 0 | Evolutionary Autonomous Development System |
+| [cns_ui](https://github.com/North-Shore-AI/cns_ui) | 0 | Phoenix LiveView interface for CNS dialectical reasoning ... |
+
+## Utilities
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [tools](https://github.com/nshkrdotcom/tools) | 1 | Utility library and helper functions for Elixir developme... |
+| [youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl) | 1 | Download high-quality audio from YouTube as MP3 files usi... |
+| [chz_ex](https://github.com/North-Shore-AI/chz_ex) | 0 | Elixir port of OpenAI's chz library - a powerful configur... |
+| [multipart_ex](https://github.com/nshkrdotcom/multipart_ex) | 0 | Client-agnostic multipart/form-data builder for Elixir wi... |
+
+## Other
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | 0 | Personal GitHub profile README with Elixir/AI projects an... |
+
+
+<!-- AUTO_GENERATED_END -->
 
 ---
 
@@ -274,4 +307,4 @@ Domain-agnostic sample factory for human-in-the-loop workflows.
 
 ---
 
-_Updated 2025-12-28_
+_Updated 2025-12-29_
