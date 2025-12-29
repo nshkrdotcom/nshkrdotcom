@@ -4,6 +4,8 @@ Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, di
 
 **{{REPO_COUNT}} public repos** | **{{STAR_COUNT}} stars** | [@North-Shore-AI](https://github.com/North-Shore-AI)
 
+> **[Interactive Architecture Explorer](https://nsai.space/architecture.html)** | **[Full Documentation](https://github.com/North-Shore-AI/.github/blob/main/docs/ARCHITECTURE.md)**
+
 ---
 
 ## Why Elixir/BEAM for AI?
