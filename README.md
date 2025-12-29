@@ -2,7 +2,7 @@
 
 Building AI infrastructure on Elixir/BEAM. Research focus on LLM reliability, distributed systems, and functional programming.
 
-**103 public repos** · **317 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
+**104 public repos** · **317 stars** · [@North-Shore-AI](https://github.com/North-Shore-AI)
 
 ---
 
@@ -77,6 +77,7 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 - [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) · 4★ · AI-Powered Execution Cinema Debugger for Elixir/BEAM
 - [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) · 1★ · A Phoenix LiveView performance monitoring dashboard for t...
 - [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) · 1★ · Local-first observability for Elixir with New Relic API p...
+- [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) · 0★ · Code Intelligence Platform: Repository analysis, semantic...
 - [pristine](https://github.com/nshkrdotcom/pristine) · 0★ · Manifest-driven hexagonal core for generating Elixir SDKs...
 
 **OTP**
@@ -137,4 +138,4 @@ Open research platform for LLM reliability. Ensemble voting, request hedging, st
 
 ---
 
-_Updated 2025-12-28_
+_Updated 2025-12-29_
