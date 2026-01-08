@@ -56,7 +56,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 
 | Repository | Description |
 |------------|-------------|
-| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | The Agent {{AUTO_GENERATED_CONTENT}} Tool Arbitration Protocol |
+| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | The Agent & Tool Arbitration Protocol |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program Optimiza... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
@@ -130,7 +130,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 | [cluster_test](https://github.com/nshkrdotcom/cluster_test) | Distributed Erlang/Elixir test cluster management via Mix tasks |
 | [playwriter](https://github.com/nshkrdotcom/playwriter) | Elixir WSL-to-Windows browser integration |
 | [sandbox](https://github.com/nshkrdotcom/sandbox) | Isolated OTP application management system for Elixir/Erlang |
-| [supertester](https://github.com/nshkrdotcom/supertester) | A battle-hardened testing toolkit for building robust and resilient Elixir {{AUTO_GENERATED_CONTENT}} ... |
+| [supertester](https://github.com/nshkrdotcom/supertester) | A battle-hardened testing toolkit for building robust and resilient Elixir & ... |
 
 ### Observability
 
