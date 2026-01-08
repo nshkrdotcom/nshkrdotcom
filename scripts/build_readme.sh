@@ -1,78 +1,178 @@
 #!/bin/bash
+#
+# build_readme.sh - nshkrdotcom Profile README Generator
+#
+# Sources: ONLY nshkrdotcom user repos (AI systems focus)
+#
 set -e
 cd "$(dirname "$0")/.."
 
-# Fetch PUBLIC repos only from both accounts
-TMP=$(mktemp)
-gh api --paginate "users/nshkrdotcom/repos?per_page=100&type=public" | jq '[.[] | select(.private == false)]' > "$TMP.1"
-gh api --paginate "orgs/North-Shore-AI/repos?per_page=100&type=public" 2>/dev/null | jq '[.[] | select(.private == false)]' > "$TMP.2" || echo "[]" > "$TMP.2"
+echo "=== Building nshkrdotcom README ==="
 
-# Process: public, not archived, not fork, categorize by nshkr-* topics
-REPOS=$(jq -s 'add | map(select(.archived == false and .fork == false and .private == false)) | map({
-  name: .name,
-  url: .html_url,
-  desc: (.description // ""),
-  stars: .stargazers_count,
-  cat: (
-    if (.topics | index("nshkr-archive")) then "SKIP"
-    elif (.topics | index("nshkr-crucible")) then "Crucible"
-    elif (.topics | index("nshkr-ingot")) then "Ingot"
-    elif (.topics | index("nshkr-ai-agents")) then "AI Agents"
-    elif (.topics | index("nshkr-ai-sdk")) then "AI SDKs"
-    elif (.topics | index("nshkr-ai-infra")) then "AI Infra"
-    elif (.topics | index("nshkr-schema")) then "Schema"
-    elif (.topics | index("nshkr-devtools")) then "DevTools"
-    elif (.topics | index("nshkr-otp")) then "OTP"
-    elif (.topics | index("nshkr-testing")) then "Testing"
-    elif (.topics | index("nshkr-observability")) then "Observability"
-    elif (.topics | index("nshkr-data")) then "Data"
-    elif (.topics | index("nshkr-security")) then "Security"
-    elif (.topics | index("nshkr-research")) then "Research"
-    elif (.topics | index("nshkr-utility")) then "Utilities"
-    else "Other"
-    end
-  )
-}) | map(select(.cat != "SKIP")) | group_by(.name) | map(max_by(.stars)) | sort_by(-.stars)' "$TMP.1" "$TMP.2")
+# Fetch PUBLIC repos ONLY from nshkrdotcom user
+REPOS=$(gh api --paginate "users/nshkrdotcom/repos?per_page=100&type=public" | \
+    jq '[.[] | select(.private == false and .archived == false and .fork == false)]')
 
-rm -f "$TMP" "$TMP.1" "$TMP.2"
+# Known topic mappings (display names)
+# Format: topic -> display name
+declare -A TOPIC_NAMES=(
+    ["nshkr-ai-agents"]="AI Agents"
+    ["nshkr-ai-infra"]="AI Infrastructure"
+    ["nshkr-ai-sdk"]="AI SDKs"
+    ["nshkr-crucible"]="Crucible Stack"
+    ["nshkr-data"]="Data"
+    ["nshkr-devtools"]="Developer Tools"
+    ["nshkr-ingot"]="Ingot Stack"
+    ["nshkr-observability"]="Observability"
+    ["nshkr-otp"]="OTP"
+    ["nshkr-research"]="Research"
+    ["nshkr-schema"]="Schema"
+    ["nshkr-security"]="Security"
+    ["nshkr-testing"]="Testing"
+    ["nshkr-utility"]="Utilities"
+)
 
-# Calculate stats
-TOTAL=$(echo "$REPOS" | jq 'length')
-STARS=$(echo "$REPOS" | jq '[.[].stars] | add // 0')
+# Category display order (AI systems focus)
+CATEGORIES=(
+    "AI Agents"
+    "AI SDKs"
+    "AI Infrastructure"
+    "Schema"
+    "Developer Tools"
+    "OTP"
+    "Testing"
+    "Observability"
+    "Data"
+    "Security"
+    "Research"
+    "Crucible Stack"
+    "Ingot Stack"
+    "Utilities"
+)
 
-# Get individual repo stars for template placeholders
-FLOWSTONE_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "flowstone") | .stars // "-"')
-FLOWSTONE_AI_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "flowstone_ai") | .stars // "-"')
-SYNAPSE_STARS=$(echo "$REPOS" | jq -r '.[] | select(.name == "synapse") | .stars // "-"')
+# Function to convert unknown topic to display name
+# nshkr-foo-bar -> "Foo Bar"
+topic_to_display() {
+    local topic="$1"
+    # Remove nshkr- prefix
+    local suffix="${topic#nshkr-}"
+    # Replace hyphens with spaces and capitalize each word
+    echo "$suffix" | sed 's/-/ /g' | awk '{for(i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) tolower(substr($i,2))}1'
+}
 
-# Generate auto-generated content by category
+# Categorize repos by nshkr-* topics
+# Returns JSON with category assignments
+CATEGORIZED=$(echo "$REPOS" | jq -r '
+    map(select(.topics | index("nshkr-archive") | not)) |
+    map({
+        name: .name,
+        url: .html_url,
+        desc: (.description // ""),
+        topics: [.topics[] | select(startswith("nshkr-"))]
+    })
+')
+
+# Calculate stats (excluding archived)
+TOTAL=$(echo "$CATEGORIZED" | jq 'length')
+
+echo "Found $TOTAL public repos"
+
+# Build category -> repos mapping using jq
+# First pass: get all unique nshkr- topics
+ALL_TOPICS=$(echo "$CATEGORIZED" | jq -r '[.[].topics[]] | unique | .[]' | sort)
+
+echo "Topics found: $ALL_TOPICS"
+
+# Generate auto-content by category
 AUTO_CONTENT=""
 
-# Categories to display (order matters)
-CATEGORIES=("AI SDKs" "AI Infra" "AI Agents" "Schema" "DevTools" "OTP" "Testing" "Observability" "Data" "Security" "Research" "Utilities" "Other")
-
 for cat in "${CATEGORIES[@]}"; do
-  ITEMS=$(echo "$REPOS" | jq -r --arg c "$cat" '[.[] | select(.cat == $c)] | sort_by(-.stars) | .[] | "| [\(.name)](\(.url)) | \(.stars) | \(.desc | if length > 60 then .[0:57] + "..." else . end) |"')
-  if [ -n "$ITEMS" ]; then
-    AUTO_CONTENT+="## $cat"$'\n\n'
-    AUTO_CONTENT+="| Project | Stars | Description |"$'\n'
-    AUTO_CONTENT+="|---------|-------|-------------|"$'\n'
-    AUTO_CONTENT+="$ITEMS"$'\n\n'
-  fi
+    # Find the topic that maps to this category
+    topic_key=""
+    for topic in "${!TOPIC_NAMES[@]}"; do
+        if [ "${TOPIC_NAMES[$topic]}" = "$cat" ]; then
+            topic_key="$topic"
+            break
+        fi
+    done
+
+    if [ -z "$topic_key" ]; then
+        continue
+    fi
+
+    # Get repos with this topic
+    ITEMS=$(echo "$CATEGORIZED" | jq -r --arg t "$topic_key" '
+        [.[] | select(.topics | index($t))] |
+        sort_by(.name) |
+        .[] |
+        "| [\(.name)](\(.url)) | \(.desc | if length > 80 then .[0:77] + "..." else . end) |"
+    ')
+
+    if [ -n "$ITEMS" ]; then
+        AUTO_CONTENT+="### $cat"$'\n\n'
+        AUTO_CONTENT+="| Repository | Description |"$'\n'
+        AUTO_CONTENT+="|------------|-------------|"$'\n'
+        AUTO_CONTENT+="$ITEMS"$'\n\n'
+    fi
 done
+
+# Handle unknown topics (fallback system)
+UNKNOWN_TOPICS=$(echo "$ALL_TOPICS" | while read -r topic; do
+    if [ -z "$topic" ]; then continue; fi
+    found=false
+    for known in "${!TOPIC_NAMES[@]}"; do
+        if [ "$topic" = "$known" ]; then
+            found=true
+            break
+        fi
+    done
+    if [ "$found" = false ]; then
+        echo "$topic"
+    fi
+done)
+
+for topic in $UNKNOWN_TOPICS; do
+    if [ -z "$topic" ]; then continue; fi
+
+    display_name=$(topic_to_display "$topic")
+
+    ITEMS=$(echo "$CATEGORIZED" | jq -r --arg t "$topic" '
+        [.[] | select(.topics | index($t))] |
+        sort_by(.name) |
+        .[] |
+        "| [\(.name)](\(.url)) | \(.desc | if length > 80 then .[0:77] + "..." else . end) |"
+    ')
+
+    if [ -n "$ITEMS" ]; then
+        AUTO_CONTENT+="### $display_name"$'\n\n'
+        AUTO_CONTENT+="| Repository | Description |"$'\n'
+        AUTO_CONTENT+="|------------|-------------|"$'\n'
+        AUTO_CONTENT+="$ITEMS"$'\n\n'
+    fi
+done
+
+# Handle uncategorized repos (no nshkr- topic)
+UNCATEGORIZED=$(echo "$CATEGORIZED" | jq -r '
+    [.[] | select((.topics | length) == 0)] |
+    sort_by(.name) |
+    .[] |
+    "| [\(.name)](\(.url)) | \(.desc | if length > 80 then .[0:77] + "..." else . end) |"
+')
+
+if [ -n "$UNCATEGORIZED" ]; then
+    AUTO_CONTENT+="### Other"$'\n\n'
+    AUTO_CONTENT+="| Repository | Description |"$'\n'
+    AUTO_CONTENT+="|------------|-------------|"$'\n'
+    AUTO_CONTENT+="$UNCATEGORIZED"$'\n\n'
+fi
 
 # Read template and substitute placeholders
 TEMPLATE=$(cat templates/README.template.md)
 
-# Substitute placeholders
 OUTPUT="${TEMPLATE//\{\{REPO_COUNT\}\}/$TOTAL}"
-OUTPUT="${OUTPUT//\{\{STAR_COUNT\}\}/$STARS}"
-OUTPUT="${OUTPUT//\{\{flowstone_stars\}\}/$FLOWSTONE_STARS}"
-OUTPUT="${OUTPUT//\{\{flowstone_ai_stars\}\}/$FLOWSTONE_AI_STARS}"
-OUTPUT="${OUTPUT//\{\{synapse_stars\}\}/$SYNAPSE_STARS}"
 OUTPUT="${OUTPUT//\{\{UPDATE_DATE\}\}/$(date -u +%Y-%m-%d)}"
 OUTPUT="${OUTPUT//\{\{AUTO_GENERATED_CONTENT\}\}/$AUTO_CONTENT}"
 
 echo "$OUTPUT" > README.md
 
-echo "Done: $TOTAL repos, $STARS stars"
+echo "=== Done: $TOTAL repos ==="
