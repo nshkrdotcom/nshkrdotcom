@@ -200,4 +200,4 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 
 ---
 
-_Updated 2026-02-26_
+_Updated 2026-02-27_
