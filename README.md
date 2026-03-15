@@ -4,7 +4,7 @@
 
 > Multi-agent orchestration, LLM integrations, and developer tooling for the BEAM ecosystem.
 
-**68 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**69 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -77,6 +77,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | OpenAI Codex SDK written in Elixir |
 | [gemini_cli_sdk](https://github.com/nshkrdotcom/gemini_cli_sdk) | An Elixir SDK for the Gemini CLI — Build AI-powered applications with Google ... |
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
+| [github_sdk](https://github.com/nshkrdotcom/github_sdk) | Native Elixir SDK for the GitHub REST API — comprehensive, idiomatic client f... |
 | [jules_ex](https://github.com/nshkrdotcom/jules_ex) | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [mcp_client](https://github.com/nshkrdotcom/mcp_client) | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
@@ -117,7 +118,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 | [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | Local-first observability for Elixir with New Relic API parity |
 | [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | State-of-the-Art Introspection and Debugging System for Elixir/Phoenix Applic... |
 | [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | Code Intelligence Platform: Repository analysis, semantic code search, depend... |
-| [pristine](https://github.com/nshkrdotcom/pristine) | Manifest-driven hexagonal core for generating Elixir SDKs and services with p... |
+| [pristine](https://github.com/nshkrdotcom/pristine) | Shared runtime substrate and build-time bridge for first-party OpenAPI-based ... |
 | [prompt_runner_sdk](https://github.com/nshkrdotcom/prompt_runner_sdk) | Prompt Runner SDK - Elixir toolkit for orchestrating multi-step prompt execut... |
 
 ### OTP
@@ -201,4 +202,4 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 
 ---
 
-_Updated 2026-03-14_
+_Updated 2026-03-15_
