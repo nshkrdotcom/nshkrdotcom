@@ -4,7 +4,7 @@
 
 > Multi-agent orchestration, LLM integrations, and developer tooling for the BEAM ecosystem.
 
-**78 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**79 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -61,6 +61,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program Optimiza... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
 | [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | FlowStone integration for altar_ai - AI-powered data pipeline assets with cla... |
+| [jido_hive](https://github.com/nshkrdotcom/jido_hive) | A Phoenix-powered coordination server and local Elixir client runtime for pro... |
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | Claude Code + Gemini AI collaboration orchestration tools |
 | [synapse](https://github.com/nshkrdotcom/synapse) | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
@@ -211,4 +212,4 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 
 ---
 
-_Updated 2026-04-04_
+_Updated 2026-04-05_
