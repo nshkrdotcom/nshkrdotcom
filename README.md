@@ -83,7 +83,7 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 | [github_ex](https://github.com/nshkrdotcom/github_ex) | Native Elixir SDK for the GitHub REST API — comprehensive, idiomatic client f... |
 | [jules_ex](https://github.com/nshkrdotcom/jules_ex) | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [linear_sdk](https://github.com/nshkrdotcom/linear_sdk) | Elixir SDK for Linear built on Prismatic, using a schema-driven GraphQL toolc... |
-| [llama_cpp_ex](https://github.com/nshkrdotcom/llama_cpp_ex) | Barebones Elixir wrapper and integration surface for llama.cpp experiments, l... |
+| [llama_cpp_sdk](https://github.com/nshkrdotcom/llama_cpp_sdk) | Barebones Elixir wrapper and integration surface for llama.cpp experiments, l... |
 | [mcp_client](https://github.com/nshkrdotcom/mcp_client) | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | Ollixir provides a first-class Elixir client with feature parity to the offic... |
