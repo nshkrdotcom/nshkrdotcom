@@ -68,4 +68,12 @@ The BEAM virtual machine provides unique advantages for AI infrastructure:
 
 ---
 
+## Site Sync
+
+`nshkrdotcom.github.io` now publishes repo logos under content-hash paths such as `/logos/{repo}-{sha12}.svg`, so downstream logo URLs are intentionally versioned instead of stable `/logos/{repo}.svg` aliases.
+
+Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and docs-hosted image assets trigger an immediate site sync workflow.
+
+---
+
 _Updated {{UPDATE_DATE}}_
