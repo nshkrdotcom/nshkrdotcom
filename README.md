@@ -4,7 +4,7 @@
 
 > SDKs, orchestration runtimes, retrieval systems, and debugging tools for AI workloads on the BEAM.
 
-**81 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**82 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -74,7 +74,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 12 |
 | [Schema](#category-nshkr-schema) | 3 |
-| [Developer Tools](#category-nshkr-devtools) | 12 |
+| [Developer Tools](#category-nshkr-devtools) | 13 |
 | [User Interface](#category-nshkr-ui) | 1 |
 | [OTP](#category-nshkr-otp) | 5 |
 | [Testing](#category-nshkr-testing) | 4 |
@@ -159,13 +159,14 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [sinter](https://github.com/nshkrdotcom/sinter) | Unified schema definition, validation, and JSON generation for Elixir |
 
 <a id="category-nshkr-devtools"></a>
-### Developer Tools (12)
+### Developer Tools (13)
 
 | Repository | Description |
 |------------|-------------|
 | [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
 | [blitz](https://github.com/nshkrdotcom/blitz) | Small parallel command runner for Elixir and Mix workspaces that executes iso... |
 | [coolify_ex](https://github.com/nshkrdotcom/coolify_ex) | Generic Elixir tooling for triggering, monitoring, and verifying Coolify depl... |
+| [dexterity](https://github.com/nshkrdotcom/dexterity) | Code Intelligence: Token-budgeted codebase context for Elixir agents. Solves ... |
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | Revolutionary AST-based debugging and code intelligence platform for Elixir a... |
 | [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | Local-first observability for Elixir with New Relic API parity |
