@@ -47,9 +47,13 @@ mapfile -t DISCOVERED_TOPICS < <(printf '%s\n' "$CATEGORIZED" | jq -r '.[] | .ca
 mapfile -t ORDERED_TOPICS < <(printf '%s\n' "${DISCOVERED_TOPICS[@]}" | nshkr_build_ordered_topics)
 
 AUTO_CONTENT=""
+CATEGORY_OVERVIEW_ROWS=""
 
 for topic in "${ORDERED_TOPICS[@]}"; do
     display_name=$(nshkr_display_name_for_topic "$topic")
+    count=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg topic "$topic" '
+        [.[] | select(.category == $topic)] | length
+    ')
 
     ITEMS=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg topic "$topic" '
         [.[] | select(.category == $topic)] |
@@ -59,12 +63,18 @@ for topic in "${ORDERED_TOPICS[@]}"; do
     ')
 
     if [[ -n "$ITEMS" ]]; then
-        AUTO_CONTENT+="### $display_name"$'\n\n'
+        CATEGORY_OVERVIEW_ROWS+="| [$display_name](#category-$topic) | $count |"$'\n'
+        AUTO_CONTENT+="<a id=\"category-$topic\"></a>"$'\n'
+        AUTO_CONTENT+="### $display_name ($count)"$'\n\n'
         AUTO_CONTENT+="| Repository | Description |"$'\n'
         AUTO_CONTENT+="|------------|-------------|"$'\n'
         AUTO_CONTENT+="$ITEMS"$'\n\n'
     fi
 done
+
+UNCATEGORIZED_COUNT=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "$NSHKR_UNCATEGORIZED_SLUG" '
+    [.[] | select(.category == $uncategorized)] | length
+')
 
 UNCATEGORIZED=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "$NSHKR_UNCATEGORIZED_SLUG" '
     [.[] | select(.category == $uncategorized)] |
@@ -74,17 +84,28 @@ UNCATEGORIZED=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "$NSHKR
 ')
 
 if [[ -n "$UNCATEGORIZED" ]]; then
-    AUTO_CONTENT+="### $README_UNCATEGORIZED_HEADING"$'\n\n'
+    CATEGORY_OVERVIEW_ROWS+="| [$README_UNCATEGORIZED_HEADING](#category-$NSHKR_UNCATEGORIZED_SLUG) | $UNCATEGORIZED_COUNT |"$'\n'
+    AUTO_CONTENT+="<a id=\"category-$NSHKR_UNCATEGORIZED_SLUG\"></a>"$'\n'
+    AUTO_CONTENT+="### $README_UNCATEGORIZED_HEADING ($UNCATEGORIZED_COUNT)"$'\n\n'
     AUTO_CONTENT+="| Repository | Description |"$'\n'
     AUTO_CONTENT+="|------------|-------------|"$'\n'
     AUTO_CONTENT+="$UNCATEGORIZED"$'\n\n'
 fi
 
+CATEGORY_OVERVIEW=""
+if [[ -n "$CATEGORY_OVERVIEW_ROWS" ]]; then
+    CATEGORY_OVERVIEW+="| Category | Repositories |"$'\n'
+    CATEGORY_OVERVIEW+="|----------|--------------|"$'\n'
+    CATEGORY_OVERVIEW+="$CATEGORY_OVERVIEW_ROWS"
+fi
+
 TEMPLATE=$(cat templates/README.template.md)
 AUTO_CONTENT_ESCAPED="${AUTO_CONTENT//&/\\&}"
+CATEGORY_OVERVIEW_ESCAPED="${CATEGORY_OVERVIEW//&/\\&}"
 
 OUTPUT="${TEMPLATE//\{\{REPO_COUNT\}\}/$TOTAL}"
 OUTPUT="${OUTPUT//\{\{UPDATE_DATE\}\}/$(date -u +%Y-%m-%d)}"
+OUTPUT="${OUTPUT//\{\{CATEGORY_OVERVIEW\}\}/$CATEGORY_OVERVIEW_ESCAPED}"
 OUTPUT="${OUTPUT//\{\{AUTO_GENERATED_CONTENT\}\}/$AUTO_CONTENT_ESCAPED}"
 
 echo "$OUTPUT" > README.md
