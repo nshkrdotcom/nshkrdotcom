@@ -2,19 +2,19 @@
 
 **Open-source AI and ML infrastructure for Elixir/BEAM**
 
-> Execution substrates, provider SDKs, orchestration systems, tracing, and operator tooling for reliable AI workloads on the BEAM.
+> SDKs, orchestration runtimes, retrieval systems, and debugging tools for AI workloads on the BEAM.
 
 **81 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
-## What This Profile Represents
+## What You'll Find Here
 
-This profile is a layered engineering portfolio for building real AI systems in Elixir. The repositories here are meant to compose: runtime and transport boundaries, provider-facing SDKs, agent and asset orchestration engines, retrieval and project-memory infrastructure, and the tracing, debugging, and operator surfaces needed to run those systems in production.
+This is the public home for my Elixir/BEAM work around AI infrastructure. The repositories here are parts of a stack: execution and transport layers, provider SDKs, orchestration engines, retrieval and indexing packages, and the tracing and debugging tools needed to run them well.
 
-The emphasis is open-source infrastructure rather than application demos. Most of the work is packaged as reusable libraries and systems with OTP supervision, typed contracts, explicit runtime seams, and telemetry so model calls, workflows, tools, and data pipelines can be inspected, resumed, retried, audited, and extended instead of disappearing into one-off glue code.
+The focus is infrastructure you can build on, not showcase apps. Most of these projects are libraries or runtime components built around OTP supervision, explicit contracts, durable workflows, and instrumentation that helps when a system is busy, drifting, or failing.
 
-The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization extends the same mission into ML reliability, experimentation, labeling, and research systems such as Crucible, Ingot, and CNS. This profile is where much of the runtime substrate, orchestration layer, SDK integration work, and developer/operator tooling is built in the open.
+The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization covers the related work in ML reliability, evaluation, labeling, and research. This profile is where much of the runtime layer, SDK layer, orchestration layer, and developer-facing tooling is built in the open.
 
 ---
 
@@ -24,17 +24,17 @@ The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization e
 Provider CLIs / APIs
 Codex | Claude | Gemini | Amp | GitHub | Linear | Notion | MCP | Ollama | vLLM
         ↓
-Execution + session substrate
+Execution and session layer
 execution_plane | external_runtime_transport | cli_subprocess_core | agent_session_manager
         ├─ Python / ML interop: snakepit | snakebridge | slither
         ↓
 Orchestration + workflow engines
 synapse | flowstone | altar_ai | DSPex | command | synapse_ai | flowstone_ai
         ↓
-Memory + retrieval + project intelligence
+Retrieval, indexing, and project intelligence
 rag_ex | portfolio_core | portfolio_index | portfolio_manager | portfolio_coder
         ↓
-Control, tracing, debugging, and operator UX
+Tracing, debugging, and operator interfaces
 foundation | AITrace | ElixirScope | ex_dbg | switchyard
 ```
 
@@ -47,20 +47,20 @@ foundation | AITrace | ElixirScope | ex_dbg | switchyard
 | Multi-agent orchestration | [synapse](https://github.com/nshkrdotcom/synapse), [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Typed signal routing, declarative workflows, persistent audit trails, and provider-aware execution |
 | Durable asset and data pipelines | [flowstone](https://github.com/nshkrdotcom/flowstone), [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | Asset-first orchestration with lineage, partitions, approval gates, and restart-safe BEAM execution |
 | Provider and session infrastructure | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core), [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager), [altar_ai](https://github.com/nshkrdotcom/altar_ai) | Shared runtime contracts for sessions, transport, capabilities, fallback, and provider abstraction |
-| Embedding frontier coding agents into OTP apps | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk), [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk), [gemini_cli_sdk](https://github.com/nshkrdotcom/gemini_cli_sdk), [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | Production-oriented Elixir SDKs over real provider runtimes and CLIs rather than toy wrappers |
+| Running coding-agent tools from OTP apps | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk), [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk), [gemini_cli_sdk](https://github.com/nshkrdotcom/gemini_cli_sdk), [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | Elixir SDKs over the actual provider CLIs and runtimes, built for long-lived sessions, streaming, and control |
 | Python-backed ML under BEAM supervision | [snakepit](https://github.com/nshkrdotcom/snakepit), [snakebridge](https://github.com/nshkrdotcom/snakebridge), [slither](https://github.com/nshkrdotcom/slither), [DSPex](https://github.com/nshkrdotcom/DSPex) | Managed Python execution, FFI bridges, and DSPy-style workflows without giving up OTP control |
-| Retrieval and code intelligence | [rag_ex](https://github.com/nshkrdotcom/rag_ex), [portfolio_core](https://github.com/nshkrdotcom/portfolio_core), [portfolio_index](https://github.com/nshkrdotcom/portfolio_index), [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager), [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | RAG, indexing, manifests, vector and graph backends, and developer-facing project memory |
-| Runtime visibility and operator tooling | [AITrace](https://github.com/nshkrdotcom/AITrace), [foundation](https://github.com/nshkrdotcom/foundation), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope), [ex_dbg](https://github.com/nshkrdotcom/ex_dbg), [switchyard](https://github.com/nshkrdotcom/switchyard) | Trace flows, harden external calls, inspect execution, and give operators a real control surface |
+| Retrieval and code intelligence | [rag_ex](https://github.com/nshkrdotcom/rag_ex), [portfolio_core](https://github.com/nshkrdotcom/portfolio_core), [portfolio_index](https://github.com/nshkrdotcom/portfolio_index), [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager), [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | RAG, indexing, manifests, vector and graph backends, and practical project knowledge for code and content |
+| Tracing, debugging, and operator interfaces | [AITrace](https://github.com/nshkrdotcom/AITrace), [foundation](https://github.com/nshkrdotcom/foundation), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope), [ex_dbg](https://github.com/nshkrdotcom/ex_dbg), [switchyard](https://github.com/nshkrdotcom/switchyard) | Helps make failures, state changes, and external calls easier to see and control |
 
 ---
 
 ## Engineering Principles
 
-- **OTP-first by default**: concurrency, supervision, restart semantics, and isolation are core design tools, not afterthoughts.
-- **Open layers instead of one black box**: transport, session/runtime, orchestration, retrieval, tracing, and UI stay independently usable but intentionally composable.
-- **Native runtime parity matters**: provider integrations often wrap real CLIs or runtime surfaces when that yields better behavioral fidelity than thin HTTP wrappers.
-- **Typed seams over hidden magic**: schemas, manifests, registries, signal definitions, and explicit contracts make systems operable and evolvable.
-- **Observability is part of the product**: telemetry, lineage, audit trails, and debugging surfaces are treated as first-class infrastructure.
+- **OTP is part of the design**: concurrency, supervision, isolation, and recovery shape the architecture from the start.
+- **Build in layers with clear seams**: transport, sessions, orchestration, retrieval, tracing, and UI should work together without being welded together.
+- **Use the native runtime when fidelity matters**: many integrations target the actual provider CLI or runtime surface instead of flattening everything into a thin wrapper.
+- **Prefer explicit contracts**: schemas, manifests, registries, and typed interfaces make systems easier to change and easier to trust.
+- **Make operations visible**: telemetry, lineage, traces, and debugging tools are part of the product, not cleanup work.
 
 ---
 
