@@ -4,7 +4,7 @@
 
 > SDKs, orchestration runtimes, retrieval systems, and debugging tools for AI workloads on the BEAM.
 
-**83 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**87 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -72,7 +72,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 10 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 12 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 16 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
 | [User Interface](#category-nshkr-ui) | 1 |
@@ -132,14 +132,17 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (12)
+### AI Infrastructure (16)
 
 | Repository | Description |
 |------------|-------------|
+| [app_kit](https://github.com/nshkrdotcom/app_kit) | Shared app-facing surface monorepo for the nshkr platform core: composition, ... |
 | [command](https://github.com/nshkrdotcom/command) | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
 | [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
+| [ground_plane](https://github.com/nshkrdotcom/ground_plane) | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
+| [outer_brain](https://github.com/nshkrdotcom/outer_brain) | Semantic runtime above Citadel for raw language intake, context assembly, mod... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
 | [portfolio_index](https://github.com/nshkrdotcom/portfolio_index) | Production adapters and pipelines for PortfolioCore. Vector stores (pgvector,... |
 | [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) | AI-native personal project intelligence system - manage, track, and search ac... |
@@ -148,6 +151,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [slither](https://github.com/nshkrdotcom/slither) | Lightweight Elixir runtime for composing and executing Python-backed data pip... |
 | [snakebridge](https://github.com/nshkrdotcom/snakebridge) | Compile-time Elixir code generator for Python library bindings. Declare depen... |
 | [snakepit](https://github.com/nshkrdotcom/snakepit) | High-performance, generalized process pooler and session manager for external... |
+| [stack_lab](https://github.com/nshkrdotcom/stack_lab) | Local distributed-development harness and proving ground for the full stack: ... |
 
 <a id="category-nshkr-schema"></a>
 ### Schema (3)
