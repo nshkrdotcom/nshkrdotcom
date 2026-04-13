@@ -29,7 +29,7 @@ Northbound surface
   optional neutral operational layer   ← reusable operational/review/assurance backing
         ↓
 Brain chain  (semantic → typed → governed)
-  outer_brain → jido_domain → citadel
+  outer_brain → citadel_domain_surface → citadel
         ↓
 Spine  (durable intake, auth, control plane, review truth)
   jido_integration
