@@ -1,8 +1,8 @@
 # nshkrdotcom
 
-**Open-source AI and ML infrastructure for Elixir/BEAM**
+**A governed execution platform for AI workloads on the BEAM**
 
-> SDKs, orchestration runtimes, retrieval systems, and debugging tools for AI workloads on the BEAM.
+> A layered platform where semantic reasoning, typed commands, and external execution share one Brain-to-Spine governance contract.
 
 **87 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
@@ -10,57 +10,68 @@
 
 ## What You'll Find Here
 
-This is the public home for my Elixir/BEAM work around AI infrastructure. The repositories here are parts of a stack: execution and transport layers, provider SDKs, orchestration engines, retrieval and indexing packages, and the tracing and debugging tools needed to run them well.
+This is the public home for the platform stack: a governed execution platform for AI-backed applications on the BEAM. The repositories here are not independent libraries. They are layers in a single architecture — each with a specific ownership boundary and a specific list of things it does not own.
 
-The focus is infrastructure you can build on, not showcase apps. Most of these projects are libraries or runtime components built around OTP supervision, explicit contracts, durable workflows, and instrumentation that helps when a system is busy, drifting, or failing.
+Every semantic turn, typed command, and external execution call passes through a shared governance and durable-truth chain before touching an outside system. The northbound surface composes what products and host shells see. The Brain chain shapes and governs intent. The Spine owns durable intake, audit, and control-plane truth. The execution substrate is intentionally isolated — it handles transport, placement, and raw facts but carries no business meaning. Family kits and provider SDKs feed that substrate without owning the contracts above it.
 
-The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization covers the related work in ML reliability, evaluation, labeling, and research. This profile is where much of the runtime layer, SDK layer, orchestration layer, and developer-facing tooling is built in the open.
+The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization covers ML reliability, evaluation, and research. This profile is where the runtime, SDK, and governance layers are built in the open.
 
 ---
 
-## Architecture View
+## Architecture
 
 ```text
-Provider CLIs / APIs
-Codex | Claude | Gemini | Amp | GitHub | Linear | Notion | MCP | Ollama | vLLM
+Products and host shells
+  jido_code | jido_hive | future apps
         ↓
-Execution and session layer
-execution_plane | external_runtime_transport | cli_subprocess_core | agent_session_manager
-        ├─ Python / ML interop: snakepit | snakebridge | slither
+Northbound surface
+  app_kit                              ← default product-facing entry point
+  optional neutral operational layer   ← reusable operational/review/assurance backing
         ↓
-Orchestration + workflow engines
-synapse | flowstone | altar_ai | DSPex | command | synapse_ai | flowstone_ai
+Brain chain  (semantic → typed → governed)
+  outer_brain → jido_domain → citadel
         ↓
-Retrieval, indexing, and project intelligence
-rag_ex | portfolio_core | portfolio_index | portfolio_manager | portfolio_coder
+Spine  (durable intake, auth, control plane, review truth)
+  jido_integration
         ↓
-Tracing, debugging, and operator interfaces
-foundation | AITrace | ElixirScope | ex_dbg | switchyard
+Execution substrate  (transport, placement, sandbox, raw facts — no durable meaning)
+  execution_plane
+        ├─ REST family:      pristine | prismatic | github_ex | notion_sdk | linear_sdk
+        ├─ CLI / session:    cli_subprocess_core | agent_session_manager
+        └─ Python / ML:      snakepit | snakebridge | slither | DSPex
+
+Foundational substrate  (ids, fences, leases, checkpoints, generic persistence)
+  ground_plane                         ← underlies the entire universal core
+
+Operator and proof surfaces
+  stack_lab (assembled proofs, fault injection)
+  switchyard (workbench, shell, site mapping, operator UX)
 ```
 
 ---
 
 ## Start Here
 
-| If you want to evaluate... | Start here | Why it matters |
-|---------------------------|------------|----------------|
-| Multi-agent orchestration | [synapse](https://github.com/nshkrdotcom/synapse), [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Typed signal routing, declarative workflows, persistent audit trails, and provider-aware execution |
-| Durable asset and data pipelines | [flowstone](https://github.com/nshkrdotcom/flowstone), [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | Asset-first orchestration with lineage, partitions, approval gates, and restart-safe BEAM execution |
-| Provider and session infrastructure | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core), [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager), [altar_ai](https://github.com/nshkrdotcom/altar_ai) | Shared runtime contracts for sessions, transport, capabilities, fallback, and provider abstraction |
-| Running coding-agent tools from OTP apps | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk), [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk), [gemini_cli_sdk](https://github.com/nshkrdotcom/gemini_cli_sdk), [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | Elixir SDKs over the actual provider CLIs and runtimes, built for long-lived sessions, streaming, and control |
-| Python-backed ML under BEAM supervision | [snakepit](https://github.com/nshkrdotcom/snakepit), [snakebridge](https://github.com/nshkrdotcom/snakebridge), [slither](https://github.com/nshkrdotcom/slither), [DSPex](https://github.com/nshkrdotcom/DSPex) | Managed Python execution, FFI bridges, and DSPy-style workflows without giving up OTP control |
-| Retrieval and code intelligence | [rag_ex](https://github.com/nshkrdotcom/rag_ex), [portfolio_core](https://github.com/nshkrdotcom/portfolio_core), [portfolio_index](https://github.com/nshkrdotcom/portfolio_index), [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager), [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | RAG, indexing, manifests, vector and graph backends, and practical project knowledge for code and content |
-| Tracing, debugging, and operator interfaces | [AITrace](https://github.com/nshkrdotcom/AITrace), [foundation](https://github.com/nshkrdotcom/foundation), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope), [ex_dbg](https://github.com/nshkrdotcom/ex_dbg), [switchyard](https://github.com/nshkrdotcom/switchyard) | Helps make failures, state changes, and external calls easier to see and control |
+| Use case | Start here | What the platform provides |
+|----------|------------|---------------------------|
+| Hosted semantic assistant | [app_kit](https://github.com/nshkrdotcom/app_kit), [outer_brain](https://github.com/nshkrdotcom/outer_brain), [citadel](https://github.com/nshkrdotcom/citadel) | Semantic turns shaped northbound, governed by the Brain chain, with durable acceptance and review held in the Spine |
+| Reviewable connector automation | [jido_integration](https://github.com/nshkrdotcom/jido_integration), [github_ex](https://github.com/nshkrdotcom/github_ex), [notion_sdk](https://github.com/nshkrdotcom/notion_sdk), [linear_sdk](https://github.com/nshkrdotcom/linear_sdk) | Typed commands through citadel governance; connector semantics stay thin; durable review truth stays below the Brain |
+| Multi-turn coding sessions | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core), [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager), [codex_sdk](https://github.com/nshkrdotcom/codex_sdk), [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | Provider-session mechanics remain family-owned; platform retains durable invocation and policy truth |
+| Multi-node or sandboxed execution | [execution_plane](https://github.com/nshkrdotcom/execution_plane), [snakepit](https://github.com/nshkrdotcom/snakepit), [snakebridge](https://github.com/nshkrdotcom/snakebridge), [DSPex](https://github.com/nshkrdotcom/DSPex) | Placement and sandboxing stay substrate-owned; governance and durable route meaning stay above |
+| Durable workflows and asset pipelines | [flowstone](https://github.com/nshkrdotcom/flowstone), [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai), [synapse](https://github.com/nshkrdotcom/synapse), [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Asset-first orchestration with lineage, approval gates, and audit trails that ride the same governance contract |
+| Retrieval and code intelligence | [rag_ex](https://github.com/nshkrdotcom/rag_ex), [portfolio_core](https://github.com/nshkrdotcom/portfolio_core), [portfolio_index](https://github.com/nshkrdotcom/portfolio_index), [portfolio_coder](https://github.com/nshkrdotcom/portfolio_coder) | RAG, indexing, vector and graph backends, and project-level knowledge for code and content workloads |
+| Operator interfaces and proof harnesses | [switchyard](https://github.com/nshkrdotcom/switchyard), [stack_lab](https://github.com/nshkrdotcom/stack_lab), [AITrace](https://github.com/nshkrdotcom/AITrace), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | Workbench, shell, and site-mapping surfaces above the execution family; assembled proofs and fault injection across the seam |
 
 ---
 
 ## Engineering Principles
 
-- **OTP is part of the design**: concurrency, supervision, isolation, and recovery shape the architecture from the start.
-- **Build in layers with clear seams**: transport, sessions, orchestration, retrieval, tracing, and UI should work together without being welded together.
-- **Use the native runtime when fidelity matters**: many integrations target the actual provider CLI or runtime surface instead of flattening everything into a thin wrapper.
-- **Prefer explicit contracts**: schemas, manifests, registries, and typed interfaces make systems easier to change and easier to trust.
-- **Make operations visible**: telemetry, lineage, traces, and debugging tools are part of the product, not cleanup work.
+- **Every layer has a clear owner and a clear non-owner list**: each repo owns specific truth and explicitly does not own truth that belongs above or below it. Ownership boundaries are structural, not conventions.
+- **Governance before execution**: semantic reasoning and typed commands pass through a shared governance chain before reaching the execution substrate. Nothing bypasses that contract.
+- **The execution substrate is intentionally isolated**: transport, placement, sandbox mechanics, and raw execution facts live at the bottom. Durable business meaning does not.
+- **Define stable data and contracts before wrapping in runtime**: pure compilers, reducers, validators, and projectors are proved before OTP processes claim ownership. Processes exist where recovery requires them, not as a default shape.
+- **Use the native runtime surface when fidelity matters**: integrations target actual provider CLIs and runtimes instead of flattening everything into thin wrappers.
+- **Operations, lineage, and failures are observable by design**: telemetry, audit trails, and debugging tools are first-class platform concerns, not cleanup work.
 
 ---
 
