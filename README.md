@@ -22,11 +22,11 @@ The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization c
 
 ```text
 Products and host shells
-  jido_code | jido_hive | future apps
+  extravaganza | jido_code | jido_hive | future apps
         ↓
 Northbound surface
   app_kit                              ← default product-facing entry point
-  optional neutral operational layer   ← reusable operational/review/assurance backing
+  mezzanine                              ← universal business machine; operational-semantic engine
         ↓
 Brain chain  (semantic → typed → governed)
   outer_brain → citadel_domain_surface → citadel
