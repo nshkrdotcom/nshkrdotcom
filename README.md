@@ -4,7 +4,7 @@
 
 > A layered platform where semantic reasoning, typed commands, and external execution share one Brain-to-Spine governance contract.
 
-**87 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**89 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -81,7 +81,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 | Category | Repositories |
 |----------|--------------|
-| [AI Agents](#category-nshkr-ai-agents) | 10 |
+| [AI Agents](#category-nshkr-ai-agents) | 12 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 16 |
 | [Schema](#category-nshkr-schema) | 3 |
@@ -103,17 +103,19 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 <!-- AUTO_GENERATED_START -->
 <a id="category-nshkr-ai-agents"></a>
-### AI Agents (10)
+### AI Agents (12)
 
 | Repository | Description |
 |------------|-------------|
 | [ALTAR](https://github.com/nshkrdotcom/ALTAR) | The Agent & Tool Arbitration Protocol |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | DSPEx - Declarative Self-improving Elixir | A BEAM-Native AI Program Optimiza... |
+| [extravaganza](https://github.com/nshkrdotcom/extravaganza) | First proving-ground product app for the nshkr stack: a thin, sophisticated o... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
 | [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | FlowStone integration for altar_ai - AI-powered data pipeline assets with cla... |
 | [jido_hive](https://github.com/nshkrdotcom/jido_hive) | Phoenix coordination server and embeddable Elixir client for augmented human-... |
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | Multi-agent systems framework for the BEAM platform - build distributed auton... |
+| [mezzanine](https://github.com/nshkrdotcom/mezzanine) | Neutral high-level reusable monorepo for the nshkr stack: Ash-driven business... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | Claude Code + Gemini AI collaboration orchestration tools |
 | [synapse](https://github.com/nshkrdotcom/synapse) | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
 | [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Synapse integration for altar_ai - SDK-backed LLM providers for multi-agent w... |
