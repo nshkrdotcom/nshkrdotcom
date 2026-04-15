@@ -229,7 +229,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | Repository | Description |
 |------------|-------------|
 | [AITrace](https://github.com/nshkrdotcom/AITrace) | The unified observability layer for the AI Control Plane |
-| [Citadel](https://github.com/nshkrdotcom/Citadel) | The command and control layer for the AI-powered enterprise |
+| [citadel](https://github.com/nshkrdotcom/citadel) | The command and control layer for the AI-powered enterprise |
 | [foundation](https://github.com/nshkrdotcom/foundation) | Elixir infrastructure and Observability Library |
 | [telemetry_reporter](https://github.com/nshkrdotcom/telemetry_reporter) | Pachka-powered telemetry reporter for Elixir that batches client-side events,... |
 
