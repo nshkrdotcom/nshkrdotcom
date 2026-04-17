@@ -22,11 +22,11 @@ The adjacent [@North-Shore-AI](https://github.com/North-Shore-AI) organization c
 
 ```text
 Products and host shells
-  extravaganza | jido_code | jido_hive | future apps
+  jido_code | jido_hive | future apps
         ↓
 Northbound surface
   app_kit                              ← default product-facing entry point
-  mezzanine                              ← universal business machine; operational-semantic engine
+  optional neutral operational layer   ← reusable operational/review/assurance backing
         ↓
 Brain chain  (semantic → typed → governed)
   outer_brain → citadel_domain_surface → citadel
@@ -300,4 +300,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-04-16_
+_Updated 2026-04-17_
