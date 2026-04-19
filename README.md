@@ -4,7 +4,7 @@
 
 > A layered platform where semantic reasoning, typed commands, and external execution share one Brain-to-Spine governance contract.
 
-**89 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**90 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -94,6 +94,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Security](#category-nshkr-security) | 4 |
 | [Research](#category-nshkr-research) | 2 |
 | [Utilities](#category-nshkr-utility) | 3 |
+| [Devools](#category-nshkr-devools) | 1 |
 | [Other](#category-uncategorized) | 1 |
 
 
@@ -267,6 +268,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [multipart_ex](https://github.com/nshkrdotcom/multipart_ex) | Client-agnostic multipart/form-data builder for Elixir with explicit file inp... |
 | [tools](https://github.com/nshkrdotcom/tools) | Utility library and helper functions for Elixir development - common patterns... |
 | [youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl) | Download high-quality audio from YouTube as MP3 files using Elixir. Features ... |
+
+<a id="category-nshkr-devools"></a>
+### Devools (1)
+
+| Repository | Description |
+|------------|-------------|
+| [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
 
 <a id="category-uncategorized"></a>
 ### Other (1)
