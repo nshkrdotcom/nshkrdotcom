@@ -4,7 +4,7 @@
 
 > A layered platform where semantic reasoning, typed commands, and external execution share one Brain-to-Spine governance contract.
 
-**91 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**92 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -92,7 +92,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Observability](#category-nshkr-observability) | 4 |
 | [Data](#category-nshkr-data) | 2 |
 | [Security](#category-nshkr-security) | 4 |
-| [Research](#category-nshkr-research) | 3 |
+| [Research](#category-nshkr-research) | 4 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
 | [Other](#category-uncategorized) | 1 |
@@ -253,13 +253,14 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 
 <a id="category-nshkr-research"></a>
-### Research (3)
+### Research (4)
 
 | Repository | Description |
 |------------|-------------|
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | Hardware-Secured Temporal Blockchain |
 | [EADS](https://github.com/nshkrdotcom/EADS) | Evolutionary Autonomous Development System |
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
+| [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir: route LLM calls via a small-model hidden-state router + Ax... |
 
 <a id="category-nshkr-utility"></a>
 ### Utilities (3)
@@ -309,4 +310,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-04-25_
+_Updated 2026-04-26_
