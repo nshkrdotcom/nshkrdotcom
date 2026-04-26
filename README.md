@@ -260,7 +260,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | Hardware-Secured Temporal Blockchain |
 | [EADS](https://github.com/nshkrdotcom/EADS) | Evolutionary Autonomous Development System |
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
-| [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir: route LLM calls via a small-model hidden-state router + Ax... |
+| [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
 
 <a id="category-nshkr-utility"></a>
 ### Utilities (3)
