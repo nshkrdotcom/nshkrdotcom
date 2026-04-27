@@ -4,7 +4,7 @@
 
 > A layered platform where semantic reasoning, typed commands, and external execution share one Brain-to-Spine governance contract.
 
-**92 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**93 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -81,7 +81,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 | Category | Repositories |
 |----------|--------------|
-| [AI Agents](#category-nshkr-ai-agents) | 12 |
+| [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 16 |
 | [Schema](#category-nshkr-schema) | 3 |
@@ -104,7 +104,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 <!-- AUTO_GENERATED_START -->
 <a id="category-nshkr-ai-agents"></a>
-### AI Agents (12)
+### AI Agents (13)
 
 | Repository | Description |
 |------------|-------------|
@@ -118,6 +118,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 | [mezzanine](https://github.com/nshkrdotcom/mezzanine) | Neutral high-level reusable monorepo for the nshkr stack: Ash-driven business... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | Claude Code + Gemini AI collaboration orchestration tools |
+| [stack_coder](https://github.com/nshkrdotcom/stack_coder) | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 | [synapse](https://github.com/nshkrdotcom/synapse) | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
 | [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Synapse integration for altar_ai - SDK-backed LLM providers for multi-agent w... |
 
