@@ -2,7 +2,7 @@
 
 **A BEAM-native control stack for governed AI side effects**
 
-> These repositories are not an agent framework. They are a boundary architecture for letting semantic systems read, reason, request work, and cause external effects without losing authority, tenancy, replay, or operator control.
+> A boundary architecture for semantic systems that need to read, reason, request work, and cause external effects while preserving authority, tenancy, replay, and operator control.
 
 **{{REPO_COUNT}} repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
@@ -25,7 +25,7 @@ That means the stack is organized around ownership, not around product features:
 - Execution Plane owns raw runtime mechanics
 - Stack Lab and AITrace own proof, replay, and operational visibility
 
-The result is a system where the interesting artifact is not "an agent ran." The interesting artifact is a chain of records: who requested the work, which policy admitted it, which installation revision was active, which durable row accepted it, which workflow or lower runtime performed it, which receipt came back, which review or projection changed, and which proof can be replayed later.
+The primary artifact is the execution record chain: requester, admitting policy, active installation revision, durable acceptance row, workflow or lower-runtime handoff, returned receipt, review or projection mutation, and replayable proof.
 
 ---
 
@@ -51,7 +51,7 @@ product boundary         AppKit
 proof and replay         Stack Lab + AITrace
 ```
 
-The goal is not to make AI execution slower or more ceremonial. The goal is to make it inspectable enough that a useful autonomous system can be operated without relying on screenshots, prompt transcripts, and faith.
+Useful autonomy needs inspection points strong enough to replace screenshots, prompt transcripts, and faith with durable records an operator can query after the run.
 
 ---
 
@@ -129,7 +129,7 @@ A governed execution is expected to carry enough structure to answer these quest
 | Can it be stopped? | operator commands, revocation evidence, workflow signal paths, safe actions |
 | Can it cross tenants? | only when row/store tenant, actor scope, lease scope, and substrate tenant agree |
 
-This is why the system has multiple repos. The split is not cosmetic. It prevents a convenient agent runtime from becoming the owner of policy, durable workflow state, connector truth, product state, and raw execution mechanics at the same time.
+The multi-repo shape keeps those responsibilities from collapsing into one convenient agent runtime that quietly accumulates policy, durable workflow state, connector truth, product state, and raw execution mechanics in a single failure domain.
 
 ---
 
@@ -178,13 +178,13 @@ The lower end is intentionally harsher. Modern coding and operator workloads nee
 
 ## Engineering Principles
 
-- **One owner per durable fact.** Execution records, decision records, lower receipts, source publications, memory fragments, and operator projections each need a clear writer. Shared reads are allowed; shared ownership is not.
+- **One owner per durable fact.** Execution records, decision records, lower receipts, source publications, memory fragments, and operator projections each need a clear writer. Shared reads are normal. Shared write authority turns into ambiguity under failure.
 - **Semantic richness stops at the boundary.** LLMs can propose, summarize, repair, and classify. Durable mutation requires typed intent, authority, idempotency, and an owner that can replay or reject the operation.
 - **Lower runtimes emit receipts, not meaning.** Execution Plane and provider-family packages own transport fidelity, session mechanics, placement, sandbox posture, and raw facts. Product meaning and review state live above them.
 - **Read paths still need tenant proof.** A caller-supplied run id, receipt id, issue id, or workflow id is never enough. Tenant scope has to match at the public surface, substrate authorization layer, and lower-facts boundary.
 - **Long-lived work is workflow state, not a background job convention.** Temporal owns active workflow lifecycle where durable orchestration matters. Postgres owns facts and projections. Local queues are delivery and cleanup tools only where explicitly retained.
 - **Proof is a product surface.** Trace ids, causation, idempotency, source positions, schema hashes, release manifests, projection hashes, audit facts, and proof tokens are part of the contract operators consume.
-- **Generated boundaries are acceptable; generated meaning is not.** DTOs, mappers, manifests, and bridge scaffolding can be generated when that reduces drift. Policy interpretation, pack semantics, and owner decisions remain explicit source.
+- **Generate boundary scaffolding, keep meaning explicit.** DTOs, mappers, manifests, and bridge code can be generated when that reduces drift. Policy interpretation, pack semantics, and owner decisions remain explicit source.
 
 ---
 
