@@ -4,7 +4,7 @@
 
 > A boundary architecture for semantic systems that need to read, reason, request work, and cause external effects while preserving authority, tenancy, replay, and operator control.
 
-**94 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**95 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -208,7 +208,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Research](#category-nshkr-research) | 4 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
-| [Other](#category-uncategorized) | 1 |
+| [Other](#category-uncategorized) | 2 |
 
 
 ---
@@ -394,10 +394,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
 
 <a id="category-uncategorized"></a>
-### Other (1)
+### Other (2)
 
 | Repository | Description |
 |------------|-------------|
+| [docs](https://github.com/nshkrdotcom/docs) | Docs |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
 
 
