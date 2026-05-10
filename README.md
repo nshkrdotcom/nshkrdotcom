@@ -4,7 +4,7 @@
 
 > A boundary architecture for semantic systems that need to read, reason, request work, and cause external effects while preserving authority, tenancy, replay, and operator control.
 
-**95 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**98 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -196,7 +196,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 17 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 20 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
 | [User Interface](#category-nshkr-ui) | 1 |
@@ -260,14 +260,16 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (17)
+### AI Infrastructure (20)
 
 | Repository | Description |
 |------------|-------------|
 | [app_kit](https://github.com/nshkrdotcom/app_kit) | Shared app-facing surface monorepo for the nshkr platform core: composition, ... |
 | [command](https://github.com/nshkrdotcom/command) | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
+| [gepa_buildout](https://github.com/nshkrdotcom/gepa_buildout) | Deterministic GEPA buildout examples and domain task fixtures for framework v... |
 | [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
+| [gepa_framework](https://github.com/nshkrdotcom/gepa_framework) | Reusable GEPA optimizer framework for typed candidate generation, evaluation,... |
 | [ground_plane](https://github.com/nshkrdotcom/ground_plane) | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
 | [inference](https://github.com/nshkrdotcom/inference) | Reusable Elixir semantic inference contracts, adapters, trace metadata, and c... |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
@@ -281,6 +283,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [snakebridge](https://github.com/nshkrdotcom/snakebridge) | Compile-time Elixir code generator for Python library bindings. Declare depen... |
 | [snakepit](https://github.com/nshkrdotcom/snakepit) | High-performance, generalized process pooler and session manager for external... |
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) | Local distributed-development harness and proving ground for the full stack: ... |
+| [trinity_framework](https://github.com/nshkrdotcom/trinity_framework) | Reusable TRINITY router and coordination framework for deterministic agent ro... |
 
 <a id="category-nshkr-schema"></a>
 ### Schema (3)
