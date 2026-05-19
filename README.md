@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**98 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**99 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -318,6 +318,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Research](#category-nshkr-research) | 4 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
+| [Misc](#category-nshkr-misc) | 1 |
 | [Other](#category-uncategorized) | 2 |
 
 
@@ -506,6 +507,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |------------|-------------|
 | [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
 
+<a id="category-nshkr-misc"></a>
+### Misc (1)
+
+| Repository | Description |
+|------------|-------------|
+| [prappy](https://github.com/nshkrdotcom/prappy) | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
+
 <a id="category-uncategorized"></a>
 ### Other (2)
 
@@ -539,4 +547,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-05-18_
+_Updated 2026-05-19_
