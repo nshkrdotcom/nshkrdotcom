@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**98 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**101 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -21,6 +21,8 @@ intent -> authority -> workflow -> effect -> receipt -> evidence -> projection -
 ```
 
 It is not a chat UI, a single agent runtime, or a generic workflow engine. It is write-path infrastructure: the layer where AI proposals become authorized operations and where each operation produces structured, replayable institutional memory.
+
+While the core application stack manages governed execution inside the active workflow, the physical topology is materialised and managed from the outside by **Chassis**—the spatial plane stack manager designed to install, deploy, health-check, and verify the NSHKR execution environment.
 
 The platform has one hard constraint: an AI runtime may produce language, plans, code, tool calls, and operator suggestions, but it does not get a direct path to mutate the world. Every consequential action crosses typed context, authority compilation, durable workflow state, lower-runtime dispatch, receipts, evidence, and replayable proof.
 
@@ -89,7 +91,10 @@ That chain is the product surface. Operators, auditors, support teams, and futur
 The repos form a layered execution stack. Each layer owns one class of truth and has explicit boundaries for what it must not absorb.
 
 ```text
-Product / Operator
+Bootstrap & Spatial Control (Beside the Stack)
+  -> Chassis
+
+Product / Operator (Inside the Stack)
   -> AppKit
   -> Mezzanine
   -> Citadel
@@ -101,6 +106,7 @@ Product / Operator
 
 | Layer | Responsibility |
 |-------|----------------|
+| **Chassis** | Spatial & deployment plane: standalone manager beside the stack that installs, provisions, health-checks, rolls back, and upgrades NSHKR installations. |
 | **AppKit** | Product-facing commands, reads, reviews, leases, traces, and stable DTOs. |
 | **Mezzanine** | Operational truth: workflows, ledgers, binding registry, receipts, evidence, projections, reviews, and run snapshots. |
 | **OuterBrain** | Semantic context, recall, normalized AI outcomes, and semantic failure carriers. |
@@ -136,6 +142,7 @@ NSHKR is organized around ownership rather than product features:
 - Citadel owns authority and policy compilation
 - Jido Integration owns connector manifests, leases, and lower invocation envelopes
 - Execution Plane owns raw runtime mechanics and lower receipts
+- Chassis owns physical deployment and spatial reality
 - AITrace owns replayable proof
 - StackLab owns acceptance gates and failure drills
 
@@ -146,6 +153,7 @@ Products own meaning.
 The platform owns operational invariants.
 Connectors own vendor mechanics.
 Execution owns raw effects.
+Chassis owns physical deployment and spatial reality.
 Trace infrastructure owns replayable proof.
 ```
 
@@ -275,6 +283,7 @@ NSHKR sits between several existing categories but is not reducible to any of th
 
 | If you care about | Start with | What to look for |
 |-------------------|------------|------------------|
+| Spatial topology & stack management | [chassis](https://github.com/nshkrdotcom/chassis) | Standalone host deployment, topology manifests, node placement, rollback controls, and self-upgrades |
 | Product boundary and no-bypass rules | [app_kit](https://github.com/nshkrdotcom/app_kit), [extravaganza](https://github.com/nshkrdotcom/extravaganza) | Stable northbound DTOs, product commands, operator reads, reviews, install bootstrap, product/hazmat scans |
 | Durable operational truth | [mezzanine](https://github.com/nshkrdotcom/mezzanine) | Pack compilation, binding registry, workflow lifecycle, execution ledgers, decisions, evidence, projections |
 | Semantic and authority separation | [outer_brain](https://github.com/nshkrdotcom/outer_brain), [citadel](https://github.com/nshkrdotcom/citadel) | Context assembly, semantic outcomes, policy compilation, authority packets, governance envelopes |
@@ -315,10 +324,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Observability](#category-nshkr-observability) | 4 |
 | [Data](#category-nshkr-data) | 2 |
 | [Security](#category-nshkr-security) | 4 |
-| [Research](#category-nshkr-research) | 4 |
+| [Research](#category-nshkr-research) | 5 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
-| [Other](#category-uncategorized) | 2 |
+| [Misc](#category-nshkr-misc) | 1 |
+| [Other](#category-uncategorized) | 3 |
 
 
 ---
@@ -481,13 +491,14 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 
 <a id="category-nshkr-research"></a>
-### Research (4)
+### Research (5)
 
 | Repository | Description |
 |------------|-------------|
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | Hardware-Secured Temporal Blockchain |
 | [EADS](https://github.com/nshkrdotcom/EADS) | Evolutionary Autonomous Development System |
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
+| [ml_musings](https://github.com/nshkrdotcom/ml_musings) | Foundations: A premium, hands-on educational curriculum exploring high-dimens... |
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
 
 <a id="category-nshkr-utility"></a>
@@ -506,13 +517,21 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |------------|-------------|
 | [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
 
+<a id="category-nshkr-misc"></a>
+### Misc (1)
+
+| Repository | Description |
+|------------|-------------|
+| [prappy](https://github.com/nshkrdotcom/prappy) | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
+
 <a id="category-uncategorized"></a>
-### Other (2)
+### Other (3)
 
 | Repository | Description |
 |------------|-------------|
 | [docs](https://github.com/nshkrdotcom/docs) | Docs |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
+| [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  |
 
 
 <!-- AUTO_GENERATED_END -->
@@ -539,4 +558,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-05-17_
+_Updated 2026-05-28_

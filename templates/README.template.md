@@ -22,6 +22,8 @@ intent -> authority -> workflow -> effect -> receipt -> evidence -> projection -
 
 It is not a chat UI, a single agent runtime, or a generic workflow engine. It is write-path infrastructure: the layer where AI proposals become authorized operations and where each operation produces structured, replayable institutional memory.
 
+While the core application stack manages governed execution inside the active workflow, the physical topology is materialised and managed from the outside by **Chassis**—the spatial plane stack manager designed to install, deploy, health-check, and verify the NSHKR execution environment.
+
 The platform has one hard constraint: an AI runtime may produce language, plans, code, tool calls, and operator suggestions, but it does not get a direct path to mutate the world. Every consequential action crosses typed context, authority compilation, durable workflow state, lower-runtime dispatch, receipts, evidence, and replayable proof.
 
 ---
@@ -89,7 +91,10 @@ That chain is the product surface. Operators, auditors, support teams, and futur
 The repos form a layered execution stack. Each layer owns one class of truth and has explicit boundaries for what it must not absorb.
 
 ```text
-Product / Operator
+Bootstrap & Spatial Control (Beside the Stack)
+  -> Chassis
+
+Product / Operator (Inside the Stack)
   -> AppKit
   -> Mezzanine
   -> Citadel
@@ -101,6 +106,7 @@ Product / Operator
 
 | Layer | Responsibility |
 |-------|----------------|
+| **Chassis** | Spatial & deployment plane: standalone manager beside the stack that installs, provisions, health-checks, rolls back, and upgrades NSHKR installations. |
 | **AppKit** | Product-facing commands, reads, reviews, leases, traces, and stable DTOs. |
 | **Mezzanine** | Operational truth: workflows, ledgers, binding registry, receipts, evidence, projections, reviews, and run snapshots. |
 | **OuterBrain** | Semantic context, recall, normalized AI outcomes, and semantic failure carriers. |
@@ -136,6 +142,7 @@ NSHKR is organized around ownership rather than product features:
 - Citadel owns authority and policy compilation
 - Jido Integration owns connector manifests, leases, and lower invocation envelopes
 - Execution Plane owns raw runtime mechanics and lower receipts
+- Chassis owns physical deployment and spatial reality
 - AITrace owns replayable proof
 - StackLab owns acceptance gates and failure drills
 
@@ -146,6 +153,7 @@ Products own meaning.
 The platform owns operational invariants.
 Connectors own vendor mechanics.
 Execution owns raw effects.
+Chassis owns physical deployment and spatial reality.
 Trace infrastructure owns replayable proof.
 ```
 
@@ -275,6 +283,7 @@ NSHKR sits between several existing categories but is not reducible to any of th
 
 | If you care about | Start with | What to look for |
 |-------------------|------------|------------------|
+| Spatial topology & stack management | [chassis](https://github.com/nshkrdotcom/chassis) | Standalone host deployment, topology manifests, node placement, rollback controls, and self-upgrades |
 | Product boundary and no-bypass rules | [app_kit](https://github.com/nshkrdotcom/app_kit), [extravaganza](https://github.com/nshkrdotcom/extravaganza) | Stable northbound DTOs, product commands, operator reads, reviews, install bootstrap, product/hazmat scans |
 | Durable operational truth | [mezzanine](https://github.com/nshkrdotcom/mezzanine) | Pack compilation, binding registry, workflow lifecycle, execution ledgers, decisions, evidence, projections |
 | Semantic and authority separation | [outer_brain](https://github.com/nshkrdotcom/outer_brain), [citadel](https://github.com/nshkrdotcom/citadel) | Context assembly, semantic outcomes, policy compilation, authority packets, governance envelopes |
