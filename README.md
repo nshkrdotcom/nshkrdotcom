@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**101 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**102 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -315,13 +315,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 18 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 20 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 22 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
 | [User Interface](#category-nshkr-ui) | 1 |
 | [OTP](#category-nshkr-otp) | 5 |
 | [Testing](#category-nshkr-testing) | 4 |
-| [Observability](#category-nshkr-observability) | 4 |
+| [Observability](#category-nshkr-observability) | 3 |
 | [Data](#category-nshkr-data) | 2 |
 | [Security](#category-nshkr-security) | 4 |
 | [Research](#category-nshkr-research) | 5 |
@@ -380,11 +380,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (20)
+### AI Infrastructure (22)
 
 | Repository | Description |
 |------------|-------------|
 | [app_kit](https://github.com/nshkrdotcom/app_kit) | Shared app-facing surface monorepo for the nshkr platform core: composition, ... |
+| [chassis](https://github.com/nshkrdotcom/chassis) | Spatial & deployment plane for NSHKR: standalone manager beside the stack tha... |
+| [citadel](https://github.com/nshkrdotcom/citadel) | The command and control layer for the AI-powered enterprise |
 | [command](https://github.com/nshkrdotcom/command) | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
 | [gepa_buildout](https://github.com/nshkrdotcom/gepa_buildout) | Deterministic GEPA buildout examples and domain task fixtures for framework v... |
@@ -463,12 +465,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [supertester](https://github.com/nshkrdotcom/supertester) | A battle-hardened testing toolkit for building robust and resilient Elixir & ... |
 
 <a id="category-nshkr-observability"></a>
-### Observability (4)
+### Observability (3)
 
 | Repository | Description |
 |------------|-------------|
 | [AITrace](https://github.com/nshkrdotcom/AITrace) | The unified observability layer for the AI Control Plane |
-| [citadel](https://github.com/nshkrdotcom/citadel) | The command and control layer for the AI-powered enterprise |
 | [foundation](https://github.com/nshkrdotcom/foundation) | Elixir infrastructure and Observability Library |
 | [telemetry_reporter](https://github.com/nshkrdotcom/telemetry_reporter) | Pachka-powered telemetry reporter for Elixir that batches client-side events,... |
 
