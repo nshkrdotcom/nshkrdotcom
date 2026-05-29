@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**102 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**104 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -314,7 +314,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | Category | Repositories |
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 18 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 20 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 22 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
@@ -356,16 +356,18 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | Synapse integration for altar_ai - SDK-backed LLM providers for multi-agent w... |
 
 <a id="category-nshkr-ai-sdk"></a>
-### AI SDKs (18)
+### AI SDKs (20)
 
 | Repository | Description |
 |------------|-------------|
 | [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
 | [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | Elixir SDK for the Amp CLI — provides a comprehensive client library for inte... |
+| [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | An Elixir SDK for Claude Code - provides programmatic access to Claude Code C... |
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | OpenAI Codex SDK written in Elixir |
+| [cursor_cli_sdk](https://github.com/nshkrdotcom/cursor_cli_sdk) | Elixir SDK for the Cursor Agent CLI (agent) — stream-json headless sessions, ... |
 | [external_runtime_transport](https://github.com/nshkrdotcom/external_runtime_transport) | An Elixir-first external runtime transport foundation for AI SDK integrations... |
 | [gemini_cli_sdk](https://github.com/nshkrdotcom/gemini_cli_sdk) | An Elixir SDK for the Gemini CLI — Build AI-powered applications with Google ... |
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
@@ -559,4 +561,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-05-28_
+_Updated 2026-05-29_
