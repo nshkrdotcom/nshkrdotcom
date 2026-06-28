@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**106 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**108 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -315,7 +315,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 20 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 22 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 24 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
 | [User Interface](#category-nshkr-ui) | 1 |
@@ -382,7 +382,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (22)
+### AI Infrastructure (24)
 
 | Repository | Description |
 |------------|-------------|
@@ -397,6 +397,8 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [ground_plane](https://github.com/nshkrdotcom/ground_plane) | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
 | [inference](https://github.com/nshkrdotcom/inference) | Reusable Elixir semantic inference contracts, adapters, trace metadata, and c... |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
+| [mil](https://github.com/nshkrdotcom/mil) | mil - Mech Interp Lab - capture IPython sessions and MechInterp tools |
+| [mwb](https://github.com/nshkrdotcom/mwb) | Mechanistic Workbench (mwb): Local-first mechanistic interpretability workben... |
 | [outer_brain](https://github.com/nshkrdotcom/outer_brain) | Semantic runtime above Citadel for raw language intake, context assembly, mod... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
 | [portfolio_index](https://github.com/nshkrdotcom/portfolio_index) | Production adapters and pipelines for PortfolioCore. Vector stores (pgvector,... |
@@ -563,4 +565,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-06-27_
+_Updated 2026-06-28_
