@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**109 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**110 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -328,7 +328,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
 | [Misc](#category-nshkr-misc) | 1 |
-| [Other](#category-uncategorized) | 5 |
+| [Other](#category-uncategorized) | 6 |
 
 
 ---
@@ -531,10 +531,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [prappy](https://github.com/nshkrdotcom/prappy) | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
 
 <a id="category-uncategorized"></a>
-### Other (5)
+### Other (6)
 
 | Repository | Description |
 |------------|-------------|
+| [attention_lab](https://github.com/nshkrdotcom/attention_lab) | Attention Lab for running and tracking language model experiments via Karpath... |
 | [docs](https://github.com/nshkrdotcom/docs) | Docs |
 | [learning](https://github.com/nshkrdotcom/learning) |  |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
@@ -566,4 +567,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-06-30_
+_Updated 2026-07-01_
