@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**110 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**111 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -315,7 +315,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 |----------|--------------|
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 20 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 25 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 26 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 14 |
 | [User Interface](#category-nshkr-ui) | 1 |
@@ -324,11 +324,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Observability](#category-nshkr-observability) | 3 |
 | [Data](#category-nshkr-data) | 2 |
 | [Security](#category-nshkr-security) | 4 |
-| [Research](#category-nshkr-research) | 5 |
+| [Research](#category-nshkr-research) | 8 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Devools](#category-nshkr-devools) | 1 |
 | [Misc](#category-nshkr-misc) | 1 |
-| [Other](#category-uncategorized) | 6 |
+| [Other](#category-uncategorized) | 3 |
 
 
 ---
@@ -382,7 +382,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (25)
+### AI Infrastructure (26)
 
 | Repository | Description |
 |------------|-------------|
@@ -405,6 +405,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [portfolio_index](https://github.com/nshkrdotcom/portfolio_index) | Production adapters and pipelines for PortfolioCore. Vector stores (pgvector,... |
 | [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) | AI-native personal project intelligence system - manage, track, and search ac... |
 | [rag_ex](https://github.com/nshkrdotcom/rag_ex) | Elixir RAG library with multi-LLM routing (Gemini, Claude, OpenAI, Ollama), G... |
+| [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) | Bumblebee/Nx runtime backend for self_hosted_inference_core |
 | [skill_ex](https://github.com/nshkrdotcom/skill_ex) | Claude Skill Aggregator |
 | [slither](https://github.com/nshkrdotcom/slither) | Lightweight Elixir runtime for composing and executing Python-backed data pip... |
 | [snakebridge](https://github.com/nshkrdotcom/snakebridge) | Compile-time Elixir code generator for Python library bindings. Declare depen... |
@@ -497,14 +498,17 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 
 <a id="category-nshkr-research"></a>
-### Research (5)
+### Research (8)
 
 | Repository | Description |
 |------------|-------------|
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | Hardware-Secured Temporal Blockchain |
 | [EADS](https://github.com/nshkrdotcom/EADS) | Evolutionary Autonomous Development System |
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
+| [attention_lab](https://github.com/nshkrdotcom/attention_lab) | Attention Lab for running and tracking language model experiments via Karpath... |
+| [learning](https://github.com/nshkrdotcom/learning) |  |
 | [ml_musings](https://github.com/nshkrdotcom/ml_musings) | Foundations: A premium, hands-on educational curriculum exploring high-dimens... |
+| [superposition_zoo](https://github.com/nshkrdotcom/superposition_zoo) | A research harness for studying how sequence-mixing architectures (softmax at... |
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
 
 <a id="category-nshkr-utility"></a>
@@ -531,16 +535,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [prappy](https://github.com/nshkrdotcom/prappy) | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
 
 <a id="category-uncategorized"></a>
-### Other (6)
+### Other (3)
 
 | Repository | Description |
 |------------|-------------|
-| [attention_lab](https://github.com/nshkrdotcom/attention_lab) | Attention Lab for running and tracking language model experiments via Karpath... |
 | [docs](https://github.com/nshkrdotcom/docs) | Docs |
-| [learning](https://github.com/nshkrdotcom/learning) |  |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
 | [req_llm_zai](https://github.com/nshkrdotcom/req_llm_zai) | Z.AI provider for ReqLLM - OpenAI-compatible GLM models |
-| [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  |
 
 
 <!-- AUTO_GENERATED_END -->
@@ -567,4 +568,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-07-04_
+_Updated 2026-07-05_
