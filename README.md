@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**111 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**112 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -317,7 +317,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 |
 | [Schema](#category-nshkr-schema) | 3 |
-| [Developer Tools](#category-nshkr-devtools) | 14 |
+| [Developer Tools](#category-nshkr-devtools) | 15 |
 | [User Interface](#category-nshkr-ui) | 1 |
 | [OTP](#category-nshkr-otp) | 5 |
 | [Testing](#category-nshkr-testing) | 4 |
@@ -423,7 +423,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [sinter](https://github.com/nshkrdotcom/sinter) | Unified schema definition, validation, and JSON generation for Elixir |
 
 <a id="category-nshkr-devtools"></a>
-### Developer Tools (14)
+### Developer Tools (15)
 
 | Repository | Description |
 |------------|-------------|
@@ -432,6 +432,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [blitz](https://github.com/nshkrdotcom/blitz) | Small parallel command runner for Elixir and Mix workspaces that executes iso... |
 | [coolify_ex](https://github.com/nshkrdotcom/coolify_ex) | Generic Elixir tooling for triggering, monitoring, and verifying Coolify depl... |
 | [dexterity](https://github.com/nshkrdotcom/dexterity) | Code Intelligence: Token-budgeted codebase context for Elixir agents. Solves ... |
+| [elixir_agent_debug](https://github.com/nshkrdotcom/elixir_agent_debug) | Evidence-first Elixir & OTP debugging layer for Claude Code CLI and Codex CLI. |
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | Revolutionary AST-based debugging and code intelligence platform for Elixir a... |
 | [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | Local-first observability for Elixir with New Relic API parity |
@@ -568,4 +569,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-07-19_
+_Updated 2026-07-20_
