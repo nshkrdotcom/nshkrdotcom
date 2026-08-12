@@ -4,7 +4,7 @@
 
 > Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
 
-**112 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**114 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -317,7 +317,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 |
 | [Schema](#category-nshkr-schema) | 3 |
-| [Developer Tools](#category-nshkr-devtools) | 15 |
+| [Developer Tools](#category-nshkr-devtools) | 16 |
 | [User Interface](#category-nshkr-ui) | 1 |
 | [OTP](#category-nshkr-otp) | 5 |
 | [Testing](#category-nshkr-testing) | 4 |
@@ -326,8 +326,9 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Security](#category-nshkr-security) | 4 |
 | [Research](#category-nshkr-research) | 8 |
 | [Utilities](#category-nshkr-utility) | 3 |
-| [Devools](#category-nshkr-devools) | 1 |
+| [Ecosystem](#category-nshkr-ecosystem) | 1 |
 | [Misc](#category-nshkr-misc) | 1 |
+| [Tools](#category-nshkr-tools) | 1 |
 | [Other](#category-uncategorized) | 3 |
 
 
@@ -423,11 +424,12 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [sinter](https://github.com/nshkrdotcom/sinter) | Unified schema definition, validation, and JSON generation for Elixir |
 
 <a id="category-nshkr-devtools"></a>
-### Developer Tools (15)
+### Developer Tools (16)
 
 | Repository | Description |
 |------------|-------------|
 | [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
+| [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
 | [atlas_once](https://github.com/nshkrdotcom/atlas_once) | Atlas Once is a filesystem-first personal memory system and Unix-native conte... |
 | [blitz](https://github.com/nshkrdotcom/blitz) | Small parallel command runner for Elixir and Mix workspaces that executes iso... |
 | [coolify_ex](https://github.com/nshkrdotcom/coolify_ex) | Generic Elixir tooling for triggering, monitoring, and verifying Coolify depl... |
@@ -521,12 +523,12 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [tools](https://github.com/nshkrdotcom/tools) | Utility library and helper functions for Elixir development - common patterns... |
 | [youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl) | Download high-quality audio from YouTube as MP3 files using Elixir. Features ... |
 
-<a id="category-nshkr-devools"></a>
-### Devools (1)
+<a id="category-nshkr-ecosystem"></a>
+### Ecosystem (1)
 
 | Repository | Description |
 |------------|-------------|
-| [alkahest](https://github.com/nshkrdotcom/alkahest) | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
+| [elixir_ecosystem_registry](https://github.com/nshkrdotcom/elixir_ecosystem_registry) | Canonical machine-readable registry for nshkrdotcom's complete Elixir ecosyst... |
 
 <a id="category-nshkr-misc"></a>
 ### Misc (1)
@@ -534,6 +536,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | Repository | Description |
 |------------|-------------|
 | [prappy](https://github.com/nshkrdotcom/prappy) | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
+
+<a id="category-nshkr-tools"></a>
+### Tools (1)
+
+| Repository | Description |
+|------------|-------------|
+| [mix_workspace_ops](https://github.com/nshkrdotcom/mix_workspace_ops) | Operator-first Elixir workspace tooling for safe local sibling dependency ove... |
 
 <a id="category-uncategorized"></a>
 ### Other (3)
@@ -569,4 +578,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-08-11_
+_Updated 2026-08-12_
