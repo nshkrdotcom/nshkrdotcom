@@ -10,13 +10,13 @@
 
 ## Mechanistic Interpretability Research
 
-The research portfolio asks narrow questions about representation, transport, superposition, and causal legibility. The work is built around frozen protocols, matched controls, real-model or ground-truth synthetic runs, immutable artifacts, and explicit negative results.
+The research programs test representation, transport, superposition, and causal legibility. Each program freezes its protocol and controls before interpreting real-model or ground-truth synthetic runs; artifacts and negative results remain part of the record.
 
 | Program | Question and current result |
 |---------|-----------------------------|
-| [Geometry of Conditional Truth](https://github.com/nshkrdotcom/gct) | Tests context transport and hidden-coordinate structure in Qwen3-4B and Phi-4-mini. The broad simple-state transport null replicated; Phi alone showed control-safe residual decodability, not universal truth geometry. |
+| [Geometry of Conditional Truth](https://github.com/nshkrdotcom/gct) | Tests context transport and hidden-coordinate structure in Qwen3-4B and Phi-4-mini. Across eight preregistered endpoints, Phi supported one and Qwen supported none; the identical-prompt negative control passed in both. Both remained Level 1 of 6. [Qwen report](https://github.com/nshkrdotcom/gct/blob/main/REPORT.md) · [Phi report](https://github.com/nshkrdotcom/gct/blob/main/REPORT_MODEL2.md) · [cross-model report](https://github.com/nshkrdotcom/gct/blob/main/REPORT_CROSS_MODEL.md) |
 | [Architecture Mechanics](https://github.com/nshkrdotcom/architecture_mechanics) | Uses trained tiny models and known synthetic features to compare transport, overwrite, packing, and causal legibility across sequence-mixing mechanisms. |
-| [Attention Lab](https://github.com/nshkrdotcom/attention_lab) | Runs matched GPT pretraining experiments on alternative attention architectures. E003/E004 reached full-depth analysis, but the current confirmatory mechanism verdict is `insufficient_evidence`. |
+| [Attention Lab](https://github.com/nshkrdotcom/attention_lab) | Runs matched GPT pretraining experiments on alternative attention architectures. Two confirmatory pretraining runs reached full-depth analysis; the current mechanism verdict remains `insufficient_evidence`. |
 | [Superposition Zoo](https://github.com/nshkrdotcom/superposition_zoo) | Compares attention, hard routing, linear attention, delta-rule memory, and state-space mixing on synthetic retrieval. Attention and hard routing have strong causal retrieval evidence; the feature-isolation question remains open. |
 
 ### Research workbenches and records
@@ -34,11 +34,11 @@ The interpretation standard is deliberately conservative: decodability is not ca
 
 ## Systems Engineering: Governed AI Execution
 
-The second half of the portfolio is NSHKR's BEAM-native execution stack, built with Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages. The research and systems programs are distinct, but share one operating principle: important claims should resolve to inspectable evidence.
+The systems portfolio is NSHKR's BEAM-native execution stack: Elixir and OTP services with explicit ownership boundaries. The research and systems programs are distinct, but share one operating principle: important claims should resolve to inspectable evidence.
 
-**[nshkr](https://github.com/nshkrdotcom/nshkr) is the production backbone:** the composition and release workspace that assembles the owner services into reproducible monolith and distributed deployments. Its `Nshkr.Runtime` application is the single production composition root for persistence, workflows, cognitive context, provider accounts, policy, execution, cluster reconciliation, Synapse, and Extravaganza. The surrounding repositories own their bounded capabilities; `nshkr` decides how the production system boots and runs as one platform.
+**[nshkr](https://github.com/nshkrdotcom/nshkr) is the production backbone:** the composition and release workspace that assembles the owner services into reproducible monolith and distributed deployments. Its `Nshkr.Runtime` application starts those services, binds their dependencies, and decides how the production system boots and runs as one platform.
 
-Enterprise AI is moving from suggestion to action. The first wave of AI applications helped users draft, summarize, search, and reason. The next wave changes records, coordinates workflows, invokes tools, reconciles systems, collects evidence, escalates exceptions, and asks humans for judgment at the right moments.
+Enterprise AI is moving from suggestion to action. The first wave helped people draft and search. The next changes records, invokes tools, and coordinates durable workflows.
 
 NSHKR is built for that transition. Its core execution path is:
 
@@ -60,7 +60,7 @@ Enterprise software usually captures outcomes, not decisions.
 
 A discount field records the number, not why the discount was justified. A contract system records the accepted clause, not the rejected fallback positions. A support tool records closure, not why one resolution path was chosen over another. The record preserves the end state while discarding the institutional judgment that produced it.
 
-AI makes that gap operationally dangerous. As agents begin proposing and performing actions, the system has to capture the judgment around those actions: proposal, correction, policy decision, credential scope, external effect, receipt, evidence, review, and eventual outcome.
+AI makes that gap operationally dangerous. As agents begin proposing and performing actions, the system has to capture the request, its authorization and review, the external effect, and the resulting evidence.
 
 Without that substrate, enterprises get automation without institutional memory.
 
@@ -146,7 +146,7 @@ Production Composition & Release
 | **StackLab** | Deterministic proof harness: scanners, acceptance gates, failure drills, and second-product validation. |
 | **GroundPlane** | Shared primitive mechanics: refs, idempotency, leases, fences, checkpoints, and persistence helpers. |
 
-The stack is not a universal application framework. It is a governed runtime substrate for systems where product commands become durable workflow, authorized action, external effect, receipt, evidence, projection, review, and replayable proof.
+The stack is a governed runtime substrate for systems where product commands become durable workflows and replayable, reviewed effects.
 
 ---
 
@@ -154,7 +154,7 @@ The stack is not a universal application framework. It is a governed runtime sub
 
 A product does not call a vendor-specific runtime directly. It submits a product-level command through AppKit using product role references such as `:issue_tracker`, `:runtime`, `:evidence`, or `:resource_effect`.
 
-Mezzanine records the command, creates an operation context, resolves the product role into a compiled binding, captures a run snapshot, and constructs a bounded operation plan. Citadel authorizes the resolved plan against actor, tenant, installation, capability, side-effect class, credential scope, and policy constraints. Jido Integration resolves the connector manifest and materializes the lower invocation. Execution Plane performs the raw mechanics. The resulting receipt returns upward and is reduced into evidence, projections, review state, and replayable trace events.
+Suppose a product asks to close GitHub issue 42. AppKit accepts the product command. Mezzanine records who requested it, the tenant, the intended effect, and its idempotency context. Citadel decides whether that actor may perform it. Jido Integration resolves the connector, and Execution Plane performs the call. Receipts and evidence return to the workflow, projection, review state, and trace.
 
 The important property is that every step is durable and joinable. Boundary envelopes may denormalize safety fields for local checks, but constructors reject mismatches. That prevents reference drift across workflow, receipt, projection, and replay records.
 
@@ -227,7 +227,7 @@ That is the enterprise analogue to the behavioral compounding loops that powered
 
 ## Provider-Parameterized, Not Provider-Locked
 
-Enterprise AI systems need real tools: GitHub, Linear, Codex, Slack, Jira, Notion, internal document systems, local deterministic connectors, custom APIs, and future providers that do not exist yet.
+Enterprise AI systems need real tools: code hosts, work trackers, and internal systems. They also need a stable way to add providers that do not exist yet.
 
 A product pack can declare concrete bindings:
 
