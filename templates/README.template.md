@@ -1,16 +1,40 @@
 # NSHKR
 
-**A governed write-path substrate for enterprise AI execution**
+**Mechanistic interpretability research and governed AI systems engineering**
 
-> Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
+> Falsifiable experiments in Python; evidence-bearing execution systems in Elixir and OTP.
 
 **{{REPO_COUNT}} repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
-## What This Is
+## Mechanistic Interpretability Research
 
-`nshkrdotcom` is the public workspace for NSHKR: a BEAM-native execution stack built on Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages.
+The research portfolio asks narrow questions about representation, transport, superposition, and causal legibility. The work is built around frozen protocols, matched controls, real-model or ground-truth synthetic runs, immutable artifacts, and explicit negative results.
+
+| Program | Question and current result |
+|---------|-----------------------------|
+| [Geometry of Conditional Truth](https://github.com/nshkrdotcom/gct) | Tests context transport and hidden-coordinate structure in Qwen3-4B and Phi-4-mini. The broad simple-state transport null replicated; Phi alone showed control-safe residual decodability, not universal truth geometry. |
+| [Architecture Mechanics](https://github.com/nshkrdotcom/architecture_mechanics) | Uses trained tiny models and known synthetic features to compare transport, overwrite, packing, and causal legibility across sequence-mixing mechanisms. |
+| [Attention Lab](https://github.com/nshkrdotcom/attention_lab) | Runs matched GPT pretraining experiments on alternative attention architectures. E003/E004 reached full-depth analysis, but the current confirmatory mechanism verdict is `insufficient_evidence`. |
+| [Superposition Zoo](https://github.com/nshkrdotcom/superposition_zoo) | Compares attention, hard routing, linear attention, delta-rule memory, and state-space mixing on synthetic retrieval. Attention and hard routing have strong causal retrieval evidence; the feature-isolation question remains open. |
+
+### Research workbenches and records
+
+| Repository | Role |
+|------------|------|
+| [mwb](https://github.com/nshkrdotcom/mwb) | Local-first mechanistic-interpretability workbench with provenance, evidence graphs, claim-safe reports, and experiment ledgers. |
+| [mil](https://github.com/nshkrdotcom/mil) | Lightweight IPython capture, activation patching, SAE analysis, controls, and reproducible visual artifacts. |
+| [circuit-tracer](https://github.com/nshkrdotcom/circuit-tracer) | Attribution-graph tooling for tracing and inspecting language-model computations. |
+| [learning](https://github.com/nshkrdotcom/learning) | Research archive containing the canonical [SELF-GROUND](https://github.com/nshkrdotcom/learning/tree/main/ml_research/self-ground), [construct-mismatch](https://github.com/nshkrdotcom/learning/tree/main/construct_mismatch), [local MI lab](https://github.com/nshkrdotcom/learning/tree/main/ml_research/local-mi-lab), and ML visualization work. |
+
+The interpretation standard is deliberately conservative: decodability is not causal use, coherence is not truth, and a null result is a successful outcome when the apparatus and controls pass.
+
+---
+
+## Systems Engineering: Governed AI Execution
+
+The second half of the portfolio is NSHKR's BEAM-native execution stack, built with Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages. The research and systems programs are distinct, but share one operating principle: important claims should resolve to inspectable evidence.
 
 Enterprise AI is moving from suggestion to action. The first wave of AI applications helped users draft, summarize, search, and reason. The next wave changes records, coordinates workflows, invokes tools, reconciles systems, collects evidence, escalates exceptions, and asks humans for judgment at the right moments.
 
@@ -28,7 +52,7 @@ The platform has one hard constraint: an AI runtime may produce language, plans,
 
 ---
 
-## The Problem
+## The Systems Problem
 
 Enterprise software usually captures outcomes, not decisions.
 

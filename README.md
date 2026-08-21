@@ -1,16 +1,40 @@
 # NSHKR
 
-**A governed write-path substrate for enterprise AI execution**
+**Mechanistic interpretability research and governed AI systems engineering**
 
-> Infrastructure for stateful, effectful AI systems that must preserve authority, workflow truth, receipts, evidence, review, replay, and tenant boundaries while real work is performed.
+> Falsifiable experiments in Python; evidence-bearing execution systems in Elixir and OTP.
 
-**114 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**116 repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
-## What This Is
+## Mechanistic Interpretability Research
 
-`nshkrdotcom` is the public workspace for NSHKR: a BEAM-native execution stack built on Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages.
+The research portfolio asks narrow questions about representation, transport, superposition, and causal legibility. The work is built around frozen protocols, matched controls, real-model or ground-truth synthetic runs, immutable artifacts, and explicit negative results.
+
+| Program | Question and current result |
+|---------|-----------------------------|
+| [Geometry of Conditional Truth](https://github.com/nshkrdotcom/gct) | Tests context transport and hidden-coordinate structure in Qwen3-4B and Phi-4-mini. The broad simple-state transport null replicated; Phi alone showed control-safe residual decodability, not universal truth geometry. |
+| [Architecture Mechanics](https://github.com/nshkrdotcom/architecture_mechanics) | Uses trained tiny models and known synthetic features to compare transport, overwrite, packing, and causal legibility across sequence-mixing mechanisms. |
+| [Attention Lab](https://github.com/nshkrdotcom/attention_lab) | Runs matched GPT pretraining experiments on alternative attention architectures. E003/E004 reached full-depth analysis, but the current confirmatory mechanism verdict is `insufficient_evidence`. |
+| [Superposition Zoo](https://github.com/nshkrdotcom/superposition_zoo) | Compares attention, hard routing, linear attention, delta-rule memory, and state-space mixing on synthetic retrieval. Attention and hard routing have strong causal retrieval evidence; the feature-isolation question remains open. |
+
+### Research workbenches and records
+
+| Repository | Role |
+|------------|------|
+| [mwb](https://github.com/nshkrdotcom/mwb) | Local-first mechanistic-interpretability workbench with provenance, evidence graphs, claim-safe reports, and experiment ledgers. |
+| [mil](https://github.com/nshkrdotcom/mil) | Lightweight IPython capture, activation patching, SAE analysis, controls, and reproducible visual artifacts. |
+| [circuit-tracer](https://github.com/nshkrdotcom/circuit-tracer) | Attribution-graph tooling for tracing and inspecting language-model computations. |
+| [learning](https://github.com/nshkrdotcom/learning) | Research archive containing the canonical [SELF-GROUND](https://github.com/nshkrdotcom/learning/tree/main/ml_research/self-ground), [construct-mismatch](https://github.com/nshkrdotcom/learning/tree/main/construct_mismatch), [local MI lab](https://github.com/nshkrdotcom/learning/tree/main/ml_research/local-mi-lab), and ML visualization work. |
+
+The interpretation standard is deliberately conservative: decodability is not causal use, coherence is not truth, and a null result is a successful outcome when the apparatus and controls pass.
+
+---
+
+## Systems Engineering: Governed AI Execution
+
+The second half of the portfolio is NSHKR's BEAM-native execution stack, built with Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages. The research and systems programs are distinct, but share one operating principle: important claims should resolve to inspectable evidence.
 
 Enterprise AI is moving from suggestion to action. The first wave of AI applications helped users draft, summarize, search, and reason. The next wave changes records, coordinates workflows, invokes tools, reconciles systems, collects evidence, escalates exceptions, and asks humans for judgment at the right moments.
 
@@ -28,7 +52,7 @@ The platform has one hard constraint: an AI runtime may produce language, plans,
 
 ---
 
-## The Problem
+## The Systems Problem
 
 Enterprise software usually captures outcomes, not decisions.
 
@@ -313,9 +337,11 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 | Category | Repositories |
 |----------|--------------|
+| [ML Research](#category-nshkr-ml-research) | 7 |
+| [ML & Learning](#category-nshkr-ml) | 2 |
 | [AI Agents](#category-nshkr-ai-agents) | 13 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 27 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 24 |
 | [Schema](#category-nshkr-schema) | 3 |
 | [Developer Tools](#category-nshkr-devtools) | 16 |
 | [User Interface](#category-nshkr-ui) | 1 |
@@ -324,7 +350,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [Observability](#category-nshkr-observability) | 3 |
 | [Data](#category-nshkr-data) | 2 |
 | [Security](#category-nshkr-security) | 4 |
-| [Research](#category-nshkr-research) | 8 |
+| [Research](#category-nshkr-research) | 4 |
 | [Utilities](#category-nshkr-utility) | 3 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 |
 | [Misc](#category-nshkr-misc) | 1 |
@@ -337,6 +363,27 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 ## Repositories By Category
 
 <!-- AUTO_GENERATED_START -->
+<a id="category-nshkr-ml-research"></a>
+### ML Research (7)
+
+| Repository | Description |
+|------------|-------------|
+| [architecture_mechanics](https://github.com/nshkrdotcom/architecture_mechanics) | Synthetic ground-truth lab for testing how sequence-mixing architectures shap... |
+| [attention_lab](https://github.com/nshkrdotcom/attention_lab) | Controlled GPT pretraining and mechanistic-interpretability harness for testi... |
+| [gct](https://github.com/nshkrdotcom/gct) | Leakage-resistant experiments testing contextual transport and latent-coordin... |
+| [learning](https://github.com/nshkrdotcom/learning) | Mechanistic-interpretability experiments, research records, and ML visualizat... |
+| [mil](https://github.com/nshkrdotcom/mil) | Local mechanistic-interpretability workbench with IPython capture, activation... |
+| [mwb](https://github.com/nshkrdotcom/mwb) | Mechanistic Workbench (mwb): Local-first mechanistic interpretability workben... |
+| [superposition_zoo](https://github.com/nshkrdotcom/superposition_zoo) | A research harness for studying how sequence-mixing architectures (softmax at... |
+
+<a id="category-nshkr-ml"></a>
+### ML & Learning (2)
+
+| Repository | Description |
+|------------|-------------|
+| [micrograd_ex](https://github.com/nshkrdotcom/micrograd_ex) | Micrograd, implemented in Elixir |
+| [ml_musings](https://github.com/nshkrdotcom/ml_musings) | Foundations: A premium, hands-on educational curriculum exploring high-dimens... |
+
 <a id="category-nshkr-ai-agents"></a>
 ### AI Agents (13)
 
@@ -382,7 +429,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [vllm](https://github.com/nshkrdotcom/vllm) | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (27)
+### AI Infrastructure (24)
 
 | Repository | Description |
 |------------|-------------|
@@ -397,9 +444,6 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [ground_plane](https://github.com/nshkrdotcom/ground_plane) | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
 | [inference](https://github.com/nshkrdotcom/inference) | Reusable Elixir semantic inference contracts, adapters, trace metadata, and c... |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
-| [micrograd_ex](https://github.com/nshkrdotcom/micrograd_ex) | Micrograd, implemented in Elixir |
-| [mil](https://github.com/nshkrdotcom/mil) | mil - Mech Interp Lab - capture IPython sessions and MechInterp tools |
-| [mwb](https://github.com/nshkrdotcom/mwb) | Mechanistic Workbench (mwb): Local-first mechanistic interpretability workben... |
 | [nshkr](https://github.com/nshkrdotcom/nshkr) | NSHKR is the production Elixir/OTP composition and release workspace for a go... |
 | [outer_brain](https://github.com/nshkrdotcom/outer_brain) | Semantic runtime above Citadel for raw language intake, context assembly, mod... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
@@ -501,17 +545,13 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 | [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 
 <a id="category-nshkr-research"></a>
-### Research (8)
+### Research (4)
 
 | Repository | Description |
 |------------|-------------|
 | [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | Hardware-Secured Temporal Blockchain |
 | [EADS](https://github.com/nshkrdotcom/EADS) | Evolutionary Autonomous Development System |
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
-| [attention_lab](https://github.com/nshkrdotcom/attention_lab) | Attention Lab for running and tracking language model experiments via Karpath... |
-| [learning](https://github.com/nshkrdotcom/learning) |  |
-| [ml_musings](https://github.com/nshkrdotcom/ml_musings) | Foundations: A premium, hands-on educational curriculum exploring high-dimens... |
-| [superposition_zoo](https://github.com/nshkrdotcom/superposition_zoo) | A research harness for studying how sequence-mixing architectures (softmax at... |
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
 
 <a id="category-nshkr-utility"></a>
