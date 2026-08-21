@@ -36,6 +36,8 @@ The interpretation standard is deliberately conservative: decodability is not ca
 
 The second half of the portfolio is NSHKR's BEAM-native execution stack, built with Elixir, OTP, Ash, Postgres, Temporal, and deliberately narrow boundary packages. The research and systems programs are distinct, but share one operating principle: important claims should resolve to inspectable evidence.
 
+**[nshkr](https://github.com/nshkrdotcom/nshkr) is the production backbone:** the composition and release workspace that assembles the owner services into reproducible monolith and distributed deployments. Its `Nshkr.Runtime` application is the single production composition root for persistence, workflows, cognitive context, provider accounts, policy, execution, cluster reconciliation, Synapse, and Extravaganza. The surrounding repositories own their bounded capabilities; `nshkr` decides how the production system boots and runs as one platform.
+
 Enterprise AI is moving from suggestion to action. The first wave of AI applications helped users draft, summarize, search, and reason. The next wave changes records, coordinates workflows, invokes tools, reconciles systems, collects evidence, escalates exceptions, and asks humans for judgment at the right moments.
 
 NSHKR is built for that transition. Its core execution path is:
@@ -118,18 +120,21 @@ The repos form a layered execution stack. Each layer owns one class of truth and
 Bootstrap & Spatial Control (Beside the Stack)
   -> Chassis
 
-Product / Operator (Inside the Stack)
-  -> AppKit
-  -> Mezzanine
-  -> Citadel
-  -> Jido Integration
-  -> Execution Plane
-  -> AITrace
-  -> Projections / Reviews / Replay
+Production Composition & Release
+  -> nshkr / Nshkr.Runtime
+     -> AppKit
+     -> Mezzanine
+     -> OuterBrain / Citadel
+     -> Jido Integration
+     -> Execution Plane
+     -> Chassis reconciliation
+     -> Synapse / Extravaganza
+     -> AITrace / Projections / Reviews / Replay
 ```
 
 | Layer | Responsibility |
 |-------|----------------|
+| **nshkr / Nshkr.Runtime** | Production composition root, fail-closed runtime profiles, dependency ordering, release assembly, and monolith/distributed deployment. |
 | **Chassis** | Spatial & deployment plane: standalone manager beside the stack that installs, provisions, health-checks, rolls back, and upgrades NSHKR installations. |
 | **AppKit** | Product-facing commands, reads, reviews, leases, traces, and stable DTOs. |
 | **Mezzanine** | Operational truth: workflows, ledgers, binding registry, receipts, evidence, projections, reviews, and run snapshots. |
@@ -307,6 +312,7 @@ NSHKR sits between several existing categories but is not reducible to any of th
 
 | If you care about | Start with | What to look for |
 |-------------------|------------|------------------|
+| Production composition and releases | [nshkr](https://github.com/nshkrdotcom/nshkr) | `Nshkr.Runtime`, owner-ordered services, fail-closed profiles, deployment composition, and release verification |
 | Spatial topology & stack management | [chassis](https://github.com/nshkrdotcom/chassis) | Standalone host deployment, topology manifests, node placement, rollback controls, and self-upgrades |
 | Product boundary and no-bypass rules | [app_kit](https://github.com/nshkrdotcom/app_kit), [extravaganza](https://github.com/nshkrdotcom/extravaganza) | Stable northbound DTOs, product commands, operator reads, reviews, install bootstrap, product/hazmat scans |
 | Durable operational truth | [mezzanine](https://github.com/nshkrdotcom/mezzanine) | Pack compilation, binding registry, workflow lifecycle, execution ledgers, decisions, evidence, projections |
