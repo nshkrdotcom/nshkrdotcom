@@ -574,7 +574,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 
 | Repository | Description |
 |------------|-------------|
-| [portfolio_registry](https://github.com/nshkrdotcom/portfolio_registry) | Canonical machine-readable registry for nshkrdotcom's complete Elixir ecosyst... |
+| [portfolio_registry](https://github.com/nshkrdotcom/portfolio_registry) | Canonical machine-readable registry for the complete nshkrdotcom portfolio, w... |
 
 <a id="category-nshkr-misc"></a>
 ### Misc (1)
