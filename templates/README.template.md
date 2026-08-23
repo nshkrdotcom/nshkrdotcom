@@ -1,10 +1,26 @@
 # NSHKR
 
-**Mechanistic interpretability research and governed AI systems engineering**
+**BEAM-native AI infrastructure, governed execution systems, and mechanistic interpretability research**
 
-> Falsifiable experiments in Python; evidence-bearing execution systems in Elixir and OTP.
+> Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**{{REPO_COUNT}} repositories** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**{{REPO_COUNT}} repositories | {{TOTAL_STARS}} stars** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+
+---
+
+## Most Used
+
+The libraries below carry the bulk of external adoption. Start here if you want something
+installable rather than something to read.
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+{{TOP_REPOS}}
+
+Three bodies of work sit behind them: a BEAM-native library ecosystem for AI systems, the
+[NSHKR governed execution stack](#systems-engineering-governed-ai-execution), and a
+[mechanistic interpretability research program](#mechanistic-interpretability-research).
+The full inventory is in the [Repository Atlas](#repository-atlas).
 
 ---
 
@@ -339,7 +355,9 @@ NSHKR sits between several existing categories but is not reducible to any of th
 
 ## Repository Atlas
 
-This inventory is generated from live GitHub metadata and grouped by `nshkr-*` topics so it stays current as the ecosystem grows.
+This inventory is generated from live GitHub metadata and grouped by `nshkr-*` topics so it
+stays current as the ecosystem grows. Within each category, repositories are ordered by
+stars, so the load-bearing ones surface first.
 
 {{CATEGORY_OVERVIEW}}
 

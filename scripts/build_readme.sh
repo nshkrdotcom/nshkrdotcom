@@ -27,6 +27,7 @@ CATEGORIZED=$(printf '%s\n' "$REPOS" | jq --arg archive "$NSHKR_ARCHIVE_SLUG" --
         name: .name,
         url: .html_url,
         desc: (.description // ""),
+        stars: (.stargazers_count // 0),
         category: (
             ((.topics // []) | map(select(startswith("nshkr-") and . != $archive)) | sort | first) //
             $uncategorized
@@ -57,17 +58,20 @@ for topic in "${ORDERED_TOPICS[@]}"; do
 
     ITEMS=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg topic "$topic" '
         [.[] | select(.category == $topic)] |
-        sort_by(.name) |
+        sort_by([-.stars, .name]) |
         .[] |
-        "| [\(.name)](\(.url)) | \(.desc | if length > 80 then .[0:77] + "..." else . end) |"
+        "| [\(.name)](\(.url)) | \(if .stars > 0 then "\(.stars)" else "" end) | \(.desc | gsub("\\|"; "\\\\|") | if length > 80 then .[0:77] + "..." else . end) |"
     ')
 
     if [[ -n "$ITEMS" ]]; then
-        CATEGORY_OVERVIEW_ROWS+="| [$display_name](#category-$topic) | $count |"$'\n'
+        cat_stars=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg topic "$topic" '
+            [.[] | select(.category == $topic) | .stars] | add // 0
+        ')
+        CATEGORY_OVERVIEW_ROWS+="| [$display_name](#category-$topic) | $count | $cat_stars |"$'\n'
         AUTO_CONTENT+="<a id=\"category-$topic\"></a>"$'\n'
         AUTO_CONTENT+="### $display_name ($count)"$'\n\n'
-        AUTO_CONTENT+="| Repository | Description |"$'\n'
-        AUTO_CONTENT+="|------------|-------------|"$'\n'
+        AUTO_CONTENT+="| Repository | Stars | Description |"$'\n'
+        AUTO_CONTENT+="|------------|------:|-------------|"$'\n'
         AUTO_CONTENT+="$ITEMS"$'\n\n'
     fi
 done
@@ -78,36 +82,55 @@ UNCATEGORIZED_COUNT=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "
 
 UNCATEGORIZED=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "$NSHKR_UNCATEGORIZED_SLUG" '
     [.[] | select(.category == $uncategorized)] |
-    sort_by(.name) |
+    sort_by([-.stars, .name]) |
     .[] |
-    "| [\(.name)](\(.url)) | \(.desc | if length > 80 then .[0:77] + "..." else . end) |"
+    "| [\(.name)](\(.url)) | \(if .stars > 0 then "\(.stars)" else "" end) | \(.desc | gsub("\\|"; "\\\\|") | if length > 80 then .[0:77] + "..." else . end) |"
 ')
 
 if [[ -n "$UNCATEGORIZED" ]]; then
-    CATEGORY_OVERVIEW_ROWS+="| [$README_UNCATEGORIZED_HEADING](#category-$NSHKR_UNCATEGORIZED_SLUG) | $UNCATEGORIZED_COUNT |"$'\n'
+    UNCATEGORIZED_STARS=$(printf '%s\n' "$CATEGORIZED" | jq -r --arg uncategorized "$NSHKR_UNCATEGORIZED_SLUG" '
+        [.[] | select(.category == $uncategorized) | .stars] | add // 0
+    ')
+    CATEGORY_OVERVIEW_ROWS+="| [$README_UNCATEGORIZED_HEADING](#category-$NSHKR_UNCATEGORIZED_SLUG) | $UNCATEGORIZED_COUNT | $UNCATEGORIZED_STARS |"$'\n'
     AUTO_CONTENT+="<a id=\"category-$NSHKR_UNCATEGORIZED_SLUG\"></a>"$'\n'
     AUTO_CONTENT+="### $README_UNCATEGORIZED_HEADING ($UNCATEGORIZED_COUNT)"$'\n\n'
-    AUTO_CONTENT+="| Repository | Description |"$'\n'
-    AUTO_CONTENT+="|------------|-------------|"$'\n'
+    AUTO_CONTENT+="| Repository | Stars | Description |"$'\n'
+    AUTO_CONTENT+="|------------|------:|-------------|"$'\n'
     AUTO_CONTENT+="$UNCATEGORIZED"$'\n\n'
 fi
 
 CATEGORY_OVERVIEW=""
 if [[ -n "$CATEGORY_OVERVIEW_ROWS" ]]; then
-    CATEGORY_OVERVIEW+="| Category | Repositories |"$'\n'
-    CATEGORY_OVERVIEW+="|----------|--------------|"$'\n'
+    CATEGORY_OVERVIEW+="| Category | Repositories | Stars |"$'\n'
+    CATEGORY_OVERVIEW+="|----------|-------------:|------:|"$'\n'
     CATEGORY_OVERVIEW+="$CATEGORY_OVERVIEW_ROWS"
 fi
+
+TOTAL_STARS=$(printf '%s\n' "$CATEGORIZED" | jq -r '[.[].stars] | add // 0')
+
+# Most-used table: the library layer a reader should try first. Alphabetical category
+# tables bury it, because adoption and alphabet are unrelated.
+TOP_REPOS=$(printf '%s\n' "$CATEGORIZED" | jq -r '
+    [.[] | select(.stars > 0)] |
+    sort_by([-.stars, .name]) |
+    .[0:12] |
+    .[] |
+    "| [\(.name)](\(.url)) | \(.stars) | \(.desc | gsub("\\|"; "\\\\|") | if length > 90 then .[0:87] + "..." else . end) |"
+')
 
 TEMPLATE=$(cat templates/README.template.md)
 AUTO_CONTENT_ESCAPED="${AUTO_CONTENT//&/\\&}"
 CATEGORY_OVERVIEW_ESCAPED="${CATEGORY_OVERVIEW//&/\\&}"
 
+TOP_REPOS_ESCAPED="${TOP_REPOS//&/\\&}"
+
 OUTPUT="${TEMPLATE//\{\{REPO_COUNT\}\}/$TOTAL}"
+OUTPUT="${OUTPUT//\{\{TOTAL_STARS\}\}/$TOTAL_STARS}"
+OUTPUT="${OUTPUT//\{\{TOP_REPOS\}\}/$TOP_REPOS_ESCAPED}"
 OUTPUT="${OUTPUT//\{\{UPDATE_DATE\}\}/$(date -u +%Y-%m-%d)}"
 OUTPUT="${OUTPUT//\{\{CATEGORY_OVERVIEW\}\}/$CATEGORY_OVERVIEW_ESCAPED}"
 OUTPUT="${OUTPUT//\{\{AUTO_GENERATED_CONTENT\}\}/$AUTO_CONTENT_ESCAPED}"
 
 echo "$OUTPUT" > README.md
 
-echo "=== Done: $TOTAL repos ==="
+echo "=== Done: $TOTAL repos, $TOTAL_STARS stars ==="
