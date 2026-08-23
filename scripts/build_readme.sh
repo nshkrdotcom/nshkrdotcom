@@ -108,6 +108,16 @@ fi
 
 TOTAL_STARS=$(printf '%s\n' "$CATEGORIZED" | jq -r '[.[].stars] | add // 0')
 
+# The atlas below covers this account only; the org holds another ~60 repositories that
+# would add length without adding signal. The headline still reports the whole portfolio
+# so this README and nshkr.com do not publish two different numbers.
+ORG_REPOS=$(gh api --paginate "orgs/North-Shore-AI/repos?per_page=100&type=public" | \
+    jq '[.[] | select(.private == false and .archived == false and .fork == false)]')
+ORG_COUNT=$(printf '%s\n' "$ORG_REPOS" | jq 'length')
+ORG_STARS=$(printf '%s\n' "$ORG_REPOS" | jq '[.[].stargazers_count] | add // 0')
+PORTFOLIO_COUNT=$(( TOTAL + ORG_COUNT ))
+PORTFOLIO_STARS=$(( TOTAL_STARS + ORG_STARS ))
+
 # Most-used table: the library layer a reader should try first. Alphabetical category
 # tables bury it, because adoption and alphabet are unrelated.
 TOP_REPOS=$(printf '%s\n' "$CATEGORIZED" | jq -r '
@@ -126,6 +136,9 @@ TOP_REPOS_ESCAPED="${TOP_REPOS//&/\\&}"
 
 OUTPUT="${TEMPLATE//\{\{REPO_COUNT\}\}/$TOTAL}"
 OUTPUT="${OUTPUT//\{\{TOTAL_STARS\}\}/$TOTAL_STARS}"
+OUTPUT="${OUTPUT//\{\{PORTFOLIO_COUNT\}\}/$PORTFOLIO_COUNT}"
+OUTPUT="${OUTPUT//\{\{PORTFOLIO_STARS\}\}/$PORTFOLIO_STARS}"
+OUTPUT="${OUTPUT//\{\{ORG_COUNT\}\}/$ORG_COUNT}"
 OUTPUT="${OUTPUT//\{\{TOP_REPOS\}\}/$TOP_REPOS_ESCAPED}"
 OUTPUT="${OUTPUT//\{\{UPDATE_DATE\}\}/$(date -u +%Y-%m-%d)}"
 OUTPUT="${OUTPUT//\{\{CATEGORY_OVERVIEW\}\}/$CATEGORY_OVERVIEW_ESCAPED}"
@@ -133,4 +146,4 @@ OUTPUT="${OUTPUT//\{\{AUTO_GENERATED_CONTENT\}\}/$AUTO_CONTENT_ESCAPED}"
 
 echo "$OUTPUT" > README.md
 
-echo "=== Done: $TOTAL repos, $TOTAL_STARS stars ==="
+echo "=== Done: $TOTAL repos, $TOTAL_STARS stars (portfolio: $PORTFOLIO_COUNT / $PORTFOLIO_STARS) ==="

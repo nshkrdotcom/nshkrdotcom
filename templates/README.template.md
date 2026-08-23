@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**{{REPO_COUNT}} repositories | {{TOTAL_STARS}} stars** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**{{PORTFOLIO_COUNT}} repositories | {{PORTFOLIO_STARS}} stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -358,6 +358,10 @@ NSHKR sits between several existing categories but is not reducible to any of th
 This inventory is generated from live GitHub metadata and grouped by `nshkr-*` topics so it
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
+
+The atlas covers this account's {{REPO_COUNT}} repositories.
+[@North-Shore-AI](https://github.com/North-Shore-AI) holds a further {{ORG_COUNT}},
+mostly the Crucible ML packages and the NSAI platform services.
 
 {{CATEGORY_OVERVIEW}}
 

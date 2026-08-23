@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**116 repositories | 629 stars** | [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**177 repositories | 667 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,12 +370,16 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
+The atlas covers this account's 116 repositories.
+[@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
+mostly the Crucible ML packages and the NSAI platform services.
+
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 224 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 | 127 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
-| [ML Research](#category-nshkr-ml-research) | 7 | 0 |
+| [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
@@ -385,7 +389,6 @@ stars, so the load-bearing ones surface first.
 | [OTP](#category-nshkr-otp) | 5 | 23 |
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
-| [Research](#category-nshkr-research) | 3 | 2 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
@@ -473,11 +476,14 @@ stars, so the load-bearing ones surface first.
 | [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  | Bumblebee/Nx runtime backend for self_hosted_inference_core |
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) |  | Local distributed-development harness and proving ground for the full stack: ... |
 
-<a id="category-nshkr-ml-research"></a>
-### ML Research (7)
+<a id="category-nshkr-research"></a>
+### Research (10)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
+| [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | 2 | Hardware-Secured Temporal Blockchain |
+| [EADS](https://github.com/nshkrdotcom/EADS) |  | Evolutionary Autonomous Development System |
+| [anti_agents](https://github.com/nshkrdotcom/anti_agents) |  | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
 | [architecture_mechanics](https://github.com/nshkrdotcom/architecture_mechanics) |  | Synthetic ground-truth lab for testing how sequence-mixing architectures shap... |
 | [attention_lab](https://github.com/nshkrdotcom/attention_lab) |  | Controlled GPT pretraining and mechanistic-interpretability harness for testi... |
 | [gct](https://github.com/nshkrdotcom/gct) |  | Leakage-resistant experiments testing contextual transport and latent-coordin... |
@@ -579,15 +585,6 @@ stars, so the load-bearing ones surface first.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [switchyard](https://github.com/nshkrdotcom/switchyard) | 4 | Terminal-native operator workbench monorepo for multi-site terminal applicati... |
-
-<a id="category-nshkr-research"></a>
-### Research (3)
-
-| Repository | Stars | Description |
-|------------|------:|-------------|
-| [ChronoLedger](https://github.com/nshkrdotcom/ChronoLedger) | 2 | Hardware-Secured Temporal Blockchain |
-| [EADS](https://github.com/nshkrdotcom/EADS) |  | Evolutionary Autonomous Development System |
-| [anti_agents](https://github.com/nshkrdotcom/anti_agents) |  | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
 
 <a id="category-nshkr-utility"></a>
 ### Utilities (3)
