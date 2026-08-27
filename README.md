@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**177 repositories | 668 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**177 repositories | 669 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -377,7 +377,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 224 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 127 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 128 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -429,7 +429,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 36 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code C... |
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 35 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 26 | OpenAI Codex SDK written in Elixir |
-| [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 10 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
+| [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 11 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
@@ -650,4 +650,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-08-26_
+_Updated 2026-08-27_
