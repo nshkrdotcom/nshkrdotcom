@@ -650,4 +650,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-08-31_
+_Updated 2026-09-01_
