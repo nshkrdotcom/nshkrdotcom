@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**177 repositories | 670 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**177 repositories | 671 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -21,7 +21,7 @@ installable rather than something to read.
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 35 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vertex AI |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 33 | A practical, multi-layered JSON repair library for Elixir that intelligently fixes malf... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fault toleran... |
-| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 26 | OpenAI Codex SDK written in Elixir |
+| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | 18 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 18 | GUARDRAIL - MCP Security - Gateway for Unified Access, Resource Delegation, and Risk-At... |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 18 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimization Fra... |
@@ -377,7 +377,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 225 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 128 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 129 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -428,7 +428,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 36 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code C... |
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 35 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
-| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 26 | OpenAI Codex SDK written in Elixir |
+| [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
 | [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 11 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
@@ -650,4 +650,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-02_
+_Updated 2026-09-03_
