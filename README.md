@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**177 repositories | 671 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**178 repositories | 673 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 116 repositories.
+The atlas covers this account's 117 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -393,7 +393,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
-| [Other](#category-uncategorized) | 3 | 4 |
+| [Other](#category-uncategorized) | 4 | 6 |
 
 
 ---
@@ -617,10 +617,11 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [mix_workspace_ops](https://github.com/nshkrdotcom/mix_workspace_ops) |  | Operator-first Elixir workspace tooling for safe local sibling dependency ove... |
 
 <a id="category-uncategorized"></a>
-### Other (3)
+### Other (4)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
+| [HackTUI-Hermes-Jido](https://github.com/nshkrdotcom/HackTUI-Hermes-Jido) | 2 | HackTUI is a terminal-first purple-team AI powered security operations platfo... |
 | [docs](https://github.com/nshkrdotcom/docs) | 2 | Docs |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | 2 | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
 | [req_llm_zai](https://github.com/nshkrdotcom/req_llm_zai) |  | Z.AI provider for ReqLLM - OpenAI-compatible GLM models |
@@ -650,4 +651,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-04_
+_Updated 2026-09-05_
