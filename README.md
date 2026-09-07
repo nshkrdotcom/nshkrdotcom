@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**180 repositories | 675 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**180 repositories | 676 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -392,7 +392,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
-| [Omarchy](#category-nshkr-omarchy) | 2 | 2 |
+| [Omarchy](#category-nshkr-omarchy) | 2 | 3 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
 | [Other](#category-uncategorized) | 4 | 6 |
 
@@ -615,7 +615,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 2 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
+| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 3 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
 | [omarchy-tactical-display](https://github.com/nshkrdotcom/omarchy-tactical-display) |  | Ephemeral fullscreen network connection field instrument for Omarchy Quattro.... |
 
 <a id="category-nshkr-tools"></a>
@@ -660,4 +660,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-06_
+_Updated 2026-09-07_
