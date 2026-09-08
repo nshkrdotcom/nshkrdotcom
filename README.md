@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**180 repositories | 676 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**182 repositories | 676 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 119 repositories.
+The atlas covers this account's 121 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -379,7 +379,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 225 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 | 129 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
-| [Research](#category-nshkr-research) | 10 | 2 |
+| [Research](#category-nshkr-research) | 11 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
@@ -392,7 +392,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
-| [Omarchy](#category-nshkr-omarchy) | 2 | 3 |
+| [Omarchy](#category-nshkr-omarchy) | 3 | 3 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
 | [Other](#category-uncategorized) | 4 | 6 |
 
@@ -478,7 +478,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) |  | Local distributed-development harness and proving ground for the full stack: ... |
 
 <a id="category-nshkr-research"></a>
-### Research (10)
+### Research (11)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -487,6 +487,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [anti_agents](https://github.com/nshkrdotcom/anti_agents) |  | Anti Agents - Inspired by Sakana AI's String Seed of Thought paper |
 | [architecture_mechanics](https://github.com/nshkrdotcom/architecture_mechanics) |  | Synthetic ground-truth lab for testing how sequence-mixing architectures shap... |
 | [attention_lab](https://github.com/nshkrdotcom/attention_lab) |  | Controlled GPT pretraining and mechanistic-interpretability harness for testi... |
+| [cgl](https://github.com/nshkrdotcom/cgl) |  | Causal Generalization Laboratory — Predicting and Controlling Global Behavior... |
 | [gct](https://github.com/nshkrdotcom/gct) |  | Leakage-resistant experiments testing contextual transport and latent-coordin... |
 | [learning](https://github.com/nshkrdotcom/learning) |  | Mechanistic-interpretability experiments, research records, and ML visualizat... |
 | [mil](https://github.com/nshkrdotcom/mil) |  | Local mechanistic-interpretability workbench with IPython capture, activation... |
@@ -611,11 +612,12 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [prappy](https://github.com/nshkrdotcom/prappy) |  | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
 
 <a id="category-nshkr-omarchy"></a>
-### Omarchy (2)
+### Omarchy (3)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 3 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
+| [omarchy-chronicle](https://github.com/nshkrdotcom/omarchy-chronicle) |  | A local-first desktop incident flight recorder for Omarchy: investigate what ... |
 | [omarchy-tactical-display](https://github.com/nshkrdotcom/omarchy-tactical-display) |  | Ephemeral fullscreen network connection field instrument for Omarchy Quattro.... |
 
 <a id="category-nshkr-tools"></a>
@@ -660,4 +662,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-07_
+_Updated 2026-09-08_
