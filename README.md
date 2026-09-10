@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**182 repositories | 677 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**182 repositories | 678 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -18,7 +18,7 @@ installable rather than something to read.
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | 77 | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-model hidde... |
 | [synapse](https://github.com/nshkrdotcom/synapse) | 50 | Headless, declarative multi-agent orchestration framework with a domain-agnostic signal... |
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 36 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code CLI with st... |
-| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 35 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vertex AI |
+| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 36 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vertex AI |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 33 | A practical, multi-layered JSON repair library for Elixir that intelligently fixes malf... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fault toleran... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
@@ -377,7 +377,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 225 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 129 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 130 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -429,7 +429,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 36 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code C... |
-| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 35 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
+| [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 36 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
 | [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 11 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
