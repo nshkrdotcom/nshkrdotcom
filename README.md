@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**182 repositories | 678 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**182 repositories | 679 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -22,7 +22,7 @@ installable rather than something to read.
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 33 | A practical, multi-layered JSON repair library for Elixir that intelligently fixes malf... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fault toleran... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
-| [DSPex](https://github.com/nshkrdotcom/DSPex) | 18 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
+| [DSPex](https://github.com/nshkrdotcom/DSPex) | 19 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 18 | GUARDRAIL - MCP Security - Gateway for Unified Access, Resource Delegation, and Risk-At... |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 18 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimization Fra... |
 | [supertester](https://github.com/nshkrdotcom/supertester) | 14 | A battle-hardened testing toolkit for building robust and resilient Elixir & OTP applic... |
@@ -376,7 +376,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 225 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 19 | 130 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
@@ -411,7 +411,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | 77 | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
 | [synapse](https://github.com/nshkrdotcom/synapse) | 50 | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
-| [DSPex](https://github.com/nshkrdotcom/DSPex) | 18 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
+| [DSPex](https://github.com/nshkrdotcom/DSPex) | 19 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 18 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimi... |
 | [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 9 | The Agent & Tool Arbitration Protocol |
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | 9 | Multi-agent systems framework for the BEAM platform - build distributed auton... |
