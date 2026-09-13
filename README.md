@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**182 repositories | 679 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**183 repositories | 679 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 121 repositories.
+The atlas covers this account's 122 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -390,6 +390,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
+| [AI Research](#category-nshkr-ai-research) | 1 | 0 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
@@ -596,6 +597,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [youtube_audio_dl](https://github.com/nshkrdotcom/youtube_audio_dl) | 3 | Download high-quality audio from YouTube as MP3 files using Elixir. Features ... |
 | [multipart_ex](https://github.com/nshkrdotcom/multipart_ex) | 1 | Client-agnostic multipart/form-data builder for Elixir with explicit file inp... |
 | [tools](https://github.com/nshkrdotcom/tools) | 1 | Utility library and helper functions for Elixir development - common patterns... |
+
+<a id="category-nshkr-ai-research"></a>
+### AI Research (1)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [esc](https://github.com/nshkrdotcom/esc) |  | Epistemic State Compilation (ESC): Separating persistent epistemic state from... |
 
 <a id="category-nshkr-ecosystem"></a>
 ### Ecosystem (1)
