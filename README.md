@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**183 repositories | 679 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**184 repositories | 681 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,14 +370,14 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 122 repositories.
+The atlas covers this account's 123 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 19 | 130 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 20 | 131 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -394,7 +394,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
-| [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
+| [Omarchy](#category-nshkr-omarchy) | 3 | 5 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
 | [Other](#category-uncategorized) | 4 | 6 |
 
@@ -425,7 +425,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [stack_coder](https://github.com/nshkrdotcom/stack_coder) |  | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 
 <a id="category-nshkr-ai-sdk"></a>
-### AI SDKs (19)
+### AI SDKs (20)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -442,6 +442,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | 1 | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
 | [github_ex](https://github.com/nshkrdotcom/github_ex) | 1 | Native Elixir SDK for the GitHub REST API — comprehensive, idiomatic client f... |
 | [mcp_client](https://github.com/nshkrdotcom/mcp_client) | 1 | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
+| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 1 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [vllm](https://github.com/nshkrdotcom/vllm) | 1 | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 | [cursor_cli_sdk](https://github.com/nshkrdotcom/cursor_cli_sdk) |  | Elixir SDK for the Cursor Agent CLI (agent) — stream-json headless sessions, ... |
 | [external_runtime_transport](https://github.com/nshkrdotcom/external_runtime_transport) |  | An Elixir-first external runtime transport foundation for AI SDK integrations... |
@@ -631,7 +632,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 4 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
+| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 5 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
 | [omarchy-chronicle](https://github.com/nshkrdotcom/omarchy-chronicle) |  | Local-first desktop incident flight recorder for Omarchy: provenance-rich tim... |
 | [omarchy-tactical-display](https://github.com/nshkrdotcom/omarchy-tactical-display) |  | Ephemeral fullscreen network connection field instrument for Omarchy Quattro.... |
 
