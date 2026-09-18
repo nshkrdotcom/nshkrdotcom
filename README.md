@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**184 repositories | 681 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**185 repositories | 682 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,15 +370,15 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 123 repositories.
+The atlas covers this account's 124 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 20 | 131 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 24 | 85 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 20 | 132 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 25 | 85 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
@@ -438,11 +438,11 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
 | [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | 2 | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
+| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 2 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | 1 | Elixir SDK for the Amp CLI — provides a comprehensive client library for inte... |
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | 1 | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
 | [github_ex](https://github.com/nshkrdotcom/github_ex) | 1 | Native Elixir SDK for the GitHub REST API — comprehensive, idiomatic client f... |
 | [mcp_client](https://github.com/nshkrdotcom/mcp_client) | 1 | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
-| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 1 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [vllm](https://github.com/nshkrdotcom/vllm) | 1 | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 | [cursor_cli_sdk](https://github.com/nshkrdotcom/cursor_cli_sdk) |  | Elixir SDK for the Cursor Agent CLI (agent) — stream-json headless sessions, ... |
 | [external_runtime_transport](https://github.com/nshkrdotcom/external_runtime_transport) |  | An Elixir-first external runtime transport foundation for AI SDK integrations... |
@@ -451,7 +451,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [self_hosted_inference_core](https://github.com/nshkrdotcom/self_hosted_inference_core) |  | Core Elixir primitives for building reliable self-hosted inference clients, p... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (24)
+### AI Infrastructure (25)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -472,6 +472,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [skill_ex](https://github.com/nshkrdotcom/skill_ex) | 1 | Claude Skill Aggregator |
 | [trinity_framework](https://github.com/nshkrdotcom/trinity_framework) | 1 | Reusable TRINITY router and coordination framework for deterministic agent ro... |
 | [app_kit](https://github.com/nshkrdotcom/app_kit) |  | Shared app-facing surface monorepo for the nshkr platform core: composition, ... |
+| [autonomic](https://github.com/nshkrdotcom/autonomic) |  | A production-oriented BEAM/OTP autonomy kernel for running an untrusted codin... |
 | [chassis](https://github.com/nshkrdotcom/chassis) |  | Spatial & deployment plane for NSHKR: standalone manager beside the stack tha... |
 | [gepa_buildout](https://github.com/nshkrdotcom/gepa_buildout) |  | Deterministic GEPA buildout examples and domain task fixtures for framework v... |
 | [outer_brain](https://github.com/nshkrdotcom/outer_brain) |  | Semantic runtime above Citadel for raw language intake, context assembly, mod... |
