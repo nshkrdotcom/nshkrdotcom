@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**185 repositories | 682 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**186 repositories | 683 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 124 repositories.
+The atlas covers this account's 125 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -378,7 +378,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 20 | 132 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 25 | 85 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 26 | 86 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
@@ -451,14 +451,14 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [self_hosted_inference_core](https://github.com/nshkrdotcom/self_hosted_inference_core) |  | Core Elixir primitives for building reliable self-hosted inference clients, p... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (25)
+### AI Infrastructure (26)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 33 | A practical, multi-layered JSON repair library for Elixir that intelligently ... |
 | [rag_ex](https://github.com/nshkrdotcom/rag_ex) | 13 | Elixir RAG library with multi-LLM routing (Gemini, Claude, OpenAI, Ollama), G... |
 | [snakepit](https://github.com/nshkrdotcom/snakepit) | 11 | High-performance, generalized process pooler and session manager for external... |
-| [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 8 | Compile-time Elixir code generator for Python library bindings. Declare depen... |
+| [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 9 | Compile-time Elixir code generator for Python library bindings. Declare depen... |
 | [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 5 | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
 | [command](https://github.com/nshkrdotcom/command) | 2 | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | 2 | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
@@ -476,6 +476,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [chassis](https://github.com/nshkrdotcom/chassis) |  | Spatial & deployment plane for NSHKR: standalone manager beside the stack tha... |
 | [gepa_buildout](https://github.com/nshkrdotcom/gepa_buildout) |  | Deterministic GEPA buildout examples and domain task fixtures for framework v... |
 | [outer_brain](https://github.com/nshkrdotcom/outer_brain) |  | Semantic runtime above Citadel for raw language intake, context assembly, mod... |
+| [plexus](https://github.com/nshkrdotcom/plexus) |  | High-concurrency Elixir actor runtime for large-scale semantic graphs, search... |
 | [portfolio_index](https://github.com/nshkrdotcom/portfolio_index) |  | Production adapters and pipelines for PortfolioCore. Vector stores (pgvector,... |
 | [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) |  | AI-native personal project intelligence system - manage, track, and search ac... |
 | [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  | Bumblebee/Nx runtime backend for self_hosted_inference_core |
@@ -679,4 +680,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-18_
+_Updated 2026-09-19_
