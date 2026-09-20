@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**187 repositories | 684 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**188 repositories | 684 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 126 repositories.
+The atlas covers this account's 127 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -378,7 +378,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 133 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 26 | 86 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 86 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
@@ -452,7 +452,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [typesafe_api_sdk](https://github.com/nshkrdotcom/typesafe_api_sdk) |  | Minimal Elixir client and HTTP/wire SDK for TypeSafe System One API, featurin... |
 
 <a id="category-nshkr-ai-infra"></a>
-### AI Infrastructure (26)
+### AI Infrastructure (27)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -482,6 +482,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) |  | AI-native personal project intelligence system - manage, track, and search ac... |
 | [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  | Bumblebee/Nx runtime backend for self_hosted_inference_core |
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) |  | Local distributed-development harness and proving ground for the full stack: ... |
+| [system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) |  | Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice... |
 
 <a id="category-nshkr-research"></a>
 ### Research (10)
