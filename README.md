@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**188 repositories | 684 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**188 repositories | 688 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -377,8 +377,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 133 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 86 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 135 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 88 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 37 |
@@ -435,7 +435,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 11 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
-| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 3 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
+| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 4 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
 | [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | 2 | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
@@ -443,13 +443,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | 1 | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
 | [github_ex](https://github.com/nshkrdotcom/github_ex) | 1 | Native Elixir SDK for the GitHub REST API — comprehensive, idiomatic client f... |
 | [mcp_client](https://github.com/nshkrdotcom/mcp_client) | 1 | Full-featured Elixir client for the Model Context Protocol (MCP) with multi-t... |
+| [typesafe_api_sdk](https://github.com/nshkrdotcom/typesafe_api_sdk) | 1 | Minimal Elixir client and HTTP/wire SDK for TypeSafe System One API, featurin... |
 | [vllm](https://github.com/nshkrdotcom/vllm) | 1 | vLLM - High-throughput, memory-efficient LLM inference engine with PagedAtten... |
 | [cursor_cli_sdk](https://github.com/nshkrdotcom/cursor_cli_sdk) |  | Elixir SDK for the Cursor Agent CLI (agent) — stream-json headless sessions, ... |
 | [external_runtime_transport](https://github.com/nshkrdotcom/external_runtime_transport) |  | An Elixir-first external runtime transport foundation for AI SDK integrations... |
 | [linear_sdk](https://github.com/nshkrdotcom/linear_sdk) |  | Elixir SDK for Linear built on Prismatic, using a schema-driven GraphQL toolc... |
 | [llama_cpp_sdk](https://github.com/nshkrdotcom/llama_cpp_sdk) |  | Barebones Elixir wrapper and integration surface for llama.cpp experiments, l... |
 | [self_hosted_inference_core](https://github.com/nshkrdotcom/self_hosted_inference_core) |  | Core Elixir primitives for building reliable self-hosted inference clients, p... |
-| [typesafe_api_sdk](https://github.com/nshkrdotcom/typesafe_api_sdk) |  | Minimal Elixir client and HTTP/wire SDK for TypeSafe System One API, featurin... |
 
 <a id="category-nshkr-ai-infra"></a>
 ### AI Infrastructure (27)
@@ -465,6 +465,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | 2 | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | 2 | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
 | [slither](https://github.com/nshkrdotcom/slither) | 2 | Lightweight Elixir runtime for composing and executing Python-backed data pip... |
+| [system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) | 2 | Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice... |
 | [citadel](https://github.com/nshkrdotcom/citadel) | 1 | The command and control layer for the AI-powered enterprise |
 | [gepa_framework](https://github.com/nshkrdotcom/gepa_framework) | 1 | Reusable GEPA optimizer framework for typed candidate generation, evaluation,... |
 | [ground_plane](https://github.com/nshkrdotcom/ground_plane) | 1 | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
@@ -482,7 +483,6 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [portfolio_manager](https://github.com/nshkrdotcom/portfolio_manager) |  | AI-native personal project intelligence system - manage, track, and search ac... |
 | [self_hosted_inference_bumblebee](https://github.com/nshkrdotcom/self_hosted_inference_bumblebee) |  | Bumblebee/Nx runtime backend for self_hosted_inference_core |
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) |  | Local distributed-development harness and proving ground for the full stack: ... |
-| [system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) |  | Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice... |
 
 <a id="category-nshkr-research"></a>
 ### Research (10)
@@ -682,4 +682,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-20_
+_Updated 2026-09-21_
