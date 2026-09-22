@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**188 repositories | 689 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**188 repositories | 691 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -381,9 +381,9 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 88 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
-| [Security](#category-nshkr-security) | 4 | 37 |
+| [Security](#category-nshkr-security) | 4 | 38 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
-| [Testing](#category-nshkr-testing) | 4 | 29 |
+| [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
 | [Developer Tools](#category-nshkr-devtools) | 16 | 37 |
 | [OTP](#category-nshkr-otp) | 5 | 23 |
@@ -515,7 +515,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [GUARDRAIL](https://github.com/nshkrdotcom/GUARDRAIL) | 18 | GUARDRAIL - MCP Security - Gateway for Unified Access, Resource Delegation, a... |
 | [ASKA](https://github.com/nshkrdotcom/ASKA) | 13 | Secure Computing in the AI age |
-| [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 6 | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
+| [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 7 | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 | [Shield](https://github.com/nshkrdotcom/Shield) |  | SHIELD: Secure Hierarchical Inter-agent Layer for Distributed Environments |
 
 <a id="category-nshkr-schema"></a>
@@ -535,7 +535,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [supertester](https://github.com/nshkrdotcom/supertester) | 14 | A battle-hardened testing toolkit for building robust and resilient Elixir & ... |
 | [playwriter](https://github.com/nshkrdotcom/playwriter) | 6 | Elixir WSL-to-Windows browser integration |
 | [cluster_test](https://github.com/nshkrdotcom/cluster_test) | 5 | Distributed Erlang/Elixir test cluster management via Mix tasks |
-| [sandbox](https://github.com/nshkrdotcom/sandbox) | 4 | Isolated OTP application management system for Elixir/Erlang |
+| [sandbox](https://github.com/nshkrdotcom/sandbox) | 5 | Isolated OTP application management system for Elixir/Erlang |
 
 <a id="category-nshkr-observability"></a>
 ### Observability (3)
@@ -682,4 +682,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-21_
+_Updated 2026-09-22_
