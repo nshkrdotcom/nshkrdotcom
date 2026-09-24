@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**188 repositories | 691 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**189 repositories | 691 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 127 repositories.
+The atlas covers this account's 128 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -391,6 +391,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [AI Research](#category-nshkr-ai-research) | 1 | 0 |
+| [AI Tools](#category-nshkr-ai-tools) | 1 | 0 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
@@ -610,6 +611,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [esc](https://github.com/nshkrdotcom/esc) |  | Epistemic State Compilation (ESC): Separating persistent epistemic state from... |
 
+<a id="category-nshkr-ai-tools"></a>
+### AI Tools (1)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [fount](https://github.com/nshkrdotcom/fount) |  | Canonical headless screenplay substrate, typed semantic intermediate represen... |
+
 <a id="category-nshkr-ecosystem"></a>
 ### Ecosystem (1)
 
@@ -682,4 +690,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-23_
+_Updated 2026-09-24_
