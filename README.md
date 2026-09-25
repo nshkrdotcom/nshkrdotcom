@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**189 repositories | 691 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**189 repositories | 692 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -377,7 +377,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 136 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 88 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -434,8 +434,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 36 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vert... |
 | [codex_sdk](https://github.com/nshkrdotcom/codex_sdk) | 27 | OpenAI Codex SDK written in Elixir |
 | [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | 11 | Agent Session Manager - A comprehensive Elixir library for managing AI agent ... |
+| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 6 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
-| [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 5 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
 | [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
@@ -616,7 +616,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [fount](https://github.com/nshkrdotcom/fount) |  | Canonical headless screenplay substrate, typed semantic intermediate represen... |
+| [fount](https://github.com/nshkrdotcom/fount) |  | Screenplay writing, analysis, and revision engine with a structured script mo... |
 
 <a id="category-nshkr-ecosystem"></a>
 ### Ecosystem (1)
