@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**189 repositories | 692 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**189 repositories | 693 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -376,7 +376,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 227 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 88 |
 | [Research](#category-nshkr-research) | 10 | 2 |
@@ -415,7 +415,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | 19 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 18 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimi... |
-| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 9 | The Agent & Tool Arbitration Protocol |
+| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 10 | The Agent & Tool Arbitration Protocol |
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | 9 | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 9 | Claude Code + Gemini AI collaboration orchestration tools |
 | [jido_hive](https://github.com/nshkrdotcom/jido_hive) | 2 | Phoenix coordination server and embeddable Elixir client for augmented human-... |
@@ -690,4 +690,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-26_
+_Updated 2026-09-27_
