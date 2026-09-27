@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**189 repositories | 693 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**189 repositories | 694 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -378,7 +378,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 227 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 88 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 89 |
 | [Research](#category-nshkr-research) | 10 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 38 |
@@ -461,7 +461,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [rag_ex](https://github.com/nshkrdotcom/rag_ex) | 13 | Elixir RAG library with multi-LLM routing (Gemini, Claude, OpenAI, Ollama), G... |
 | [snakepit](https://github.com/nshkrdotcom/snakepit) | 11 | High-performance, generalized process pooler and session manager for external... |
 | [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 9 | Compile-time Elixir code generator for Python library bindings. Declare depen... |
-| [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 5 | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
+| [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 6 | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
 | [command](https://github.com/nshkrdotcom/command) | 2 | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | 2 | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | 2 | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
