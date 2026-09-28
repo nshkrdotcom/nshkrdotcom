@@ -376,7 +376,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 227 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 89 |
 | [Research](#category-nshkr-research) | 10 | 2 |
@@ -391,7 +391,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [AI Research](#category-nshkr-ai-research) | 1 | 0 |
-| [AI Tools](#category-nshkr-ai-tools) | 1 | 0 |
+| [AI Tools](#category-nshkr-ai-tools) | 1 | 1 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
@@ -415,7 +415,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 31 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | 19 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 18 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimi... |
-| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 10 | The Agent & Tool Arbitration Protocol |
+| [ALTAR](https://github.com/nshkrdotcom/ALTAR) | 9 | The Agent & Tool Arbitration Protocol |
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | 9 | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 9 | Claude Code + Gemini AI collaboration orchestration tools |
 | [jido_hive](https://github.com/nshkrdotcom/jido_hive) | 2 | Phoenix coordination server and embeddable Elixir client for augmented human-... |
@@ -616,7 +616,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [fount](https://github.com/nshkrdotcom/fount) |  | Screenplay writing, analysis, and revision engine with a structured script mo... |
+| [fount](https://github.com/nshkrdotcom/fount) | 1 | Screenplay writing, analysis, and revision engine with a structured script mo... |
 
 <a id="category-nshkr-ecosystem"></a>
 ### Ecosystem (1)
