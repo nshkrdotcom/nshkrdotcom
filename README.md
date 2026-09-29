@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**189 repositories | 694 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**189 repositories | 695 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -391,7 +391,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [AI Research](#category-nshkr-ai-research) | 1 | 0 |
-| [AI Tools](#category-nshkr-ai-tools) | 1 | 1 |
+| [AI Tools](#category-nshkr-ai-tools) | 1 | 2 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
@@ -616,7 +616,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [fount](https://github.com/nshkrdotcom/fount) | 1 | Screenplay writing, analysis, and revision engine with a structured script mo... |
+| [fount](https://github.com/nshkrdotcom/fount) | 2 | Screenplay writing, analysis, and revision engine with a structured script mo... |
 
 <a id="category-nshkr-ecosystem"></a>
 ### Ecosystem (1)
@@ -690,4 +690,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-28_
+_Updated 2026-09-29_
