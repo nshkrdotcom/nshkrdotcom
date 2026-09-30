@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**189 repositories | 695 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**190 repositories | 695 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 128 repositories.
+The atlas covers this account's 129 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -379,7 +379,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 226 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 89 |
-| [Research](#category-nshkr-research) | 10 | 2 |
+| [Research](#category-nshkr-research) | 11 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 38 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
@@ -486,7 +486,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [stack_lab](https://github.com/nshkrdotcom/stack_lab) |  | Local distributed-development harness and proving ground for the full stack: ... |
 
 <a id="category-nshkr-research"></a>
-### Research (10)
+### Research (11)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -496,6 +496,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [architecture_mechanics](https://github.com/nshkrdotcom/architecture_mechanics) |  | Synthetic ground-truth lab for testing how sequence-mixing architectures shap... |
 | [attention_lab](https://github.com/nshkrdotcom/attention_lab) |  | Controlled GPT pretraining and mechanistic-interpretability harness for testi... |
 | [gct](https://github.com/nshkrdotcom/gct) |  | Leakage-resistant experiments testing contextual transport and latent-coordin... |
+| [latent_investigator](https://github.com/nshkrdotcom/latent_investigator) |  | Deterministic epistemic investigation core, causal hypothesis exploration eng... |
 | [learning](https://github.com/nshkrdotcom/learning) |  | Mechanistic-interpretability experiments, research records, and ML visualizat... |
 | [mil](https://github.com/nshkrdotcom/mil) |  | Local mechanistic-interpretability workbench with IPython capture, activation... |
 | [mwb](https://github.com/nshkrdotcom/mwb) |  | Mechanistic Workbench (mwb): Local-first mechanistic interpretability workben... |
@@ -690,4 +691,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-09-29_
+_Updated 2026-09-30_
