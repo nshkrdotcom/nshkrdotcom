@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**190 repositories | 695 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**190 repositories | 696 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -378,7 +378,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 227 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 136 |
-| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 89 |
+| [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 90 |
 | [Research](#category-nshkr-research) | 11 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 38 |
@@ -462,11 +462,11 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [snakepit](https://github.com/nshkrdotcom/snakepit) | 11 | High-performance, generalized process pooler and session manager for external... |
 | [snakebridge](https://github.com/nshkrdotcom/snakebridge) | 9 | Compile-time Elixir code generator for Python library bindings. Declare depen... |
 | [gepa_ex](https://github.com/nshkrdotcom/gepa_ex) | 6 | Elixir implementation of GEPA: LLM-driven evolutionary optimization using Par... |
+| [system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) | 3 | Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice... |
 | [command](https://github.com/nshkrdotcom/command) | 2 | Core Elixir library for AI agent orchestration - unified workbench for runnin... |
 | [execution_plane](https://github.com/nshkrdotcom/execution_plane) | 2 | Execution Plane is an Elixir/OTP runtime substrate for boundary-aware AI infr... |
 | [portfolio_core](https://github.com/nshkrdotcom/portfolio_core) | 2 | Hexagonal architecture core for Elixir RAG systems. Port specifications, mani... |
 | [slither](https://github.com/nshkrdotcom/slither) | 2 | Lightweight Elixir runtime for composing and executing Python-backed data pip... |
-| [system_one_sdk](https://github.com/nshkrdotcom/system_one_sdk) | 2 | Provider-neutral Elixir/BEAM SDK for System One semantics: typed Noul, Choice... |
 | [citadel](https://github.com/nshkrdotcom/citadel) | 1 | The command and control layer for the AI-powered enterprise |
 | [gepa_framework](https://github.com/nshkrdotcom/gepa_framework) | 1 | Reusable GEPA optimizer framework for typed candidate generation, evaluation,... |
 | [ground_plane](https://github.com/nshkrdotcom/ground_plane) | 1 | Shared lower infrastructure monorepo for the nshkr platform core: contracts, ... |
