@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**190 repositories | 696 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**190 repositories | 697 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -385,7 +385,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Schema](#category-nshkr-schema) | 3 | 31 |
 | [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
-| [Developer Tools](#category-nshkr-devtools) | 16 | 37 |
+| [Developer Tools](#category-nshkr-devtools) | 16 | 38 |
 | [OTP](#category-nshkr-otp) | 5 | 23 |
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
@@ -554,8 +554,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 10 | State-of-the-Art Introspection and Debugging System for Elixir/Phoenix Applic... |
+| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 6 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
 | [dexterity](https://github.com/nshkrdotcom/dexterity) | 6 | Code Intelligence: Token-budgeted codebase context for Elixir agents. Solves ... |
-| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 5 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
 | [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | Revolutionary AST-based debugging and code intelligence platform for Elixir a... |
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 3 | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [prompt_runner_sdk](https://github.com/nshkrdotcom/prompt_runner_sdk) | 2 | Prompt Runner SDK - Elixir toolkit for orchestrating multi-step prompt execut... |
