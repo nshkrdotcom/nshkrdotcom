@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**190 repositories | 699 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**190 repositories | 700 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -377,7 +377,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
 | [AI Agents](#category-nshkr-ai-agents) | 14 | 227 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 136 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 90 |
 | [Research](#category-nshkr-research) | 11 | 2 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
@@ -437,8 +437,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
 | [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 5 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
+| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 3 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
-| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | 2 | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
 | [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | 1 | Elixir SDK for the Amp CLI — provides a comprehensive client library for inte... |
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | 1 | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
@@ -691,4 +691,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-10-15_
+_Updated 2026-10-16_
