@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**190 repositories | 701 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**191 repositories | 701 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 129 repositories.
+The atlas covers this account's 130 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -397,6 +397,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
 | [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
+| [Verification](#category-nshkr-verification) | 1 | 0 |
 | [Other](#category-uncategorized) | 4 | 6 |
 
 
@@ -655,6 +656,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [mix_workspace_ops](https://github.com/nshkrdotcom/mix_workspace_ops) |  | Operator-first Elixir workspace tooling for safe local sibling dependency ove... |
+
+<a id="category-nshkr-verification"></a>
+### Verification (1)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) |  | An Elixir payment authorization hold ledger with a pure state machine, an ind... |
 
 <a id="category-uncategorized"></a>
 ### Other (4)
