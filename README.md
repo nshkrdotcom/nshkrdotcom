@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**191 repositories | 701 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**191 repositories | 702 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -397,7 +397,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
 | [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
-| [Verification](#category-nshkr-verification) | 1 | 0 |
+| [Verification](#category-nshkr-verification) | 1 | 1 |
 | [Other](#category-uncategorized) | 4 | 6 |
 
 
@@ -632,7 +632,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [prappy](https://github.com/nshkrdotcom/prappy) |  | Windows-native C++20 app and reproducible setup for SDL3, bgfx, Dear ImGui, C... |
+| [prappy](https://github.com/nshkrdotcom/prappy) |  | Prappy is a collection of native Windows apps built in C++20. It currently in... |
 
 <a id="category-nshkr-ml-research"></a>
 ### ML Research (1)
@@ -662,7 +662,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) |  | An Elixir payment authorization hold ledger with a pure state machine, an ind... |
+| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 1 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
 
 <a id="category-uncategorized"></a>
 ### Other (4)
