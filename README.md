@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**191 repositories | 702 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**191 repositories | 703 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -376,7 +376,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 229 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 230 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 90 |
 | [Research](#category-nshkr-research) | 11 | 2 |
@@ -421,10 +421,10 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 9 | Claude Code + Gemini AI collaboration orchestration tools |
 | [jido_hive](https://github.com/nshkrdotcom/jido_hive) | 2 | Phoenix coordination server and embeddable Elixir client for augmented human-... |
 | [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | 1 | FlowStone integration for altar_ai - AI-powered data pipeline assets with cla... |
+| [stack_coder](https://github.com/nshkrdotcom/stack_coder) | 1 | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 | [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | 1 | Synapse integration for altar_ai - SDK-backed LLM providers for multi-agent w... |
 | [extravaganza](https://github.com/nshkrdotcom/extravaganza) |  | First proving-ground product app for the nshkr stack: a thin, sophisticated o... |
 | [mezzanine](https://github.com/nshkrdotcom/mezzanine) |  | Neutral high-level reusable monorepo for the nshkr stack: Ash-driven business... |
-| [stack_coder](https://github.com/nshkrdotcom/stack_coder) |  | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 
 <a id="category-nshkr-ai-sdk"></a>
 ### AI SDKs (21)
