@@ -557,7 +557,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 11 | State-of-the-Art Introspection and Debugging System for Elixir/Phoenix Applic... |
 | [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 6 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
 | [dexterity](https://github.com/nshkrdotcom/dexterity) | 6 | Code Intelligence: Token-budgeted codebase context for Elixir agents. Solves ... |
-| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | Revolutionary AST-based debugging and code intelligence platform for Elixir a... |
+| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | AST-based debugging and code intelligence platform for Elixir applications |
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 3 | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [prompt_runner_sdk](https://github.com/nshkrdotcom/prompt_runner_sdk) | 2 | Prompt Runner SDK - Elixir toolkit for orchestrating multi-step prompt execut... |
 | [atlas_once](https://github.com/nshkrdotcom/atlas_once) | 1 | Atlas Once is a filesystem-first personal memory system and Unix-native conte... |
@@ -701,4 +701,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-11-07_
+_Updated 2026-11-08_
