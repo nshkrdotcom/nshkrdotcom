@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**193 repositories | 707 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**194 repositories | 707 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 132 repositories.
+The atlas covers this account's 133 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -398,7 +398,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
 | [Verification](#category-nshkr-verification) | 1 | 1 |
-| [Other](#category-uncategorized) | 4 | 6 |
+| [Other](#category-uncategorized) | 5 | 6 |
 
 
 ---
@@ -555,9 +555,9 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [ex_dbg](https://github.com/nshkrdotcom/ex_dbg) | 11 | State-of-the-Art Introspection and Debugging System for Elixir/Phoenix Applic... |
-| [ElixirScope](https://github.com/nshkrdotcom/ElixirScope) | 6 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
+| [beam_probe](https://github.com/nshkrdotcom/beam_probe) | 6 | AI-Powered Execution Cinema Debugger for Elixir/BEAM |
 | [dexterity](https://github.com/nshkrdotcom/dexterity) | 6 | Code Intelligence: Token-budgeted codebase context for Elixir agents. Solves ... |
-| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | AST-based debugging and code intelligence platform for Elixir applications |
+| [elixir_scope](https://github.com/nshkrdotcom/elixir_scope) | 5 | Static semantic analysis for Elixir and the BEAM, combining source code, comp... |
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 3 | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [prompt_runner_sdk](https://github.com/nshkrdotcom/prompt_runner_sdk) | 2 | Prompt Runner SDK - Elixir toolkit for orchestrating multi-step prompt execut... |
 | [atlas_once](https://github.com/nshkrdotcom/atlas_once) | 1 | Atlas Once is a filesystem-first personal memory system and Unix-native conte... |
@@ -667,13 +667,14 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 1 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
 
 <a id="category-uncategorized"></a>
-### Other (4)
+### Other (5)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [HackTUI-Hermes-Jido](https://github.com/nshkrdotcom/HackTUI-Hermes-Jido) | 2 | HackTUI is a terminal-first purple-team AI powered security operations platfo... |
 | [docs](https://github.com/nshkrdotcom/docs) | 2 | Docs |
 | [nshkrdotcom](https://github.com/nshkrdotcom/nshkrdotcom) | 2 | Personal GitHub profile README with Elixir/AI projects and LLM reliability re... |
+| [reach_demo](https://github.com/nshkrdotcom/reach_demo) |  | Minimal, reproducible Elixir projects investigating Reach 2.8.4 limitations i... |
 | [req_llm_zai](https://github.com/nshkrdotcom/req_llm_zai) |  | Z.AI provider for ReqLLM - OpenAI-compatible GLM models |
 
 
@@ -701,4 +702,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-11-08_
+_Updated 2026-11-09_
