@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**194 repositories | 711 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**196 repositories | 711 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -370,7 +370,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 133 repositories.
+The atlas covers this account's 135 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -393,6 +393,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI Research](#category-nshkr-ai-research) | 1 | 0 |
 | [AI Tools](#category-nshkr-ai-tools) | 1 | 2 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
+| [Medical](#category-nshkr-medical) | 2 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
 | [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
@@ -628,6 +629,14 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [portfolio_registry](https://github.com/nshkrdotcom/portfolio_registry) |  | Canonical machine-readable registry for the complete nshkrdotcom portfolio, w... |
+
+<a id="category-nshkr-medical"></a>
+### Medical (2)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [med_ex](https://github.com/nshkrdotcom/med_ex) |  | MedEx: The Elixir foundation for real-time medical systems. Combining a pure ... |
+| [med_fabric](https://github.com/nshkrdotcom/med_fabric) |  | MedFabric: The open-source, Elixir-native framework for the next generation o... |
 
 <a id="category-nshkr-misc"></a>
 ### Misc (1)
