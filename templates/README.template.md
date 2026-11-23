@@ -1,6 +1,6 @@
 # NSHKR
 
-**BEAM-native AI infrastructure, governed execution systems, and mechanistic interpretability research**
+**BEAM-native AI infrastructure, governed execution systems, clinical WebRTC & medical AI, and mechanistic interpretability research**
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
@@ -17,8 +17,9 @@ installable rather than something to read.
 |------------|------:|-------------|
 {{TOP_REPOS}}
 
-Three bodies of work sit behind them: a BEAM-native library ecosystem for AI systems, the
-[NSHKR governed execution stack](#systems-engineering-governed-ai-execution), and a
+Four bodies of work sit behind them: a BEAM-native library ecosystem for AI systems, the
+[NSHKR governed execution stack](#systems-engineering-governed-ai-execution),
+[clinical WebRTC & medical AI systems](#clinical--medical-systems-real-time-webrtc-telemetry--edge-clinical-ai), and a
 [mechanistic interpretability research program](#mechanistic-interpretability-research).
 The full inventory is in the [Repository Atlas](#repository-atlas).
 
@@ -45,6 +46,19 @@ The research programs test representation, transport, superposition, and causal 
 | [learning](https://github.com/nshkrdotcom/learning) | Research archive containing the canonical [SELF-GROUND](https://github.com/nshkrdotcom/learning/tree/main/ml_research/self-ground), [construct-mismatch](https://github.com/nshkrdotcom/learning/tree/main/construct_mismatch), [local MI lab](https://github.com/nshkrdotcom/learning/tree/main/ml_research/local-mi-lab), and ML visualization work. |
 
 The interpretation standard is deliberately conservative: decodability is not causal use, coherence is not truth, and a null result is a successful outcome when the apparatus and controls pass.
+
+---
+
+## Clinical & Medical Systems: Real-Time WebRTC Telemetry & Edge Clinical AI
+
+> In clinical software, neither a lossy real-time media stream nor an unverified LLM summary can silently become the medical record. The medical stack applies NSHKR's evidence-first architecture across two planes: **real-time WebRTC clinical media & device encounters** (`med_ex`, `med_fabric`) and **traceable clinical document ingestion & edge medical AI verification** (`medlum`, `medlum_lab`).
+
+| Repository | Plane & Role | Key Technical Guarantees |
+|------------|--------------|--------------------------|
+| **[med_ex](https://github.com/nshkrdotcom/med_ex)** | **Real-Time Clinical Audio & WebRTC Opus SDK** (`:med_ex`) | 48 kHz mono PCM16LE `AudioWorklet` (voice DSP disabled, sample-clock gap detection, 8-frame credit window), atomic fsynced `<file_sha256>.wav` writer, demand-driven `Membrane.Opus.Encoder` (`libopus` `:audio` mode), and replaceable `ExWebRTC` send-only preview peer with dual packet-sequence / 48 kHz sample-index clocks. |
+| **[med_fabric](https://github.com/nshkrdotcom/med_fabric)** | **Connected Remote Examination & HL7 FHIR R4 Platform** | Composes 1:1 browser P2P WebRTC talkback, replaceable `med_ex` diagnostic preview, lossless WAV capture, and fileless vitals (`pulse_rate`) in one authorized encounter. Commits explicit clinician acceptance and export intent in one locked PostgreSQL 18 transaction and delivers via HL7 FHIR R4 conditional create (`If-None-Exist`) with strict semantic read-back. |
+| **[medlum](https://github.com/nshkrdotcom/medlum)** | **Traceable Clinical Document Ingestion & Reporting App** | Phoenix LiveView platform with a 5-backend Docling PDF ingestion engine (local CPU/GPU, Docker CPU/GPU, and auto-provisioned/auto-shutdown Vast.ai cloud GPU with live SSE page progress), Gemini structured clinical summaries with `CitationSanitizer` span provenance, shallow-preload LLM telemetry, and 4-tier RBAC. |
+| **[medlum_lab](https://github.com/nshkrdotcom/medlum_lab)** | **Edge Medical AI Libraries, 5-Agent CVL & Data Pipelines** | Houses 4 OTP-native Elixir medical NLP packages (`medlum_llm` with 5-agent Clinical Verification Layer consensus, `clinical_ner_ex` hybrid rule/Bumblebee NER, `med_ontology_ex` offline ETS/DETS SNOMED-CT/ICD-10/RxNorm/LOINC lookup, `elixir_bio_clinicalbert`) and 10 synthetic EHR (Synthea/SDV/DoppelGANger) & FHIR/OMOP/MONAI pipelines. |
 
 ---
 
@@ -337,6 +351,7 @@ NSHKR sits between several existing categories but is not reducible to any of th
 | Raw runtime mechanics | [execution_plane](https://github.com/nshkrdotcom/execution_plane), [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core), [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | Process/session/JSON-RPC lanes, sandbox posture, lower receipts, terminal and coding-session mechanics |
 | Provider families | [pristine](https://github.com/nshkrdotcom/pristine), [prismatic](https://github.com/nshkrdotcom/prismatic), [github_ex](https://github.com/nshkrdotcom/github_ex), [linear_sdk](https://github.com/nshkrdotcom/linear_sdk), [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | OpenAPI, GraphQL, REST, and connector-specific normalization without owning platform truth |
 | Python and ML runtime bridges | [snakepit](https://github.com/nshkrdotcom/snakepit), [snakebridge](https://github.com/nshkrdotcom/snakebridge), [slither](https://github.com/nshkrdotcom/slither), [DSPex](https://github.com/nshkrdotcom/DSPex) | External runtime pools, generated bindings, Python-backed pipelines, DSPy-style optimization on BEAM surfaces |
+| Clinical WebRTC, biosignal capture & medical AI | [med_ex](https://github.com/nshkrdotcom/med_ex), [med_fabric](https://github.com/nshkrdotcom/med_fabric), [medlum](https://github.com/nshkrdotcom/medlum), [medlum_lab](https://github.com/nshkrdotcom/medlum_lab) | Two-path WebRTC Opus preview + lossless 48 kHz PCM capture, transactional FHIR R4 delivery, 5-backend Docling PDF ingestion, and 5-agent clinical hallucination verification |
 | Proof and operator visibility | [stack_lab](https://github.com/nshkrdotcom/stack_lab), [AITrace](https://github.com/nshkrdotcom/AITrace), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope), [switchyard](https://github.com/nshkrdotcom/switchyard) | Restart drills, fault injection, trace joins, execution cinema, operator workbench surfaces |
 
 ---

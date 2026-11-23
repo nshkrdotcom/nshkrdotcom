@@ -1,10 +1,10 @@
 # NSHKR
 
-**BEAM-native AI infrastructure, governed execution systems, and mechanistic interpretability research**
+**BEAM-native AI infrastructure, governed execution systems, clinical WebRTC & medical AI, and mechanistic interpretability research**
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**196 repositories | 711 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**198 repositories | 712 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -28,8 +28,9 @@ installable rather than something to read.
 | [supertester](https://github.com/nshkrdotcom/supertester) | 14 | A battle-hardened testing toolkit for building robust and resilient Elixir & OTP applic... |
 | [ASKA](https://github.com/nshkrdotcom/ASKA) | 13 | Secure Computing in the AI age |
 
-Three bodies of work sit behind them: a BEAM-native library ecosystem for AI systems, the
-[NSHKR governed execution stack](#systems-engineering-governed-ai-execution), and a
+Four bodies of work sit behind them: a BEAM-native library ecosystem for AI systems, the
+[NSHKR governed execution stack](#systems-engineering-governed-ai-execution),
+[clinical WebRTC & medical AI systems](#clinical--medical-systems-real-time-webrtc-telemetry--edge-clinical-ai), and a
 [mechanistic interpretability research program](#mechanistic-interpretability-research).
 The full inventory is in the [Repository Atlas](#repository-atlas).
 
@@ -56,6 +57,19 @@ The research programs test representation, transport, superposition, and causal 
 | [learning](https://github.com/nshkrdotcom/learning) | Research archive containing the canonical [SELF-GROUND](https://github.com/nshkrdotcom/learning/tree/main/ml_research/self-ground), [construct-mismatch](https://github.com/nshkrdotcom/learning/tree/main/construct_mismatch), [local MI lab](https://github.com/nshkrdotcom/learning/tree/main/ml_research/local-mi-lab), and ML visualization work. |
 
 The interpretation standard is deliberately conservative: decodability is not causal use, coherence is not truth, and a null result is a successful outcome when the apparatus and controls pass.
+
+---
+
+## Clinical & Medical Systems: Real-Time WebRTC Telemetry & Edge Clinical AI
+
+> In clinical software, neither a lossy real-time media stream nor an unverified LLM summary can silently become the medical record. The medical stack applies NSHKR's evidence-first architecture across two planes: **real-time WebRTC clinical media & device encounters** (`med_ex`, `med_fabric`) and **traceable clinical document ingestion & edge medical AI verification** (`medlum`, `medlum_lab`).
+
+| Repository | Plane & Role | Key Technical Guarantees |
+|------------|--------------|--------------------------|
+| **[med_ex](https://github.com/nshkrdotcom/med_ex)** | **Real-Time Clinical Audio & WebRTC Opus SDK** (`:med_ex`) | 48 kHz mono PCM16LE `AudioWorklet` (voice DSP disabled, sample-clock gap detection, 8-frame credit window), atomic fsynced `<file_sha256>.wav` writer, demand-driven `Membrane.Opus.Encoder` (`libopus` `:audio` mode), and replaceable `ExWebRTC` send-only preview peer with dual packet-sequence / 48 kHz sample-index clocks. |
+| **[med_fabric](https://github.com/nshkrdotcom/med_fabric)** | **Connected Remote Examination & HL7 FHIR R4 Platform** | Composes 1:1 browser P2P WebRTC talkback, replaceable `med_ex` diagnostic preview, lossless WAV capture, and fileless vitals (`pulse_rate`) in one authorized encounter. Commits explicit clinician acceptance and export intent in one locked PostgreSQL 18 transaction and delivers via HL7 FHIR R4 conditional create (`If-None-Exist`) with strict semantic read-back. |
+| **[medlum](https://github.com/nshkrdotcom/medlum)** | **Traceable Clinical Document Ingestion & Reporting App** | Phoenix LiveView platform with a 5-backend Docling PDF ingestion engine (local CPU/GPU, Docker CPU/GPU, and auto-provisioned/auto-shutdown Vast.ai cloud GPU with live SSE page progress), Gemini structured clinical summaries with `CitationSanitizer` span provenance, shallow-preload LLM telemetry, and 4-tier RBAC. |
+| **[medlum_lab](https://github.com/nshkrdotcom/medlum_lab)** | **Edge Medical AI Libraries, 5-Agent CVL & Data Pipelines** | Houses 4 OTP-native Elixir medical NLP packages (`medlum_llm` with 5-agent Clinical Verification Layer consensus, `clinical_ner_ex` hybrid rule/Bumblebee NER, `med_ontology_ex` offline ETS/DETS SNOMED-CT/ICD-10/RxNorm/LOINC lookup, `elixir_bio_clinicalbert`) and 10 synthetic EHR (Synthea/SDV/DoppelGANger) & FHIR/OMOP/MONAI pipelines. |
 
 ---
 
@@ -348,6 +362,7 @@ NSHKR sits between several existing categories but is not reducible to any of th
 | Raw runtime mechanics | [execution_plane](https://github.com/nshkrdotcom/execution_plane), [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core), [agent_session_manager](https://github.com/nshkrdotcom/agent_session_manager) | Process/session/JSON-RPC lanes, sandbox posture, lower receipts, terminal and coding-session mechanics |
 | Provider families | [pristine](https://github.com/nshkrdotcom/pristine), [prismatic](https://github.com/nshkrdotcom/prismatic), [github_ex](https://github.com/nshkrdotcom/github_ex), [linear_sdk](https://github.com/nshkrdotcom/linear_sdk), [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | OpenAPI, GraphQL, REST, and connector-specific normalization without owning platform truth |
 | Python and ML runtime bridges | [snakepit](https://github.com/nshkrdotcom/snakepit), [snakebridge](https://github.com/nshkrdotcom/snakebridge), [slither](https://github.com/nshkrdotcom/slither), [DSPex](https://github.com/nshkrdotcom/DSPex) | External runtime pools, generated bindings, Python-backed pipelines, DSPy-style optimization on BEAM surfaces |
+| Clinical WebRTC, biosignal capture & medical AI | [med_ex](https://github.com/nshkrdotcom/med_ex), [med_fabric](https://github.com/nshkrdotcom/med_fabric), [medlum](https://github.com/nshkrdotcom/medlum), [medlum_lab](https://github.com/nshkrdotcom/medlum_lab) | Two-path WebRTC Opus preview + lossless 48 kHz PCM capture, transactional FHIR R4 delivery, 5-backend Docling PDF ingestion, and 5-agent clinical hallucination verification |
 | Proof and operator visibility | [stack_lab](https://github.com/nshkrdotcom/stack_lab), [AITrace](https://github.com/nshkrdotcom/AITrace), [ElixirScope](https://github.com/nshkrdotcom/ElixirScope), [switchyard](https://github.com/nshkrdotcom/switchyard) | Restart drills, fault injection, trace joins, execution cinema, operator workbench surfaces |
 
 ---
@@ -370,7 +385,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 135 repositories.
+The atlas covers this account's 137 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -380,8 +395,10 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 138 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 91 |
 | [Research](#category-nshkr-research) | 11 | 2 |
+| [Medical & Clinical Systems](#category-nshkr-medical) | 4 | 0 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 39 |
+| [Verification](#category-nshkr-verification) | 1 | 2 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
 | [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
@@ -389,16 +406,14 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [OTP](#category-nshkr-otp) | 5 | 23 |
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
+| [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
 | [Utilities](#category-nshkr-utility) | 3 | 5 |
 | [AI Research](#category-nshkr-ai-research) | 1 | 0 |
 | [AI Tools](#category-nshkr-ai-tools) | 1 | 2 |
 | [Ecosystem](#category-nshkr-ecosystem) | 1 | 0 |
-| [Medical](#category-nshkr-medical) | 2 | 0 |
 | [Misc](#category-nshkr-misc) | 1 | 0 |
 | [ML Research](#category-nshkr-ml-research) | 1 | 0 |
-| [Omarchy](#category-nshkr-omarchy) | 3 | 4 |
 | [Tools](#category-nshkr-tools) | 1 | 0 |
-| [Verification](#category-nshkr-verification) | 1 | 1 |
 | [Other](#category-uncategorized) | 5 | 6 |
 
 
@@ -504,6 +519,16 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [mwb](https://github.com/nshkrdotcom/mwb) |  | Mechanistic Workbench (mwb): Local-first mechanistic interpretability workben... |
 | [superposition_zoo](https://github.com/nshkrdotcom/superposition_zoo) |  | A research harness for studying how sequence-mixing architectures (softmax at... |
 
+<a id="category-nshkr-medical"></a>
+### Medical & Clinical Systems (4)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [med_ex](https://github.com/nshkrdotcom/med_ex) |  | MedEx: The Elixir foundation for real-time medical systems. Combining a pure ... |
+| [med_fabric](https://github.com/nshkrdotcom/med_fabric) |  | MedFabric: The open-source, Elixir-native framework for the next generation o... |
+| [medlum](https://github.com/nshkrdotcom/medlum) |  | Traceable medical AI reporting & clinical document analytics platform built w... |
+| [medlum_lab](https://github.com/nshkrdotcom/medlum_lab) |  | Edge-deployed medical AI & clinical verification lab: Elixir libraries for lo... |
+
 <a id="category-nshkr-ml"></a>
 ### ML & Learning (2)
 
@@ -521,6 +546,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ASKA](https://github.com/nshkrdotcom/ASKA) | 13 | Secure Computing in the AI age |
 | [pqc-hqc](https://github.com/nshkrdotcom/pqc-hqc) | 8 | Post-quantum cryptographic implementation of HQC (Hamming Quasi-Cyclic) - a N... |
 | [Shield](https://github.com/nshkrdotcom/Shield) |  | SHIELD: Secure Hierarchical Inter-agent Layer for Distributed Environments |
+
+<a id="category-nshkr-verification"></a>
+### Verification (1)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 2 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
 
 <a id="category-nshkr-schema"></a>
 ### Schema (3)
@@ -600,6 +632,15 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [switchyard](https://github.com/nshkrdotcom/switchyard) | 4 | Terminal-native operator workbench monorepo for multi-site terminal applicati... |
 
+<a id="category-nshkr-omarchy"></a>
+### Omarchy (3)
+
+| Repository | Stars | Description |
+|------------|------:|-------------|
+| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 4 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
+| [omarchy-chronicle](https://github.com/nshkrdotcom/omarchy-chronicle) |  | Local-first desktop incident flight recorder for Omarchy: provenance-rich tim... |
+| [omarchy-tactical-display](https://github.com/nshkrdotcom/omarchy-tactical-display) |  | Ephemeral fullscreen network connection field instrument for Omarchy Quattro.... |
+
 <a id="category-nshkr-utility"></a>
 ### Utilities (3)
 
@@ -630,14 +671,6 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [portfolio_registry](https://github.com/nshkrdotcom/portfolio_registry) |  | Canonical machine-readable registry for the complete nshkrdotcom portfolio, w... |
 
-<a id="category-nshkr-medical"></a>
-### Medical (2)
-
-| Repository | Stars | Description |
-|------------|------:|-------------|
-| [med_ex](https://github.com/nshkrdotcom/med_ex) |  | MedEx: The Elixir foundation for real-time medical systems. Combining a pure ... |
-| [med_fabric](https://github.com/nshkrdotcom/med_fabric) |  | MedFabric: The open-source, Elixir-native framework for the next generation o... |
-
 <a id="category-nshkr-misc"></a>
 ### Misc (1)
 
@@ -652,28 +685,12 @@ mostly the Crucible ML packages and the NSAI platform services.
 |------------|------:|-------------|
 | [cgl](https://github.com/nshkrdotcom/cgl) |  | Causal Generalization Laboratory — Predicting and Controlling Global Behavior... |
 
-<a id="category-nshkr-omarchy"></a>
-### Omarchy (3)
-
-| Repository | Stars | Description |
-|------------|------:|-------------|
-| [omarchy-beam-deck](https://github.com/nshkrdotcom/omarchy-beam-deck) | 4 | Host-aware BEAM and OTP control plane for Omarchy Quattro. Observes every loc... |
-| [omarchy-chronicle](https://github.com/nshkrdotcom/omarchy-chronicle) |  | Local-first desktop incident flight recorder for Omarchy: provenance-rich tim... |
-| [omarchy-tactical-display](https://github.com/nshkrdotcom/omarchy-tactical-display) |  | Ephemeral fullscreen network connection field instrument for Omarchy Quattro.... |
-
 <a id="category-nshkr-tools"></a>
 ### Tools (1)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [mix_workspace_ops](https://github.com/nshkrdotcom/mix_workspace_ops) |  | Operator-first Elixir workspace tooling for safe local sibling dependency ove... |
-
-<a id="category-nshkr-verification"></a>
-### Verification (1)
-
-| Repository | Stars | Description |
-|------------|------:|-------------|
-| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 1 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
 
 <a id="category-uncategorized"></a>
 ### Other (5)
@@ -711,4 +728,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-11-22_
+_Updated 2026-11-23_
