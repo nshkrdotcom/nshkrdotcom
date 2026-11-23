@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**198 repositories | 712 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**198 repositories | 714 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -395,10 +395,10 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 138 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 91 |
 | [Research](#category-nshkr-research) | 11 | 2 |
-| [Medical & Clinical Systems](#category-nshkr-medical) | 4 | 0 |
+| [Medical & Clinical Systems](#category-nshkr-medical) | 4 | 1 |
 | [ML & Learning](#category-nshkr-ml) | 2 | 1 |
 | [Security](#category-nshkr-security) | 4 | 39 |
-| [Verification](#category-nshkr-verification) | 1 | 2 |
+| [Verification](#category-nshkr-verification) | 1 | 3 |
 | [Schema](#category-nshkr-schema) | 3 | 31 |
 | [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
@@ -524,7 +524,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [med_ex](https://github.com/nshkrdotcom/med_ex) |  | MedEx: The Elixir foundation for real-time medical systems. Combining a pure ... |
+| [med_ex](https://github.com/nshkrdotcom/med_ex) | 1 | MedEx: The Elixir foundation for real-time medical systems. Combining a pure ... |
 | [med_fabric](https://github.com/nshkrdotcom/med_fabric) |  | MedFabric: The open-source, Elixir-native framework for the next generation o... |
 | [medlum](https://github.com/nshkrdotcom/medlum) |  | Traceable medical AI reporting & clinical document analytics platform built w... |
 | [medlum_lab](https://github.com/nshkrdotcom/medlum_lab) |  | Edge-deployed medical AI & clinical verification lab: Elixir libraries for lo... |
@@ -552,7 +552,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
-| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 2 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
+| [hold_ledger](https://github.com/nshkrdotcom/hold_ledger) | 3 | Learn formal verification in Elixir with Lynx and Lean through a working paym... |
 
 <a id="category-nshkr-schema"></a>
 ### Schema (3)
