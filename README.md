@@ -391,8 +391,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 232 |
-| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 138 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 233 |
+| [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 91 |
 | [Research](#category-nshkr-research) | 11 | 2 |
 | [Medical & Clinical Systems](#category-nshkr-medical) | 4 | 1 |
@@ -436,8 +436,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [mabeam](https://github.com/nshkrdotcom/mabeam) | 9 | Multi-agent systems framework for the BEAM platform - build distributed auton... |
 | [pipeline_ex](https://github.com/nshkrdotcom/pipeline_ex) | 9 | Claude Code + Gemini AI collaboration orchestration tools |
 | [jido_hive](https://github.com/nshkrdotcom/jido_hive) | 2 | Phoenix coordination server and embeddable Elixir client for augmented human-... |
+| [stack_coder](https://github.com/nshkrdotcom/stack_coder) | 2 | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 | [flowstone_ai](https://github.com/nshkrdotcom/flowstone_ai) | 1 | FlowStone integration for altar_ai - AI-powered data pipeline assets with cla... |
-| [stack_coder](https://github.com/nshkrdotcom/stack_coder) | 1 | An advanced Elixir-based AI coding agent focused on full-stack code generatio... |
 | [synapse_ai](https://github.com/nshkrdotcom/synapse_ai) | 1 | Synapse integration for altar_ai - SDK-backed LLM providers for multi-agent w... |
 | [extravaganza](https://github.com/nshkrdotcom/extravaganza) |  | First proving-ground product app for the nshkr stack: a thin, sophisticated o... |
 | [mezzanine](https://github.com/nshkrdotcom/mezzanine) |  | Neutral high-level reusable monorepo for the nshkr stack: Ash-driven business... |
@@ -454,8 +454,8 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [ollixir](https://github.com/nshkrdotcom/ollixir) | 5 | Ollixir provides a first-class Elixir client with feature parity to the offic... |
 | [typesafe_sdk](https://github.com/nshkrdotcom/typesafe_sdk) | 5 | An idiomatic, type-safe Elixir port of the official TypeScript AI SDK (ai / a... |
 | [altar_ai](https://github.com/nshkrdotcom/altar_ai) | 4 | Protocol-based AI adapter foundation for Elixir - unified abstractions for ge... |
-| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 3 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [antigravity_cli_sdk](https://github.com/nshkrdotcom/antigravity_cli_sdk) | 2 | Elixir SDK for the Google Antigravity CLI (agy) — stream-json headless sessio... |
+| [jules_ex](https://github.com/nshkrdotcom/jules_ex) | 2 | Elixir client SDK for the Jules API - orchestrate AI coding sessions |
 | [notion_sdk](https://github.com/nshkrdotcom/notion_sdk) | 2 | Native Elixir SDK for the Notion API — comprehensive, idiomatic client for No... |
 | [amp_sdk](https://github.com/nshkrdotcom/amp_sdk) | 1 | Elixir SDK for the Amp CLI — provides a comprehensive client library for inte... |
 | [cli_subprocess_core](https://github.com/nshkrdotcom/cli_subprocess_core) | 1 | Foundational Elixir runtime library for deterministic CLI subprocess orchestr... |
