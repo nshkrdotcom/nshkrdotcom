@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**199 repositories | 714 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**199 repositories | 715 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -16,7 +16,7 @@ installable rather than something to read.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | 78 | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-model hidde... |
-| [synapse](https://github.com/nshkrdotcom/synapse) | 50 | Headless, declarative multi-agent orchestration framework with a domain-agnostic signal... |
+| [synapse](https://github.com/nshkrdotcom/synapse) | 51 | Headless, declarative multi-agent orchestration framework with a domain-agnostic signal... |
 | [claude_agent_sdk](https://github.com/nshkrdotcom/claude_agent_sdk) | 37 | An Elixir SDK for Claude Code - provides programmatic access to Claude Code CLI with st... |
 | [gemini_ex](https://github.com/nshkrdotcom/gemini_ex) | 36 | Elixir Interface / Adapter for Google Gemini LLM, for both AI Studio and Vertex AI |
 | [json_remedy](https://github.com/nshkrdotcom/json_remedy) | 33 | A practical, multi-layered JSON repair library for Elixir that intelligently fixes malf... |
@@ -391,7 +391,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 
 | Category | Repositories | Stars |
 |----------|-------------:|------:|
-| [AI Agents](#category-nshkr-ai-agents) | 14 | 233 |
+| [AI Agents](#category-nshkr-ai-agents) | 14 | 234 |
 | [AI SDKs](#category-nshkr-ai-sdk) | 21 | 137 |
 | [AI Infrastructure](#category-nshkr-ai-infra) | 27 | 91 |
 | [Research](#category-nshkr-research) | 11 | 2 |
@@ -428,7 +428,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | Repository | Stars | Description |
 |------------|------:|-------------|
 | [trinity_coordinator](https://github.com/nshkrdotcom/trinity_coordinator) | 78 | TRINITY in Elixir (An Evolved LLM Coordinator): route LLM calls via a small-m... |
-| [synapse](https://github.com/nshkrdotcom/synapse) | 50 | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
+| [synapse](https://github.com/nshkrdotcom/synapse) | 51 | Headless, declarative multi-agent orchestration framework with a domain-agnos... |
 | [flowstone](https://github.com/nshkrdotcom/flowstone) | 32 | Asset-first data orchestration for Elixir/BEAM. Dagster-inspired with OTP fau... |
 | [DSPex](https://github.com/nshkrdotcom/DSPex) | 21 | Declarative Self Improving Elixir - DSPy Orchestration in Elixir |
 | [ds_ex](https://github.com/nshkrdotcom/ds_ex) | 19 | DSPEx - Declarative Self-improving Elixir \| A BEAM-Native AI Program Optimi... |
