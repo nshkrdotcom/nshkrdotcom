@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**198 repositories | 714 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**199 repositories | 714 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -385,7 +385,7 @@ This inventory is generated from live GitHub metadata and grouped by `nshkr-*` t
 stays current as the ecosystem grows. Within each category, repositories are ordered by
 stars, so the load-bearing ones surface first.
 
-The atlas covers this account's 137 repositories.
+The atlas covers this account's 138 repositories.
 [@North-Shore-AI](https://github.com/North-Shore-AI) holds a further 61,
 mostly the Crucible ML packages and the NSAI platform services.
 
@@ -402,7 +402,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Schema](#category-nshkr-schema) | 3 | 31 |
 | [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
-| [Developer Tools](#category-nshkr-devtools) | 18 | 39 |
+| [Developer Tools](#category-nshkr-devtools) | 19 | 39 |
 | [OTP](#category-nshkr-otp) | 5 | 23 |
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
@@ -583,7 +583,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [telemetry_reporter](https://github.com/nshkrdotcom/telemetry_reporter) | 1 | Pachka-powered telemetry reporter for Elixir that batches client-side events,... |
 
 <a id="category-nshkr-devtools"></a>
-### Developer Tools (18)
+### Developer Tools (19)
 
 | Repository | Stars | Description |
 |------------|------:|-------------|
@@ -600,6 +600,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [pristine](https://github.com/nshkrdotcom/pristine) | 1 | Shared runtime substrate and build-time bridge for first-party OpenAPI-based ... |
 | [weld](https://github.com/nshkrdotcom/weld) | 1 | Deterministic Hex package projection for Elixir monorepos: audit app identiti... |
 | [alkahest](https://github.com/nshkrdotcom/alkahest) |  | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
+| [beam_audit](https://github.com/nshkrdotcom/beam_audit) |  | Reproducible first-party security auditing for Elixir and BEAM repositories. ... |
 | [beamcompass](https://github.com/nshkrdotcom/beamcompass) |  | Elixir/OTP behavioral architecture navigator with source-grounded analysis, a... |
 | [coolify_ex](https://github.com/nshkrdotcom/coolify_ex) |  | Generic Elixir tooling for triggering, monitoring, and verifying Coolify depl... |
 | [grand](https://github.com/nshkrdotcom/grand) |  | Source-grounded requirements and assurance tooling in Elixir, with versioned ... |
@@ -728,4 +729,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-11-24_
+_Updated 2026-11-25_
