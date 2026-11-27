@@ -4,7 +4,7 @@
 
 > Libraries people run in production; execution systems that produce evidence; experiments whose controls can fail.
 
-**199 repositories | 717 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
+**199 repositories | 718 stars** across this account and [@North-Shore-AI](https://github.com/North-Shore-AI) | [nshkr.com](https://nshkr.com)
 
 ---
 
@@ -402,7 +402,7 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [Schema](#category-nshkr-schema) | 3 | 31 |
 | [Testing](#category-nshkr-testing) | 4 | 30 |
 | [Observability](#category-nshkr-observability) | 3 | 16 |
-| [Developer Tools](#category-nshkr-devtools) | 19 | 39 |
+| [Developer Tools](#category-nshkr-devtools) | 19 | 40 |
 | [OTP](#category-nshkr-otp) | 5 | 23 |
 | [Data](#category-nshkr-data) | 2 | 4 |
 | [User Interface](#category-nshkr-ui) | 1 | 4 |
@@ -594,13 +594,13 @@ mostly the Crucible ML packages and the NSAI platform services.
 | [elixir_dashboard](https://github.com/nshkrdotcom/elixir_dashboard) | 3 | A Phoenix LiveView performance monitoring dashboard for tracking slow endpoin... |
 | [prompt_runner_sdk](https://github.com/nshkrdotcom/prompt_runner_sdk) | 2 | Prompt Runner SDK - Elixir toolkit for orchestrating multi-step prompt execut... |
 | [atlas_once](https://github.com/nshkrdotcom/atlas_once) | 1 | Atlas Once is a filesystem-first personal memory system and Unix-native conte... |
+| [beam_audit](https://github.com/nshkrdotcom/beam_audit) | 1 | Reproducible first-party security auditing for Elixir and BEAM repositories. ... |
 | [blitz](https://github.com/nshkrdotcom/blitz) | 1 | Small parallel command runner for Elixir and Mix workspaces that executes iso... |
 | [elixir_agent_debug](https://github.com/nshkrdotcom/elixir_agent_debug) | 1 | Evidence-first Elixir & OTP debugging layer for Claude Code CLI and Codex CLI. |
 | [elixir_tracer](https://github.com/nshkrdotcom/elixir_tracer) | 1 | Local-first observability for Elixir with New Relic API parity |
 | [pristine](https://github.com/nshkrdotcom/pristine) | 1 | Shared runtime substrate and build-time bridge for first-party OpenAPI-based ... |
 | [weld](https://github.com/nshkrdotcom/weld) | 1 | Deterministic Hex package projection for Elixir monorepos: audit app identiti... |
 | [alkahest](https://github.com/nshkrdotcom/alkahest) |  | Reusable Temporal facade, typed workflow-control contracts, Elixir client, an... |
-| [beam_audit](https://github.com/nshkrdotcom/beam_audit) |  | Reproducible first-party security auditing for Elixir and BEAM repositories. ... |
 | [beamcompass](https://github.com/nshkrdotcom/beamcompass) |  | Elixir/OTP behavioral architecture navigator with source-grounded analysis, a... |
 | [coolify_ex](https://github.com/nshkrdotcom/coolify_ex) |  | Generic Elixir tooling for triggering, monitoring, and verifying Coolify depl... |
 | [grand](https://github.com/nshkrdotcom/grand) |  | Source-grounded requirements and assurance tooling in Elixir, with versioned ... |
@@ -729,4 +729,4 @@ Changes to this repo's `README*`, `assets/`, `logo/`, `logos/`, `static/`, and d
 
 </details>
 
-_Updated 2026-11-26_
+_Updated 2026-11-27_
